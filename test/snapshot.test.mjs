@@ -124,3 +124,15 @@ test('위치 확인 후보 숙소는 객실명 없는 판매처 총액도 인정
   const meta = await collectEntry(jobs(Date.now(), ['fukuoka'])[0], env(mockProvider({ source: 'momondo.co.uk' })));
   assert.equal(meta.hotel, null);
 });
+
+test('예약처 검색 주소에 고른 날짜와 인원이 들어간다', async () => {
+  const { flightLink, hotelLink } = await import('../site/links.js');
+  const f = new URL(flightLink({ to: 'FUK', departureDate: '2026-12-18', returnDate: '2026-12-22', people: 3 }));
+  assert.equal(f.origin + f.pathname, 'https://www.google.com/travel/flights');
+  assert.equal(f.searchParams.get('q'), 'Flights from ICN to FUK on 2026-12-18 through 2026-12-22 for 3 adults');
+  const h = new URL(hotelLink({ name: 'HOTEL MYSTAYS Fukuoka Tenjin Minami', checkin: '2026-12-18', checkout: '2026-12-22', people: 3 }));
+  assert.equal(h.hostname, 'www.booking.com');
+  assert.deepEqual([h.searchParams.get('checkin'), h.searchParams.get('checkout'), h.searchParams.get('group_adults'), h.searchParams.get('no_rooms')], ['2026-12-18', '2026-12-22', '3', '2']);
+  assert.equal(flightLink({ to: 'fuk', departureDate: '2026-12-18', returnDate: '2026-12-22', people: 3 }), null);
+  assert.equal(hotelLink({ name: '', checkin: '2026-12-18', checkout: '2026-12-22', people: 2 }), null);
+});

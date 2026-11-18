@@ -1,4 +1,5 @@
 import { estimate, fmtWon, fmtMan } from './budget.js';
+import { flightLink, hotelLink } from './links.js';
 
 const $ = id => document.getElementById(id);
 const el = (tag, props = {}, ...children) => {
@@ -67,7 +68,10 @@ function card(entry, est) {
   const diff = state.budget - est.total, fits = diff >= 0;
   head.append(el('span', { className: 'badge' + (fits ? '' : ' over'), textContent: fits ? '예산 안' : '예산 초과' }));
   const rows = [...est.items, { label: '예비비 10%', value: est.buffer }, { label: '전체', value: est.total }];
-  const flightURL = safeLink(entry.flight.link), hotelURL = safeLink(entry.hotel.pageLink) || safeLink(entry.hotel.link);
+  // 버튼은 저장된 주소가 아니라 지금 고른 날짜·인원으로 만든 검색 주소로 보낸다.
+  const returnDate = addDays(entry.departureDate, state.nights);
+  const flightURL = flightLink({ to: entry.flight.legs[0][0].to, departureDate: entry.departureDate, returnDate, people: state.people }) || safeLink(entry.flight.link);
+  const hotelURL = hotelLink({ name: entry.hotel.name, checkin: entry.departureDate, checkout: returnDate, people: state.people }) || safeLink(entry.hotel.pageLink);
   const observed = [entry.flight.observedAt, entry.hotel.observedAt].sort()[0];
   return el('article', { className: 'card' + (fits ? '' : ' over') }, head,
     el('div', { className: 'tag', textContent: dates }),
@@ -78,8 +82,9 @@ function card(entry, est) {
     el('details', {}, el('summary', { textContent: '항목별 금액' }), el('div', { className: 'rows' }, rows.map(r => el('div', {}, el('span', { textContent: r.label }), el('span', { textContent: fmtWon(r.value) }))))),
     el('div', { className: 'tag', textContent: `${stamp(observed)} 조회 · 지금 가격은 예약처에서 확인` }),
     el('div', { className: 'actions' },
-      flightURL && el('a', { href: flightURL, target: '_blank', rel: 'noopener noreferrer', textContent: '항공 보기' }),
-      hotelURL && el('a', { className: 'ghost', href: hotelURL, target: '_blank', rel: 'noopener noreferrer', textContent: '숙소 보기' })));
+      flightURL && el('a', { href: flightURL, target: '_blank', rel: 'noopener noreferrer', textContent: `항공 검색 · ${state.people}명` }),
+      hotelURL && el('a', { className: 'ghost', href: hotelURL, target: '_blank', rel: 'noopener noreferrer', textContent: `숙소 검색 · ${state.nights}박` })),
+    el('div', { className: 'tag', textContent: `버튼은 ${day(entry.departureDate)}~${day(returnDate)} · ${state.people}명 조건으로 Google 항공편과 Booking.com 검색을 열어요. 표시 금액의 예약처(${entry.hotel.supplier})와 가격이 다를 수 있어요.` }));
 }
 
 function render() {
