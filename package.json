@@ -1,0 +1,12 @@
+{
+  "name": "eolmamyeonga-snapshot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "plan": "node collect.mjs",
+    "mock": "node collect.mjs --mock",
+    "collect": "node collect.mjs --live",
+    "test": "node --test test/",
+    "serve": "node serve.mjs"
+  }
+}

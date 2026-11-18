@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>얼마면 가? — 내 예산으로 갈 수 있는 여행</title>
+<!-- 가격 검증이 끝나기 전까지 검색엔진에 노출하지 않는다. 공개 모객을 시작할 때 이 줄을 지운다. -->
+<meta name="robots" content="noindex">
+<meta name="description" content="전체 예산을 넣으면 항공·숙박·현지 경비까지 포함해 갈 수 있는 여행지를 보여드려요.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="./">얼마면 <span>가?</span></a>
+  <span class="asof" id="asof"></span>
+</header>
+<main>
+  <section class="hero">
+    <h1>이 예산으로 <em>어디까지</em> 갈 수 있을까?</h1>
+    <p>항공·숙박은 실제로 조회한 가격, 식비·교통은 계획용 추정으로 전체 여행 예산을 계산해요.</p>
+  </section>
+
+  <div class="notice" id="mock" hidden>가상 테스트 데이터예요. 표시된 금액은 실제 가격이 아니에요.</div>
+
+  <form class="controls" id="controls">
+    <label>전체 예산
+      <span class="field"><input id="budget" type="number" inputmode="numeric" min="50" max="5000" step="10" required><i>만 원</i></span>
+    </label>
+    <label>인원
+      <select id="people"><option value="1">1명</option><option value="2">2명</option><option value="3">3명</option><option value="4">4명</option></select>
+    </label>
+    <label>시기
+      <select id="pattern"></select>
+    </label>
+    <label>박수
+      <select id="nights"></select>
+    </label>
+  </form>
+
+  <p class="summary" id="summary" aria-live="polite"></p>
+  <section class="cards" id="cards"></section>
+
+  <section class="about">
+    <h2>가격은 이렇게 구해요</h2>
+    <ul>
+      <li>항공·숙박은 인천 출발 직항, 성인 2명·객실 1개 조건으로 주 1회 조회한 가격이에요.</li>
+      <li>인원이나 박수를 바꾸면 조회가를 비례 환산한 추정으로 표시해요.</li>
+      <li>식비·교통·관광은 계획용 추정 단가이고, 합계의 10%를 예비비로 더해요.</li>
+      <li>지금 가격과 수하물·취소 조건은 예약처에서 다시 확인해 주세요.</li>
+    </ul>
+  </section>
+</main>
+<footer>얼마면 가? · 가격은 조회 시점 기준이며 예약·결제를 보장하지 않아요.</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

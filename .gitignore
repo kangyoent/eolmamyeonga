@@ -1,0 +1,6 @@
+# 키와 로컬 설정은 절대 올리지 않는다
+.env*
+node_modules/
+*.failed.json
+*.tmp
+.DS_Store

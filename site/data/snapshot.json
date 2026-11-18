@@ -1,0 +1,1806 @@
+{
+ "version": 1,
+ "mock": false,
+ "generatedAt": "2026-11-18T02:11:54.451Z",
+ "basis": {
+  "adults": 2,
+  "rooms": 1
+ },
+ "callsUsed": 124,
+ "cities": {
+  "fukuoka": {
+   "name": "후쿠오카",
+   "country": "일본",
+   "flag": "🇯🇵",
+   "intro": "짧은 일정에도 부담 없는 먹거리와 산책",
+   "group": "short",
+   "costs": {
+    "foodPPDay": 40000,
+    "transitPPDay": 11000,
+    "activityPP": 40000,
+    "miscPP": 15000
+   }
+  },
+  "osaka": {
+   "name": "오사카",
+   "country": "일본",
+   "flag": "🇯🇵",
+   "intro": "쇼핑·먹거리·대도시 관광을 가득",
+   "group": "short",
+   "costs": {
+    "foodPPDay": 50000,
+    "transitPPDay": 19000,
+    "activityPP": 70000,
+    "miscPP": 20000
+   }
+  },
+  "taipei": {
+   "name": "타이베이",
+   "country": "대만",
+   "flag": "🇹🇼",
+   "intro": "야시장과 골목, 근교까지 골고루",
+   "group": "short",
+   "costs": {
+    "foodPPDay": 38000,
+    "transitPPDay": 13000,
+    "activityPP": 60000,
+    "miscPP": 20000
+   }
+  },
+  "tokyo": {
+   "name": "도쿄",
+   "country": "일본",
+   "flag": "🇯🇵",
+   "intro": "쇼핑과 전시, 골목 맛집과 도심 전망",
+   "group": "short",
+   "costs": {
+    "foodPPDay": 55000,
+    "transitPPDay": 22000,
+    "activityPP": 90000,
+    "miscPP": 20000
+   }
+  },
+  "danang": {
+   "name": "다낭",
+   "country": "베트남",
+   "flag": "🇻🇳",
+   "intro": "바다·휴식·근교 관광을 함께",
+   "group": "short",
+   "costs": {
+    "foodPPDay": 35000,
+    "transitPPDay": 11000,
+    "activityPP": 65000,
+    "miscPP": 20000
+   }
+  },
+  "nhatrang": {
+   "name": "나트랑",
+   "country": "베트남",
+   "flag": "🇻🇳",
+   "intro": "해변과 리조트에서 느긋하게",
+   "group": "short",
+   "costs": {
+    "foodPPDay": 35000,
+    "transitPPDay": 15000,
+    "activityPP": 55000,
+    "miscPP": 20000
+   }
+  },
+  "bangkok": {
+   "name": "방콕",
+   "country": "태국",
+   "flag": "🇹🇭",
+   "intro": "로컬 맛집, 야시장, 사원과 루프톱",
+   "group": "short",
+   "costs": {
+    "foodPPDay": 38000,
+    "transitPPDay": 16000,
+    "activityPP": 85000,
+    "miscPP": 20000
+   }
+  },
+  "paris": {
+   "name": "파리",
+   "country": "프랑스",
+   "flag": "🇫🇷",
+   "intro": "센강 산책과 미술관, 카페의 일주일",
+   "group": "long",
+   "costs": {
+    "foodPPDay": 70000,
+    "transitPPDay": 25000,
+    "activityPP": 180000,
+    "miscPP": 40000
+   }
+  },
+  "losangeles": {
+   "name": "로스앤젤레스",
+   "country": "미국",
+   "flag": "🇺🇸",
+   "intro": "햇살과 해변, 영화 속 거리",
+   "group": "long",
+   "costs": {
+    "foodPPDay": 85000,
+    "transitPPDay": 45000,
+    "activityPP": 200000,
+    "miscPP": 40000
+   }
+  }
+ },
+ "patterns": [
+  {
+   "id": "w4-fri-3n",
+   "label": "약 한 달 뒤 주말",
+   "nights": 3,
+   "group": "short",
+   "departureDate": "2026-12-18",
+   "returnDate": "2026-12-21"
+  },
+  {
+   "id": "w8-fri-3n",
+   "label": "약 두 달 뒤 주말",
+   "nights": 3,
+   "group": "short",
+   "departureDate": "2027-01-15",
+   "returnDate": "2027-01-18"
+  },
+  {
+   "id": "w12-fri-3n",
+   "label": "약 석 달 뒤 주말",
+   "nights": 3,
+   "group": "short",
+   "departureDate": "2027-02-12",
+   "returnDate": "2027-02-15"
+  },
+  {
+   "id": "w6-tue-3n",
+   "label": "평일 출발",
+   "nights": 3,
+   "group": "short",
+   "departureDate": "2027-01-05",
+   "returnDate": "2027-01-08"
+  },
+  {
+   "id": "w8-fri-7n",
+   "label": "약 두 달 뒤 일주일",
+   "nights": 7,
+   "group": "long",
+   "departureDate": "2027-01-15",
+   "returnDate": "2027-01-22"
+  },
+  {
+   "id": "w16-fri-7n",
+   "label": "약 넉 달 뒤 일주일",
+   "nights": 7,
+   "group": "long",
+   "departureDate": "2027-03-12",
+   "returnDate": "2027-03-19"
+  }
+ ],
+ "entries": [
+  {
+   "city": "fukuoka",
+   "patternId": "w4-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2026-12-18",
+   "returnDate": "2026-12-21",
+   "flight": {
+    "amount": 776200,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:06:13.000Z",
+    "legs": [
+     [
+      {
+       "number": "7C 1405",
+       "airline": "Jeju Air",
+       "from": "ICN",
+       "to": "FUK",
+       "departure": "2026-12-18 15:20",
+       "arrival": "2026-12-18 16:50"
+      }
+     ],
+     [
+      {
+       "number": "7C 1402",
+       "airline": "Jeju Air",
+       "from": "FUK",
+       "to": "ICN",
+       "departure": "2026-12-21 08:55",
+       "arrival": "2026-12-21 10:30"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI2LTEyLTE4IiAKA0lDThIKMjAyNi0xMi0xOBoDRlVLKgI3QzIEMTQwNSgAagcIARIDSUNOcgcIARIDRlVLGiASCjIwMjYtMTItMjEoAGoHCAESA0ZVS3IHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "name": "HOTEL MYSTAYS Fukuoka Tenjin Minami",
+    "room": "Renewal - Standard Double, Non-Smoking",
+    "supplier": "Agoda",
+    "amount": 493075,
+    "feeReserveKRW": 30000,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwiL_p2mt5CYAxXIS0gAHQcIEFoYACICCAEQBBoCY2U&co=1&gclid=EAIaIQobChMIi_6dpreQmAMVyEtIAB0HCBBaEAoYAyACEgIZffD_BwE&cid=CAASuwHkaFfUL3lR97BMZn0IjRoz9msKVUkuIZ97SopHXZwzwQBKV2X9OpU37_LfSHy94ycF3_qXHHhM4eoqPB2PCLjMlPUCW8G0RqJuSI_0OXzPL6-hxou9-Z5jmhfyvRsQxnhmfHCqiWdjfFY1P3wJYJIjF5JI8QLxOgKXFBJ72yZpf9RAd69CY0e7py5RvsSu3ZOYb8Vq1W_9CyFnNXpJOnF9hzGBOu62FkDAEXfTvbyUa6ur7BgdsWhu_XHh&sig=AOD64_3Qm34JUEWshhhfAD4vm31HDzCk7w&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkIh8yIm_3fyPGqARoML2cvMWhoeHJ3MnN6EAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "텐진 남쪽",
+    "station": "텐진미나미역",
+    "walk": 5,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-18T02:06:15.719Z"
+   },
+   "errors": []
+  },
+  {
+   "city": "fukuoka",
+   "patternId": "w8-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-15",
+   "returnDate": "2027-01-18",
+   "flight": {
+    "amount": 776966,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:06:24.000Z",
+    "legs": [
+     [
+      {
+       "number": "7C 1407",
+       "airline": "Jeju Air",
+       "from": "ICN",
+       "to": "FUK",
+       "departure": "2027-01-15 16:20",
+       "arrival": "2027-01-15 17:55"
+      }
+     ],
+     [
+      {
+       "number": "OZ 131",
+       "airline": "Asiana Airlines",
+       "from": "FUK",
+       "to": "ICN",
+       "departure": "2027-01-18 08:35",
+       "arrival": "2027-01-18 10:10"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI3LTAxLTE1IiAKA0lDThIKMjAyNy0wMS0xNRoDRlVLKgI3QzIEMTQwNygAagcIARIDSUNOcgcIARIDRlVLGiASCjIwMjctMDEtMTgoAGoHCAESA0ZVS3IHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Plaza Hotel Premier 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "fukuoka",
+   "patternId": "w12-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-02-12",
+   "returnDate": "2027-02-15",
+   "flight": {
+    "amount": 837000,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:06:37.000Z",
+    "legs": [
+     [
+      {
+       "number": "RS 457",
+       "airline": "Air Seoul",
+       "from": "ICN",
+       "to": "FUK",
+       "departure": "2027-02-12 14:25",
+       "arrival": "2027-02-12 15:55"
+      }
+     ],
+     [
+      {
+       "number": "RS 434",
+       "airline": "Air Seoul",
+       "from": "FUK",
+       "to": "ICN",
+       "departure": "2027-02-15 10:30",
+       "arrival": "2027-02-15 12:05"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTEyIh8KA0lDThIKMjAyNy0wMi0xMhoDRlVLKgJSUzIDNDU3KABqBwgBEgNJQ05yBwgBEgNGVUsaIBIKMjAyNy0wMi0xNSgAagcIARIDRlVLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "name": "HOTEL MYSTAYS Fukuoka Tenjin Minami",
+    "room": "Renewal - Standard Double, Non-Smoking",
+    "supplier": "Agoda",
+    "amount": 449124,
+    "feeReserveKRW": 30000,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjbnISxt5CYAxXLK9QBHXiLE7wYACICCAEQHhoCb2E&co=1&gclid=EAIaIQobChMI25yEsbeQmAMVyyvUAR14ixO8EAoYBCACEgL1BfD_BwE&cid=CAASuwHkaHBU_y7VcJU1BNySB1Ez_O6QLVc8lcVrvFq33FZsIH9sfuIp_j71_cZsR6jhLqA7rkPOiBvxfSr3BhdjI_VofJD95csvpT0fgr99UV0kjJletvY8BT7KhI4BbZ32eDVzY_6KLS6seaGnYCpqHfXYI2qVvfpy3h7Khu5i5u1VddRjzOzwrjsb7ONmRzhXrbZtInmZnQU0eMgJBfYIreyuJDFAF0MRPSVccrOeKfVeXNjP5Lh0Vh-WRH4j&sig=AOD64_29NBB5DOBWlazr7i-IGJqlnk7MvQ&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkIh8yIm_3fyPGqARoML2cvMWhoeHJ3MnN6EAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "텐진 남쪽",
+    "station": "텐진미나미역",
+    "walk": 5,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-18T02:06:38.782Z"
+   },
+   "errors": []
+  },
+  {
+   "city": "fukuoka",
+   "patternId": "w6-tue-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-05",
+   "returnDate": "2027-01-08",
+   "flight": {
+    "amount": 733200,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:06:41.000Z",
+    "legs": [
+     [
+      {
+       "number": "LJ 461",
+       "airline": "Jin Air",
+       "from": "ICN",
+       "to": "FUK",
+       "departure": "2027-01-05 17:25",
+       "arrival": "2027-01-05 18:50"
+      }
+     ],
+     [
+      {
+       "number": "LJ 422",
+       "airline": "Jin Air",
+       "from": "FUK",
+       "to": "ICN",
+       "departure": "2027-01-08 09:30",
+       "arrival": "2027-01-08 11:00"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTA1Ih8KA0lDThIKMjAyNy0wMS0wNRoDRlVLKgJMSjIDNDYxKABqBwgBEgNJQ05yBwgBEgNGVUsaIBIKMjAyNy0wMS0wOCgAagcIARIDRlVLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "name": "KOKO HOTEL Hakata Shinkansenguchi",
+    "room": "Economy Double Room, 1 Double Bed, Non Smoking, Light Breakfast Included",
+    "supplier": "Hotels.com",
+    "amount": 234824,
+    "feeReserveKRW": 30000,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjO5M2zt5CYAxVbqoMHHeuXMX8YACICCAEQAhoCZWY&co=1&gclid=EAIaIQobChMIzuTNs7eQmAMVW6qDBx3rlzF_EAoYAyACEgJ36vD_BwE&cid=CAASsAHkaN3qu8MBf3NZSrzDqD8_qyybl-MIJHW5VGXIvWAA1RqXZgJqdpjUCsOYLLf7oBZe51eWrXC1T_DbtWvBpdtJbh9L5iYAJ2D9aSlw4my5V4kZrM2skkoZGzZQrK_oxTMIQeYfu7UWm_qHTBh0dOpYXDbMSpXV1L-RuXDhPz6Aq_R6SrsO5NE-bYa33FcMOZ7A9klfbyA9GFXjBz32Lx9SR1XKMVdMbCzQ9WyrA3nZPA&sig=AOD64_1L9krdv15vWWJ-0es30LD73FBv1g&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChoI_ebV7MGG7OKjARoNL2cvMTFnZDIwcTMzXxAB?hl=en&gl=kr",
+    "breakfast": "complimentary_light",
+    "cancellation": "free",
+    "zone": "하카타역 동쪽",
+    "station": "JR 하카타역 치쿠시 출구",
+    "walk": 4,
+    "warnings": [
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-18T02:06:44.217Z"
+   },
+   "errors": []
+  },
+  {
+   "city": "osaka",
+   "patternId": "w4-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2026-12-18",
+   "returnDate": "2026-12-21",
+   "flight": {
+    "amount": 711502,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:06:48.000Z",
+    "legs": [
+     [
+      {
+       "number": "MM 706",
+       "airline": "Peach Aviation",
+       "from": "ICN",
+       "to": "KIX",
+       "departure": "2026-12-18 15:05",
+       "arrival": "2026-12-18 16:50"
+      }
+     ],
+     [
+      {
+       "number": "RS 302",
+       "airline": "Air Seoul",
+       "from": "KIX",
+       "to": "ICN",
+       "departure": "2026-12-21 10:00",
+       "arrival": "2026-12-21 11:55"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDS0lYKgJNTTIDNzA2KABqBwgBEgNJQ05yBwgBEgNLSVgaIBIKMjAyNi0xMi0yMSgAagcIARIDS0lYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "name": "KOKO HOTEL Osaka Namba",
+    "room": "Moderate Twin-Non-Smoking",
+    "supplier": "Trip.com",
+    "amount": 236737,
+    "feeReserveKRW": 30000,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjv4-q2t5CYAxUSjIMHHc3rHw4YACICCAEQDxoCZWY&co=1&gclid=EAIaIQobChMI7-PqtreQmAMVEoyDBx3N6x8OEAoYAyACEgIzzPD_BwE&cid=CAASmAHkaPFKd3IvGFsQQCCA_aVRD2jIv3iVXLkW8dggRpO5GLsQaO0xMzl1VcRElQvN-ynZb4osSuPwAWN5MxqkW-ER8I-wUv22WUTTVJpgQf55yrvyda6lH05Jl3gxCdRTPfM7c4vj2wLX0nK6tDqvr8DcbGjXlZiaK6o3-yV9XmPkJnUVDFrRWPMN8eKpBYsU3jrpxOZrIDwhmw&sig=AOD64_1Tnp35DzpeLmOV_2XEYG5ditVcqA&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChoIx4K-w-7khIuvARoNL2cvMTFwNXhoeHNrMhAB?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "에비스초",
+    "station": "에비스초역",
+    "walk": 2,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-18T02:06:50.838Z"
+   },
+   "errors": []
+  },
+  {
+   "city": "osaka",
+   "patternId": "w8-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-15",
+   "returnDate": "2027-01-18",
+   "flight": {
+    "amount": 705524,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:07:00.000Z",
+    "legs": [
+     [
+      {
+       "number": "MM 706",
+       "airline": "Peach Aviation",
+       "from": "ICN",
+       "to": "KIX",
+       "departure": "2027-01-15 15:05",
+       "arrival": "2027-01-15 16:50"
+      }
+     ],
+     [
+      {
+       "number": "7C 1396",
+       "airline": "Jeju Air",
+       "from": "KIX",
+       "to": "ICN",
+       "departure": "2027-01-18 08:50",
+       "arrival": "2027-01-18 11:00"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDS0lYKgJNTTIDNzA2KABqBwgBEgNJQ05yBwgBEgNLSVgaIBIKMjAyNy0wMS0xOCgAagcIARIDS0lYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "name": "KOKO HOTEL Osaka Namba",
+    "room": "Moderate Twin-Non-Smoking",
+    "supplier": "Trip.com",
+    "amount": 214916,
+    "feeReserveKRW": 30000,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjCqa-8t5CYAxWzooMHHYW3NuoYACICCAEQFhoCZWY&co=1&gclid=EAIaIQobChMIwqmvvLeQmAMVs6KDBx2FtzbqEAoYAyACEgIr5fD_BwE&cid=CAASmAHkaHWxVTbUgC9Er4yUddG3uV28rT83dH7sydjIcBs9fIL0urfde78sT5wCGS_vS4cnt3g-iJz1E--GaYuHAPezzGhkaPun_KE-vyUlMK7jgXlZFZNDi3ic30AImMAYrpIC8DWOvg9ltiSBWbvhNkB1PnSKFCDD3k5pTkSfmsr_NA2MP9-gyhxZs-AOnfeuRubE9oLAP9nwRA&sig=AOD64_1oRfIS_aJQdjtn6ZetvAGt66o1fg&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChoIx4K-w-7khIuvARoNL2cvMTFwNXhoeHNrMhAB?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "에비스초",
+    "station": "에비스초역",
+    "walk": 2,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-18T02:07:02.349Z"
+   },
+   "errors": []
+  },
+  {
+   "city": "osaka",
+   "patternId": "w12-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-02-12",
+   "returnDate": "2027-02-15",
+   "flight": {
+    "amount": 653168,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:07:06.000Z",
+    "legs": [
+     [
+      {
+       "number": "MM 706",
+       "airline": "Peach Aviation",
+       "from": "ICN",
+       "to": "KIX",
+       "departure": "2027-02-12 15:05",
+       "arrival": "2027-02-12 16:50"
+      }
+     ],
+     [
+      {
+       "number": "BX 332",
+       "airline": "Air Busan",
+       "from": "KIX",
+       "to": "ICN",
+       "departure": "2027-02-15 15:40",
+       "arrival": "2027-02-15 18:05"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTEyIh8KA0lDThIKMjAyNy0wMi0xMhoDS0lYKgJNTTIDNzA2KABqBwgBEgNJQ05yBwgBEgNLSVgaIBIKMjAyNy0wMi0xNSgAagcIARIDS0lYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "name": "KOKO HOTEL Osaka Namba",
+    "room": "Moderate Double Non-Smoking",
+    "supplier": "Agoda",
+    "amount": 368116,
+    "feeReserveKRW": 30000,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi34JW_t5CYAxWeJ9QBHYDIOIQYACICCAEQIxoCb2E&co=1&ase=2&gclid=EAIaIQobChMIt-CVv7eQmAMVnifUAR2AyDiEEAoYBSAEEgI1DPD_BwE&cid=CAASuwHkaOc4-__CEwUqg8FZ57Mx_dWWeqBgSDi2Pg9dApFdPeRj_KRQSN1ep3YIIM73j48RYR7VMPKdRqGPzBSQENrc4Yn424fYTvQtD840DHGTmfhzWEywIDa-4NX1eleoJgFhsIJ06I-vREDgk7eauWAR4-ce-JkJ2GlPAAd8xtDYO7uxsPIFvjhp4Q3PhOQDRWFkydd9ZvrAG6C7p7LA23s0XeFFxWF0J8Snk8Jkdgwi-cucAoRsPuCzvfEg&category=acrcp_v1_48&sig=AOD64_1_vN_wqJkIhm6HiIq1Lwka3bVK-g&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChoIx4K-w-7khIuvARoNL2cvMTFwNXhoeHNrMhAB?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "에비스초",
+    "station": "에비스초역",
+    "walk": 2,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-18T02:07:08.140Z"
+   },
+   "errors": []
+  },
+  {
+   "city": "osaka",
+   "patternId": "w6-tue-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-05",
+   "returnDate": "2027-01-08",
+   "flight": {
+    "amount": 665400,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:07:16.000Z",
+    "legs": [
+     [
+      {
+       "number": "RS 381",
+       "airline": "Air Seoul",
+       "from": "ICN",
+       "to": "KIX",
+       "departure": "2027-01-05 15:20",
+       "arrival": "2027-01-05 17:00"
+      }
+     ],
+     [
+      {
+       "number": "RS 302",
+       "airline": "Air Seoul",
+       "from": "KIX",
+       "to": "ICN",
+       "departure": "2027-01-08 10:00",
+       "arrival": "2027-01-08 11:55"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTA1Ih8KA0lDThIKMjAyNy0wMS0wNRoDS0lYKgJSUzIDMzgxKABqBwgBEgNJQ05yBwgBEgNLSVgaIBIKMjAyNy0wMS0wOCgAagcIARIDS0lYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "name": "KOKO HOTEL Osaka Namba",
+    "room": "Moderate Double Room - Non-Smoking ",
+    "supplier": "Booking.com",
+    "amount": 192180,
+    "feeReserveKRW": 30000,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwirxuPDt5CYAxVLgIMHHXefNHUYACICCAEQFRoCZWY&co=1&gclid=EAIaIQobChMIq8bjw7eQmAMVS4CDBx13nzR1EAoYAiACEgKotPD_BwE&cid=CAASmAHkaAbk5Mt4afEZsSobV6APl23ra73e4Td0-mdZcdknGFteAXBaJQquIuxjTfiN5GI-VtNFRy1cvudKj_x320ELibRTQNzcjOkkrZH86TVBCcMkLilBEnnzVrgYqqHUj6kBhoB59fj1jx9u_bZq4JtAgkBsW28a6K7fbqmONytJJGCWNEBaNRCCJ9tXOJDpNoq72fBaTs5iFg&sig=AOD64_1lsfyVzwpeyhjzpFngSRFIAYH9cA&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChoIx4K-w-7khIuvARoNL2cvMTFwNXhoeHNrMhAB?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "에비스초",
+    "station": "에비스초역",
+    "walk": 2,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-18T02:07:18.021Z"
+   },
+   "errors": []
+  },
+  {
+   "city": "taipei",
+   "patternId": "w4-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2026-12-18",
+   "returnDate": "2026-12-21",
+   "flight": {
+    "amount": 886334,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:07:25.000Z",
+    "legs": [
+     [
+      {
+       "number": "IT 603",
+       "airline": "Tigerair Taiwan",
+       "from": "ICN",
+       "to": "TPE",
+       "departure": "2026-12-18 00:30",
+       "arrival": "2026-12-18 02:15"
+      }
+     ],
+     [
+      {
+       "number": "IT 602",
+       "airline": "Tigerair Taiwan",
+       "from": "TPE",
+       "to": "ICN",
+       "departure": "2026-12-21 20:00",
+       "arrival": "2026-12-21 23:30"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDVFBFKgJJVDIDNjAzKABqBwgBEgNJQ05yBwgBEgNUUEUaIBIKMjAyNi0xMi0yMSgAagcIARIDVFBFcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "name": "Cityinn Hotel Plus",
+    "room": "Elite double",
+    "supplier": "Hotels.com",
+    "amount": 888005,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwiMm_bHt5CYAxVkcX8AHbgEALMYACICCAEQDhoCb2E&co=1&gclid=EAIaIQobChMIjJv2x7eQmAMVZHF_AB24BACzEAoYAyADEgKE9fD_BwE&cid=CAAS0wHkaPUQD5dJ6LSANt0NdgfUcsxT14MKmgFdq6mj-97vl2NyXwmvRUnPPpLZAh3IVE_SqPmq3t-wdHZbU5racC-PyYqgwiYPVOn7pazWLbq0fLKIN0fP-mYmY3HHJupyfAAd3hwxAORp9rAlUQCppdgXjJOBAo-Up2OZHdOYeLQc8Qv29URuaWhMcCjTCA6rSJzk9v2sXthV497dTUturDBxfJhlDXLBJEvjaNwyQ4AuQAl0mfbHcXGdgwKGnE_q9NIrQ8wN_WvTsTSOFUmHfr4jr9jL&sig=AOD64_0Vhoaz_jXrPJCqViQYO0xOAnwtSw&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChgIle_Lm_iX5aucARoLL2cvMXRyYzJuNmMQAQ?hl=en&gl=kr",
+    "breakfast": "excluded",
+    "cancellation": "free",
+    "zone": "시먼",
+    "station": "시먼역 3번 출구",
+    "walk": 1,
+    "warnings": [
+     "금연 여부 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-18T02:07:26.760Z"
+   },
+   "errors": []
+  },
+  {
+   "city": "taipei",
+   "patternId": "w8-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-15",
+   "returnDate": "2027-01-18",
+   "flight": {
+    "amount": 866334,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:07:28.000Z",
+    "legs": [
+     [
+      {
+       "number": "IT 603",
+       "airline": "Tigerair Taiwan",
+       "from": "ICN",
+       "to": "TPE",
+       "departure": "2027-01-15 00:30",
+       "arrival": "2027-01-15 02:15"
+      }
+     ],
+     [
+      {
+       "number": "IT 602",
+       "airline": "Tigerair Taiwan",
+       "from": "TPE",
+       "to": "ICN",
+       "departure": "2027-01-18 20:00",
+       "arrival": "2027-01-18 23:30"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDVFBFKgJJVDIDNjAzKABqBwgBEgNJQ05yBwgBEgNUUEUaIBIKMjAyNy0wMS0xOCgAagcIARIDVFBFcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "name": "Cityinn Hotel Plus",
+    "room": "Standard Room, 1 Double Bed, No Windows",
+    "supplier": "Hotels.com",
+    "amount": 643079,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjK_oXKt5CYAxVZmIMHHUHwKQ0YACICCAEQBRoCZWY&co=1&gclid=EAIaIQobChMIyv6FyreQmAMVWZiDBx1B8CkNEAoYAiADEgJ-mPD_BwE&cid=CAASmAHkaNeesckBKl7vbjiNkLvOGhjk70ZSEqWgHodgwaJWn40xr6WG1WcnXDNnyJqhhsKitNG6V04Pq_xJzS4GeY9mk8IsKKoOPlIS-ch7CvNajXOU61m6YLUdmYSZmoOLro8-2uLdvmipLkT2xpcqT_iRubs_aboyNGU17lZl9qdTKnLYUyu9gD_MGN-kwEkipSkYmKdftWt1Qw&sig=AOD64_2rDj6L5qW675cFv_a8PIVkoFrKrQ&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChgIle_Lm_iX5aucARoLL2cvMXRyYzJuNmMQAQ?hl=en&gl=kr",
+    "breakfast": "excluded",
+    "cancellation": "free",
+    "zone": "시먼",
+    "station": "시먼역 3번 출구",
+    "walk": 1,
+    "warnings": [
+     "금연 여부 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-18T02:07:30.973Z"
+   },
+   "errors": []
+  },
+  {
+   "city": "taipei",
+   "patternId": "w12-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-02-12",
+   "returnDate": "2027-02-15",
+   "flight": {
+    "amount": 944534,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:07:35.000Z",
+    "legs": [
+     [
+      {
+       "number": "IT 603",
+       "airline": "Tigerair Taiwan",
+       "from": "ICN",
+       "to": "TPE",
+       "departure": "2027-02-12 00:30",
+       "arrival": "2027-02-12 02:15"
+      }
+     ],
+     [
+      {
+       "number": "IT 602",
+       "airline": "Tigerair Taiwan",
+       "from": "TPE",
+       "to": "ICN",
+       "departure": "2027-02-15 20:00",
+       "arrival": "2027-02-15 23:30"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTEyIh8KA0lDThIKMjAyNy0wMi0xMhoDVFBFKgJJVDIDNjAzKABqBwgBEgNJQ05yBwgBEgNUUEUaIBIKMjAyNy0wMi0xNSgAagcIARIDVFBFcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "name": "Cityinn Hotel Plus",
+    "room": "Standard - Non-Smoking",
+    "supplier": "Agoda",
+    "amount": 471854,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjOrd3Mt5CYAxUkswMAHbPiGJYYACICCAEQHRoCb2E&co=1&gclid=EAIaIQobChMIzq3dzLeQmAMVJLMDAB2z4hiWEAoYBCACEgLJW_D_BwE&cid=CAASuwHkaESLOsI8sgFKSl0yJsGFp_kc_eP_0RspUcXapoM5M6xvblRalOEBo_McUnzdMpHyPCZl8oTLwIaXebRT2N7BKjgunW3-WRQbqJFsPHPYAgPGQnjulgiDdfksFoXJuhk3Ty2mg5D7a1vK6Aia-T5md1PGBSTGmXxoMVIwcO-b4mWEohFqjPG8RtMEncV2aeu6-aLwVjoFU7s5tlAVejmAP-wKwyjYg0YA8pYr3YJD3wDDoSxwEpg6Jgb8&sig=AOD64_2qQdIAXMKPz0F_doB6QoupMvRzig&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChgIle_Lm_iX5aucARoLL2cvMXRyYzJuNmMQAQ?hl=en&gl=kr",
+    "breakfast": "excluded",
+    "cancellation": "unknown",
+    "zone": "시먼",
+    "station": "시먼역 3번 출구",
+    "walk": 1,
+    "warnings": [
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요",
+     "취소 조건 확인 필요"
+    ],
+    "observedAt": "2026-11-18T02:07:36.923Z"
+   },
+   "errors": []
+  },
+  {
+   "city": "taipei",
+   "patternId": "w6-tue-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-05",
+   "returnDate": "2027-01-08",
+   "flight": {
+    "amount": 839086,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:07:41.000Z",
+    "legs": [
+     [
+      {
+       "number": "IT 603",
+       "airline": "Tigerair Taiwan",
+       "from": "ICN",
+       "to": "TPE",
+       "departure": "2027-01-05 00:30",
+       "arrival": "2027-01-05 02:15"
+      }
+     ],
+     [
+      {
+       "number": "TR 872",
+       "airline": "Scoot",
+       "from": "TPE",
+       "to": "ICN",
+       "departure": "2027-01-08 18:10",
+       "arrival": "2027-01-08 21:40"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTA1Ih8KA0lDThIKMjAyNy0wMS0wNRoDVFBFKgJJVDIDNjAzKABqBwgBEgNJQ05yBwgBEgNUUEUaIBIKMjAyNy0wMS0wOCgAagcIARIDVFBFcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Cityinn Hotel Plus 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Hoteis.com)"
+   ]
+  },
+  {
+   "city": "tokyo",
+   "patternId": "w4-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2026-12-18",
+   "returnDate": "2026-12-21",
+   "flight": {
+    "amount": 730816,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:07:51.000Z",
+    "legs": [
+     [
+      {
+       "number": "ZG 686",
+       "airline": "ZIPAIR Tokyo",
+       "from": "ICN",
+       "to": "NRT",
+       "departure": "2026-12-18 15:00",
+       "arrival": "2026-12-18 17:25"
+      }
+     ],
+     [
+      {
+       "number": "MM 641",
+       "airline": "Peach Aviation",
+       "from": "NRT",
+       "to": "ICN",
+       "departure": "2026-12-21 08:30",
+       "arrival": "2026-12-21 11:50"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDTlJUKgJaRzIDNjg2KABqBwgBEgNJQ05yBwgBEgNOUlQaIBIKMjAyNi0xMi0yMSgAagcIARIDTlJUcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: APA Hotel Nishi Shinjuku Gochome Eki Tower 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "tokyo",
+   "patternId": "w8-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-15",
+   "returnDate": "2027-01-18",
+   "flight": {
+    "amount": 744474,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:08:00.000Z",
+    "legs": [
+     [
+      {
+       "number": "ZG 46",
+       "airline": "ZIPAIR Tokyo",
+       "from": "ICN",
+       "to": "NRT",
+       "departure": "2027-01-15 13:05",
+       "arrival": "2027-01-15 15:30"
+      }
+     ],
+     [
+      {
+       "number": "ZG 45",
+       "airline": "ZIPAIR Tokyo",
+       "from": "NRT",
+       "to": "ICN",
+       "departure": "2027-01-18 08:55",
+       "arrival": "2027-01-18 11:35"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAxLTE1Ih4KA0lDThIKMjAyNy0wMS0xNRoDTlJUKgJaRzICNDYoAGoHCAESA0lDTnIHCAESA05SVBogEgoyMDI3LTAxLTE4KABqBwgBEgNOUlRyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Anshin Oyado Tokyo Man Shinjuku 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Ikyu.com)"
+   ]
+  },
+  {
+   "city": "tokyo",
+   "patternId": "w12-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-02-12",
+   "returnDate": "2027-02-15",
+   "flight": {
+    "amount": 837010,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:08:11.000Z",
+    "legs": [
+     [
+      {
+       "number": "ZG 46",
+       "airline": "ZIPAIR Tokyo",
+       "from": "ICN",
+       "to": "NRT",
+       "departure": "2027-02-12 13:05",
+       "arrival": "2027-02-12 15:30"
+      }
+     ],
+     [
+      {
+       "number": "YP 732",
+       "airline": "Air Premia",
+       "from": "NRT",
+       "to": "ICN",
+       "departure": "2027-02-15 12:30",
+       "arrival": "2027-02-15 15:20"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAyLTEyIh4KA0lDThIKMjAyNy0wMi0xMhoDTlJUKgJaRzICNDYoAGoHCAESA0lDTnIHCAESA05SVBogEgoyMDI3LTAyLTE1KABqBwgBEgNOUlRyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Apartment Hotel Shinjuku 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "tokyo",
+   "patternId": "w6-tue-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-05",
+   "returnDate": "2027-01-08",
+   "flight": {
+    "amount": 909858,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:08:20.000Z",
+    "legs": [
+     [
+      {
+       "number": "7C 1181",
+       "airline": "Jeju Air",
+       "from": "ICN",
+       "to": "NRT",
+       "departure": "2027-01-05 07:15",
+       "arrival": "2027-01-05 09:40"
+      }
+     ],
+     [
+      {
+       "number": "7C 1130",
+       "airline": "Jeju Air",
+       "from": "NRT",
+       "to": "ICN",
+       "departure": "2027-01-08 15:10",
+       "arrival": "2027-01-08 18:15"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI3LTAxLTA1IiAKA0lDThIKMjAyNy0wMS0wNRoDTlJUKgI3QzIEMTE4MSgAagcIARIDSUNOcgcIARIDTlJUGiASCjIwMjctMDEtMDgoAGoHCAESA05SVHIHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Shinjuku East Hotel 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "danang",
+   "patternId": "w4-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2026-12-18",
+   "returnDate": "2026-12-21",
+   "flight": {
+    "amount": 787550,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:08:39.000Z",
+    "legs": [
+     [
+      {
+       "number": "VJ 879",
+       "airline": "Vietjet",
+       "from": "ICN",
+       "to": "DAD",
+       "departure": "2026-12-18 07:00",
+       "arrival": "2026-12-18 10:05"
+      }
+     ],
+     [
+      {
+       "number": "VJ 878",
+       "airline": "Vietjet",
+       "from": "DAD",
+       "to": "ICN",
+       "departure": "2026-12-21 23:40",
+       "arrival": "2026-12-22 06:00"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDREFEKgJWSjIDODc5KABqBwgBEgNJQ05yBwgBEgNEQUQaIBIKMjAyNi0xMi0yMSgAagcIARIDREFEcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Crystal Hotel 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "danang",
+   "patternId": "w8-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-15",
+   "returnDate": "2027-01-18",
+   "flight": {
+    "amount": 1165086,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:08:50.000Z",
+    "legs": [
+     [
+      {
+       "number": "VJ 879",
+       "airline": "Vietjet",
+       "from": "ICN",
+       "to": "DAD",
+       "departure": "2027-01-15 07:00",
+       "arrival": "2027-01-15 10:05"
+      }
+     ],
+     [
+      {
+       "number": "VJ 874",
+       "airline": "Vietjet",
+       "from": "DAD",
+       "to": "ICN",
+       "departure": "2027-01-18 16:20",
+       "arrival": "2027-01-18 22:40"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDREFEKgJWSjIDODc5KABqBwgBEgNJQ05yBwgBEgNEQUQaIBIKMjAyNy0wMS0xOCgAagcIARIDREFEcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Maris Beachside Hotel Da Nang 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "danang",
+   "patternId": "w12-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-02-12",
+   "returnDate": "2027-02-15",
+   "flight": {
+    "amount": 1061136,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:08:58.000Z",
+    "legs": [
+     [
+      {
+       "number": "RS 95",
+       "airline": "Air Seoul",
+       "from": "ICN",
+       "to": "DAD",
+       "departure": "2027-02-12 20:55",
+       "arrival": "2027-02-12 23:40"
+      }
+     ],
+     [
+      {
+       "number": "7C 2218",
+       "airline": "Jeju Air",
+       "from": "DAD",
+       "to": "ICN",
+       "departure": "2027-02-15 01:30",
+       "arrival": "2027-02-15 07:55"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAyLTEyIh4KA0lDThIKMjAyNy0wMi0xMhoDREFEKgJSUzICOTUoAGoHCAESA0lDTnIHCAESA0RBRBogEgoyMDI3LTAyLTE1KABqBwgBEgNEQURyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: DTC HOTEL 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(HomeToGo)"
+   ]
+  },
+  {
+   "city": "danang",
+   "patternId": "w6-tue-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-05",
+   "returnDate": "2027-01-08",
+   "flight": {
+    "amount": 842278,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:09:06.000Z",
+    "legs": [
+     [
+      {
+       "number": "TW 11",
+       "airline": "Trinity Airways",
+       "from": "ICN",
+       "to": "DAD",
+       "departure": "2027-01-05 19:00",
+       "arrival": "2027-01-05 22:20"
+      }
+     ],
+     [
+      {
+       "number": "RS 96",
+       "airline": "Air Seoul",
+       "from": "DAD",
+       "to": "ICN",
+       "departure": "2027-01-08 00:40",
+       "arrival": "2027-01-08 07:15"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAxLTA1Ih4KA0lDThIKMjAyNy0wMS0wNRoDREFEKgJUVzICMTEoAGoHCAESA0lDTnIHCAESA0RBRBogEgoyMDI3LTAxLTA4KABqBwgBEgNEQURyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Elites Hotel 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "nhatrang",
+   "patternId": "w4-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2026-12-18",
+   "returnDate": "2026-12-21",
+   "flight": {
+    "amount": 728974,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:09:23.000Z",
+    "legs": [
+     [
+      {
+       "number": "VJ 835",
+       "airline": "Vietjet",
+       "from": "ICN",
+       "to": "CXR",
+       "departure": "2026-12-18 06:45",
+       "arrival": "2026-12-18 09:55"
+      }
+     ],
+     [
+      {
+       "number": "RS 116",
+       "airline": "Air Seoul",
+       "from": "CXR",
+       "to": "ICN",
+       "departure": "2026-12-21 00:30",
+       "arrival": "2026-12-21 07:25"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDQ1hSKgJWSjIDODM1KABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNi0xMi0yMSgAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Xavia 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(momondo.co.uk)"
+   ]
+  },
+  {
+   "city": "nhatrang",
+   "patternId": "w8-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-15",
+   "returnDate": "2027-01-18",
+   "flight": {
+    "amount": 1099564,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:09:30.000Z",
+    "legs": [
+     [
+      {
+       "number": "VJ 837",
+       "airline": "Vietjet",
+       "from": "ICN",
+       "to": "CXR",
+       "departure": "2027-01-15 07:00",
+       "arrival": "2027-01-15 10:10"
+      }
+     ],
+     [
+      {
+       "number": "VJ 836",
+       "airline": "Vietjet",
+       "from": "CXR",
+       "to": "ICN",
+       "departure": "2027-01-18 22:30",
+       "arrival": "2027-01-19 05:25"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDQ1hSKgJWSjIDODM3KABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNy0wMS0xOCgAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Alana Beach Hotel 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "nhatrang",
+   "patternId": "w12-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-02-12",
+   "returnDate": "2027-02-15",
+   "flight": {
+    "amount": 1088088,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:09:38.000Z",
+    "legs": [
+     [
+      {
+       "number": "BX 103",
+       "airline": "Air Busan",
+       "from": "ICN",
+       "to": "CXR",
+       "departure": "2027-02-12 16:50",
+       "arrival": "2027-02-12 20:20"
+      }
+     ],
+     [
+      {
+       "number": "VJ 834",
+       "airline": "Vietjet",
+       "from": "CXR",
+       "to": "ICN",
+       "departure": "2027-02-15 22:45",
+       "arrival": "2027-02-16 05:35"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTEyIh8KA0lDThIKMjAyNy0wMi0xMhoDQ1hSKgJCWDIDMTAzKABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNy0wMi0xNSgAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Yasaka Saigon Nha Trang 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Bluepillow.co.uk)"
+   ]
+  },
+  {
+   "city": "nhatrang",
+   "patternId": "w6-tue-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-05",
+   "returnDate": "2027-01-08",
+   "flight": {
+    "amount": 935014,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:09:44.000Z",
+    "legs": [
+     [
+      {
+       "number": "VJ 835",
+       "airline": "Vietjet",
+       "from": "ICN",
+       "to": "CXR",
+       "departure": "2027-01-05 06:45",
+       "arrival": "2027-01-05 09:55"
+      }
+     ],
+     [
+      {
+       "number": "7C 2304",
+       "airline": "Jeju Air",
+       "from": "CXR",
+       "to": "ICN",
+       "departure": "2027-01-08 02:10",
+       "arrival": "2027-01-08 09:05"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTA1Ih8KA0lDThIKMjAyNy0wMS0wNRoDQ1hSKgJWSjIDODM1KABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNy0wMS0wOCgAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Alana Beach Hotel 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "bangkok",
+   "patternId": "w4-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2026-12-18",
+   "returnDate": "2026-12-21",
+   "flight": {
+    "amount": 1293688,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:17:05.000Z",
+    "legs": [
+     [
+      {
+       "number": "VZ 851",
+       "airline": "Thai Vietjet Air",
+       "from": "ICN",
+       "to": "BKK",
+       "departure": "2026-12-18 12:10",
+       "arrival": "2026-12-18 16:20"
+      }
+     ],
+     [
+      {
+       "number": "VZ 850",
+       "airline": "Thai Vietjet Air",
+       "from": "BKK",
+       "to": "ICN",
+       "departure": "2026-12-21 02:40",
+       "arrival": "2026-12-21 10:00"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDQktLKgJWWjIDODUxKABqBwgBEgNJQ05yBwgBEgNCS0saIBIKMjAyNi0xMi0yMSgAagcIARIDQktLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "stars": 3,
+    "rating": 4.2,
+    "reviews": 273,
+    "name": "Narawad Boutique Hotel",
+    "room": "Standard Double Room with Balcony",
+    "supplier": "Agoda",
+    "amount": 173163,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwij5PzeuZCYAxWrGGgBHaPlGAAYACICCAEQBhoCb2E&co=1&gclid=EAIaIQobChMIo-T83rmQmAMVqxhoAR2j5RgAEAoYASAEEgLqm_D_BwE&cid=CAASuwHkaMin48QVAAOSEcHRJzscVWfDYRbTs5Th4NheE7Q9Sp937TtArpG0UEFeTRStGUFW39LrMV94APURQA7y1qx9sWb6x6PK3jOZovgp4JYK9jatR0HFLVGQraCPl1PaVBPKK-dDl7tixAeKMHfs3taM8uyQyaHad1TORcx8ZwWe4hSNpRdH0hFMzrGTQ3cYBpwy5bkfC2SqsxHYP8bvPz93w5FSj5t1XQjNrj5HdB_BuSrCvbr8Jzjzb2aX&sig=AOD64_37Qo69SVRwIhM1n2hFZCWQeQBg4Q&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChoIvcnEyOqphdHGARoNL2cvMTFjMnI5ejMzMBAB?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "unknown",
+    "zone": "아속·수쿰윗 주변",
+    "station": "도심 기준점에서 직선 0.6km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "금연 여부 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요",
+     "취소 조건 확인 필요"
+    ],
+    "observedAt": "2026-11-18T02:17:10.458Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 6,
+    "candidates": [
+     {
+      "name": "Ostay Asoke Bangkok",
+      "cls": 4,
+      "rating": 3.9,
+      "reviews": 123,
+      "ok": false
+     },
+     {
+      "name": "Narawad Boutique Hotel",
+      "cls": 3,
+      "rating": 4.2,
+      "reviews": 273,
+      "ok": true
+     },
+     {
+      "name": "iCheck inn Sukhumvit 19",
+      "cls": 3,
+      "rating": 3.9,
+      "reviews": 286,
+      "ok": false
+     },
+     {
+      "name": "Fx Hotel Metrolink Makkasan",
+      "cls": 3,
+      "rating": 4,
+      "reviews": 1296,
+      "ok": true
+     },
+     {
+      "name": "Asoke Residence Sukhumvit by UHG",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 1379,
+      "ok": true
+     },
+     {
+      "name": "The Quarter Phrom Phong by UHG",
+      "cls": 4,
+      "rating": 4.1,
+      "reviews": 728,
+      "ok": true
+     },
+     {
+      "name": "Galleria 10 Hotel Bangkok",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 2298,
+      "ok": true
+     },
+     {
+      "name": "Ramada by Wyndham Bangkok Sukhumvit 11",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 2272,
+      "ok": true
+     }
+    ]
+   }
+  },
+  {
+   "city": "bangkok",
+   "patternId": "w8-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-15",
+   "returnDate": "2027-01-18",
+   "flight": {
+    "amount": 1270200,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:10:04.000Z",
+    "legs": [
+     [
+      {
+       "number": "YP 601",
+       "airline": "Air Premia",
+       "from": "ICN",
+       "to": "BKK",
+       "departure": "2027-01-15 17:15",
+       "arrival": "2027-01-15 21:25"
+      }
+     ],
+     [
+      {
+       "number": "YP 602",
+       "airline": "Air Premia",
+       "from": "BKK",
+       "to": "ICN",
+       "departure": "2027-01-18 22:55",
+       "arrival": "2027-01-19 06:15"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDQktLKgJZUDIDNjAxKABqBwgBEgNJQ05yBwgBEgNCS0saIBIKMjAyNy0wMS0xOCgAagcIARIDQktLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Ostay Asoke Bangkok 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "bangkok",
+   "patternId": "w12-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-02-12",
+   "returnDate": "2027-02-15",
+   "flight": {
+    "amount": 1108600,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:10:20.000Z",
+    "legs": [
+     [
+      {
+       "number": "TG 653",
+       "airline": "THAI",
+       "from": "ICN",
+       "to": "BKK",
+       "departure": "2027-02-12 17:00",
+       "arrival": "2027-02-12 20:55"
+      }
+     ],
+     [
+      {
+       "number": "TG 652",
+       "airline": "THAI",
+       "from": "BKK",
+       "to": "ICN",
+       "departure": "2027-02-15 08:00",
+       "arrival": "2027-02-15 15:25"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTEyIh8KA0lDThIKMjAyNy0wMi0xMhoDQktLKgJURzIDNjUzKABqBwgBEgNJQ05yBwgBEgNCS0saIBIKMjAyNy0wMi0xNSgAagcIARIDQktLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Ostay Asoke Bangkok 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Bluepillow.co.uk)"
+   ]
+  },
+  {
+   "city": "bangkok",
+   "patternId": "w6-tue-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-05",
+   "returnDate": "2027-01-08",
+   "flight": {
+    "amount": 1317000,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:10:39.000Z",
+    "legs": [
+     [
+      {
+       "number": "7C 2503",
+       "airline": "Jeju Air",
+       "from": "ICN",
+       "to": "BKK",
+       "departure": "2027-01-05 19:30",
+       "arrival": "2027-01-05 23:50"
+      }
+     ],
+     [
+      {
+       "number": "7C 2504",
+       "airline": "Jeju Air",
+       "from": "BKK",
+       "to": "ICN",
+       "departure": "2027-01-08 01:00",
+       "arrival": "2027-01-08 08:25"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI3LTAxLTA1IiAKA0lDThIKMjAyNy0wMS0wNRoDQktLKgI3QzIEMjUwMygAagcIARIDSUNOcgcIARIDQktLGiASCjIwMjctMDEtMDgoAGoHCAESA0JLS3IHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Ostay Asoke Bangkok 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Bluepillow.co.uk)"
+   ]
+  },
+  {
+   "city": "paris",
+   "patternId": "w8-fri-7n",
+   "nights": 7,
+   "adults": 2,
+   "departureDate": "2027-01-15",
+   "returnDate": "2027-01-22",
+   "flight": {
+    "amount": 2452400,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:11:04.000Z",
+    "legs": [
+     [
+      {
+       "number": "AF 267",
+       "airline": "Air France",
+       "from": "ICN",
+       "to": "CDG",
+       "departure": "2027-01-15 13:20",
+       "arrival": "2027-01-15 19:45"
+      }
+     ],
+     [
+      {
+       "number": "AF 264",
+       "airline": "Air France",
+       "from": "CDG",
+       "to": "ICN",
+       "departure": "2027-01-22 15:05",
+       "arrival": "2027-01-23 11:15"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDQ0RHKgJBRjIDMjY3KABqBwgBEgNJQ05yBwgBEgNDREcaIBIKMjAyNy0wMS0yMigAagcIARIDQ0RHcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: New Hôtel Gare Du Nord 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "paris",
+   "patternId": "w16-fri-7n",
+   "nights": 7,
+   "adults": 2,
+   "departureDate": "2027-03-12",
+   "returnDate": "2027-03-19",
+   "flight": {
+    "amount": 2901600,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:11:26.000Z",
+    "legs": [
+     [
+      {
+       "number": "TW 401",
+       "airline": "Trinity Airways",
+       "from": "ICN",
+       "to": "CDG",
+       "departure": "2027-03-12 09:50",
+       "arrival": "2027-03-12 16:50"
+      }
+     ],
+     [
+      {
+       "number": "TW 402",
+       "airline": "Trinity Airways",
+       "from": "CDG",
+       "to": "ICN",
+       "departure": "2027-03-19 19:30",
+       "arrival": "2027-03-20 16:05"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAzLTEyIh8KA0lDThIKMjAyNy0wMy0xMhoDQ0RHKgJUVzIDNDAxKABqBwgBEgNJQ05yBwgBEgNDREcaIBIKMjAyNy0wMy0xOSgAagcIARIDQ0RHcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Generator Paris 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
+   ]
+  },
+  {
+   "city": "losangeles",
+   "patternId": "w8-fri-7n",
+   "nights": 7,
+   "adults": 2,
+   "departureDate": "2027-01-15",
+   "returnDate": "2027-01-22",
+   "flight": {
+    "amount": 2674200,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:11:41.000Z",
+    "legs": [
+     [
+      {
+       "number": "YP 101",
+       "airline": "Air Premia",
+       "from": "ICN",
+       "to": "LAX",
+       "departure": "2027-01-15 13:20",
+       "arrival": "2027-01-15 07:20"
+      }
+     ],
+     [
+      {
+       "number": "YP 102",
+       "airline": "Air Premia",
+       "from": "LAX",
+       "to": "ICN",
+       "departure": "2027-01-22 09:50",
+       "arrival": "2027-01-23 16:20"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDTEFYKgJZUDIDMTAxKABqBwgBEgNJQ05yBwgBEgNMQVgaIBIKMjAyNy0wMS0yMigAagcIARIDTEFYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Samesun Hollywood 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Hotels In America)"
+   ]
+  },
+  {
+   "city": "losangeles",
+   "patternId": "w16-fri-7n",
+   "nights": 7,
+   "adults": 2,
+   "departureDate": "2027-03-12",
+   "returnDate": "2027-03-19",
+   "flight": {
+    "amount": 2914200,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-18T02:11:48.000Z",
+    "legs": [
+     [
+      {
+       "number": "YP 101",
+       "airline": "Air Premia",
+       "from": "ICN",
+       "to": "LAX",
+       "departure": "2027-03-12 13:20",
+       "arrival": "2027-03-12 07:20"
+      }
+     ],
+     [
+      {
+       "number": "YP 102",
+       "airline": "Air Premia",
+       "from": "LAX",
+       "to": "ICN",
+       "departure": "2027-03-19 10:50",
+       "arrival": "2027-03-20 16:20"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAzLTEyIh8KA0lDThIKMjAyNy0wMy0xMhoDTEFYKgJZUDIDMTAxKABqBwgBEgNJQ05yBwgBEgNMQVgaIBIKMjAyNy0wMy0xOSgAagcIARIDTEFYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Samesun Hollywood 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Hotels In America)"
+   ]
+  }
+ ]
+}

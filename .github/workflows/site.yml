@@ -1,0 +1,71 @@
+name: 가격 수집과 게시
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'   # 매주 월요일 09:00 (한국 시간)
+  workflow_dispatch:
+    inputs:
+      max_calls:
+        description: '조회 상한'
+        default: '160'
+  push:
+    branches: [main]
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    # 코드 푸시 때는 수집하지 않는다 (조회 한도 보호).
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test test/
+      - name: 실제 가격 수집
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          MAX_CALLS: ${{ inputs.max_calls || '160' }}
+        run: node collect.mjs --live --max-calls "$MAX_CALLS"
+      - name: 가격 파일 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/snapshot.json
+          git diff --cached --quiet || git commit -m "가격 스냅샷 갱신"
+          git push
+
+  deploy:
+    needs: collect
+    # 수집이 실패하면 게시하지 않고 기존 사이트를 유지한다.
+    if: always() && (needs.collect.result == 'success' || needs.collect.result == 'skipped')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test test/
+      - name: 가상 데이터는 게시하지 않는다
+        run: node -e "const s=require('./site/data/snapshot.json');if(s.mock!==false){console.error('가상 데이터라 게시를 중단했어요.');process.exit(1)}"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
