@@ -27,7 +27,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node --test test/
+      - run: node --test test/*.test.mjs
       - name: 실제 가격 수집
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
@@ -60,7 +60,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node --test test/
+      - run: node --test test/*.test.mjs
       - name: 가상 데이터는 게시하지 않는다
         run: node -e "const s=require('./site/data/snapshot.json');if(s.mock!==false){console.error('가상 데이터라 게시를 중단했어요.');process.exit(1)}"
       - uses: actions/configure-pages@v5

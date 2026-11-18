@@ -19,7 +19,7 @@
 node collect.mjs          # 조회 계획만 출력, 외부 호출 0회
 node collect.mjs --mock   # 가상 데이터로 스냅샷 생성, 외부 호출 0회
 node collect.mjs --live   # 실제 SerpApi 조회 (유료 한도 사용)
-node --test test/         # 자동 검사
+node --test test/*.test.mjs   # 자동 검사
 node serve.mjs            # http://localhost:5273 미리보기
 ```
 

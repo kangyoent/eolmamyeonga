@@ -6,7 +6,7 @@
     "plan": "node collect.mjs",
     "mock": "node collect.mjs --mock",
     "collect": "node collect.mjs --live",
-    "test": "node --test test/",
+    "test": "node --test test/*.test.mjs",
     "serve": "node serve.mjs"
   }
 }
