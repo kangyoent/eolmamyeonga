@@ -1,12 +1,12 @@
 {
  "version": 1,
  "mock": false,
- "generatedAt": "2026-11-18T02:11:54.451Z",
+ "generatedAt": "2026-11-23T05:10:30.607Z",
  "basis": {
   "adults": 2,
   "rooms": 1
  },
- "callsUsed": 124,
+ "callsUsed": 130,
  "cities": {
   "fukuoka": {
    "name": "후쿠오카",
@@ -132,24 +132,24 @@
    "label": "약 한 달 뒤 주말",
    "nights": 3,
    "group": "short",
-   "departureDate": "2026-12-18",
-   "returnDate": "2026-12-21"
+   "departureDate": "2026-12-25",
+   "returnDate": "2026-12-28"
   },
   {
    "id": "w8-fri-3n",
    "label": "약 두 달 뒤 주말",
    "nights": 3,
    "group": "short",
-   "departureDate": "2027-01-15",
-   "returnDate": "2027-01-18"
+   "departureDate": "2027-01-22",
+   "returnDate": "2027-01-25"
   },
   {
    "id": "w12-fri-3n",
    "label": "약 석 달 뒤 주말",
    "nights": 3,
    "group": "short",
-   "departureDate": "2027-02-12",
-   "returnDate": "2027-02-15"
+   "departureDate": "2027-02-19",
+   "returnDate": "2027-02-22"
   },
   {
    "id": "w6-tue-3n",
@@ -164,16 +164,16 @@
    "label": "약 두 달 뒤 일주일",
    "nights": 7,
    "group": "long",
-   "departureDate": "2027-01-15",
-   "returnDate": "2027-01-22"
+   "departureDate": "2027-01-22",
+   "returnDate": "2027-01-29"
   },
   {
    "id": "w16-fri-7n",
    "label": "약 넉 달 뒤 일주일",
    "nights": 7,
    "group": "long",
-   "departureDate": "2027-03-12",
-   "returnDate": "2027-03-19"
+   "departureDate": "2027-03-19",
+   "returnDate": "2027-03-26"
   }
  ],
  "entries": [
@@ -182,23 +182,23 @@
    "patternId": "w4-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2026-12-18",
-   "returnDate": "2026-12-21",
+   "departureDate": "2026-12-25",
+   "returnDate": "2026-12-28",
    "flight": {
-    "amount": 776200,
+    "amount": 903000,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:06:13.000Z",
+    "observedAt": "2026-11-23T05:04:19.000Z",
     "legs": [
      [
       {
-       "number": "7C 1405",
+       "number": "7C 1407",
        "airline": "Jeju Air",
        "from": "ICN",
        "to": "FUK",
-       "departure": "2026-12-18 15:20",
-       "arrival": "2026-12-18 16:50"
+       "departure": "2026-12-25 16:20",
+       "arrival": "2026-12-25 17:55"
       }
      ],
      [
@@ -207,22 +207,25 @@
        "airline": "Jeju Air",
        "from": "FUK",
        "to": "ICN",
-       "departure": "2026-12-21 08:55",
-       "arrival": "2026-12-21 10:30"
+       "departure": "2026-12-28 08:55",
+       "arrival": "2026-12-28 10:30"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI2LTEyLTE4IiAKA0lDThIKMjAyNi0xMi0xOBoDRlVLKgI3QzIEMTQwNSgAagcIARIDSUNOcgcIARIDRlVLGiASCjIwMjYtMTItMjEoAGoHCAESA0ZVS3IHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI2LTEyLTI1IiAKA0lDThIKMjAyNi0xMi0yNRoDRlVLKgI3QzIEMTQwNygAagcIARIDSUNOcgcIARIDRlVLGiASCjIwMjYtMTItMjgoAGoHCAESA0ZVS3IHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
    },
    "hotel": {
+    "stars": null,
+    "rating": null,
+    "reviews": null,
     "name": "HOTEL MYSTAYS Fukuoka Tenjin Minami",
-    "room": "Renewal - Standard Double, Non-Smoking",
-    "supplier": "Agoda",
-    "amount": 493075,
+    "room": "Standard Double Room - Non-Smoking",
+    "supplier": "Booking.com",
+    "amount": 664873,
     "feeReserveKRW": 30000,
     "taxStatus": "unknown",
     "quoteLevel": "room",
-    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwiL_p2mt5CYAxXIS0gAHQcIEFoYACICCAEQBBoCY2U&co=1&gclid=EAIaIQobChMIi_6dpreQmAMVyEtIAB0HCBBaEAoYAyACEgIZffD_BwE&cid=CAASuwHkaFfUL3lR97BMZn0IjRoz9msKVUkuIZ97SopHXZwzwQBKV2X9OpU37_LfSHy94ycF3_qXHHhM4eoqPB2PCLjMlPUCW8G0RqJuSI_0OXzPL6-hxou9-Z5jmhfyvRsQxnhmfHCqiWdjfFY1P3wJYJIjF5JI8QLxOgKXFBJ72yZpf9RAd69CY0e7py5RvsSu3ZOYb8Vq1W_9CyFnNXpJOnF9hzGBOu62FkDAEXfTvbyUa6ur7BgdsWhu_XHh&sig=AOD64_3Qm34JUEWshhhfAD4vm31HDzCk7w&adurl",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjz77G3qJ2YAxWGkFAGHbSGAmUYACICCAEQFxoCZGc&co=1&gclid=EAIaIQobChMI8--xt6idmAMVhpBQBh20hgJlEAoYAiACEgKIt_D_BwE&cid=CAASlwHkaPNoE_lq_OgMlEJXdY1WfMIncsxSUdtxYUFtEcWjvGE3ivODNkZmjVh4SioL2MrRw7aL4jrj3f-VgrsShAO4Z54TpTDb2a-sITGHpS-hqiKJd42D8d51e0RCfQvS-FQS5LwNXu02hu9PacBGrjLCRHnE_6-LeKPOzx7zI8dBgTzSOZIeIutyG0eotDIe0uCr1V_i2yOY&sig=AOD64_2eUXRf3lw89QHest-DqQzLGPEByg&adurl",
     "pageLink": "https://www.google.com/travel/hotels/entity/ChkIh8yIm_3fyPGqARoML2cvMWhoeHJ3MnN6EAE?hl=en&gl=kr",
     "breakfast": "unknown",
     "cancellation": "free",
@@ -235,7 +238,7 @@
      "창문 유무 확인 필요",
      "객실 면적 확인 필요"
     ],
-    "observedAt": "2026-11-18T02:06:15.719Z"
+    "observedAt": "2026-11-23T05:04:22.051Z"
    },
    "errors": []
   },
@@ -244,14 +247,14 @@
    "patternId": "w8-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2027-01-15",
-   "returnDate": "2027-01-18",
+   "departureDate": "2027-01-22",
+   "returnDate": "2027-01-25",
    "flight": {
-    "amount": 776966,
+    "amount": 755816,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:06:24.000Z",
+    "observedAt": "2026-11-23T05:04:29.000Z",
     "legs": [
      [
       {
@@ -259,41 +262,63 @@
        "airline": "Jeju Air",
        "from": "ICN",
        "to": "FUK",
-       "departure": "2027-01-15 16:20",
-       "arrival": "2027-01-15 17:55"
+       "departure": "2027-01-22 16:20",
+       "arrival": "2027-01-22 17:55"
       }
      ],
      [
       {
-       "number": "OZ 131",
-       "airline": "Asiana Airlines",
+       "number": "BX 446",
+       "airline": "Air Busan",
        "from": "FUK",
        "to": "ICN",
-       "departure": "2027-01-18 08:35",
-       "arrival": "2027-01-18 10:10"
+       "departure": "2027-01-25 10:00",
+       "arrival": "2027-01-25 11:45"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI3LTAxLTE1IiAKA0lDThIKMjAyNy0wMS0xNRoDRlVLKgI3QzIEMTQwNygAagcIARIDSUNOcgcIARIDRlVLGiASCjIwMjctMDEtMTgoAGoHCAESA0ZVS3IHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI3LTAxLTIyIiAKA0lDThIKMjAyNy0wMS0yMhoDRlVLKgI3QzIEMTQwNygAagcIARIDSUNOcgcIARIDRlVLGiASCjIwMjctMDEtMjUoAGoHCAESA0ZVS3IHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Plaza Hotel Premier 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
+   "hotel": {
+    "stars": null,
+    "rating": null,
+    "reviews": null,
+    "name": "KOKO HOTEL Hakata Shinkansenguchi",
+    "room": "Semi Double Room",
+    "supplier": "Trip.com",
+    "amount": 467739,
+    "feeReserveKRW": 30000,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwiH0569qJ2YAxXehGYCHasdAOwYACICCAEQAxoCc20&co=1&ase=2&gclid=EAIaIQobChMIh9OevaidmAMV3oRmAh2rHQDsEAoYBiADEgLM0PD_BwE&cid=CAASugHkaFmb3mlp8QK7alASfPvIU-w2mwKc3MQHfg3MDQsFMgm71q4A3pIFDHARxik-niv0PWW8MDXb65q4EA8qGX-6erczRKaQe1Rl3rdEND3OHTHWpDqfRoEbc6TzjF2B-9p4EAFtzik0abhGTmifK8pwSJEEfIqRCrzTkjqG2iDfWSWa7Lov38E20zDmT9y1MFRspZWsPrP4BxhRg0FrE02nD_di7KDSfs9urBkROARs2uJ-CHi7G-pOesw&category=acrcp_v1_48&sig=AOD64_1QLVSfd9I5IwuONyTEALlvKcqMIw&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChoI_ebV7MGG7OKjARoNL2cvMTFnZDIwcTMzXxAB?hl=en&gl=kr",
+    "breakfast": "complimentary_light",
+    "cancellation": "free",
+    "zone": "하카타역 동쪽",
+    "station": "JR 하카타역 치쿠시 출구",
+    "walk": 4,
+    "warnings": [
+     "금연 여부 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:04:33.339Z"
+   },
+   "errors": []
   },
   {
    "city": "fukuoka",
    "patternId": "w12-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2027-02-12",
-   "returnDate": "2027-02-15",
+   "departureDate": "2027-02-19",
+   "returnDate": "2027-02-22",
    "flight": {
-    "amount": 837000,
+    "amount": 792632,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:06:37.000Z",
+    "observedAt": "2026-11-23T05:04:37.000Z",
     "legs": [
      [
       {
@@ -301,32 +326,35 @@
        "airline": "Air Seoul",
        "from": "ICN",
        "to": "FUK",
-       "departure": "2027-02-12 14:25",
-       "arrival": "2027-02-12 15:55"
+       "departure": "2027-02-19 14:25",
+       "arrival": "2027-02-19 15:55"
       }
      ],
      [
       {
-       "number": "RS 434",
-       "airline": "Air Seoul",
+       "number": "BX 446",
+       "airline": "Air Busan",
        "from": "FUK",
        "to": "ICN",
-       "departure": "2027-02-15 10:30",
-       "arrival": "2027-02-15 12:05"
+       "departure": "2027-02-22 10:00",
+       "arrival": "2027-02-22 11:45"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTEyIh8KA0lDThIKMjAyNy0wMi0xMhoDRlVLKgJSUzIDNDU3KABqBwgBEgNJQ05yBwgBEgNGVUsaIBIKMjAyNy0wMi0xNSgAagcIARIDRlVLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTE5Ih8KA0lDThIKMjAyNy0wMi0xORoDRlVLKgJSUzIDNDU3KABqBwgBEgNJQ05yBwgBEgNGVUsaIBIKMjAyNy0wMi0yMigAagcIARIDRlVLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
    "hotel": {
+    "stars": null,
+    "rating": null,
+    "reviews": null,
     "name": "HOTEL MYSTAYS Fukuoka Tenjin Minami",
-    "room": "Renewal - Standard Double, Non-Smoking",
-    "supplier": "Agoda",
-    "amount": 449124,
+    "room": "Standard Double Room - Non-Smoking",
+    "supplier": "Booking.com",
+    "amount": 485944,
     "feeReserveKRW": 30000,
     "taxStatus": "unknown",
     "quoteLevel": "room",
-    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjbnISxt5CYAxXLK9QBHXiLE7wYACICCAEQHhoCb2E&co=1&gclid=EAIaIQobChMI25yEsbeQmAMVyyvUAR14ixO8EAoYBCACEgL1BfD_BwE&cid=CAASuwHkaHBU_y7VcJU1BNySB1Ez_O6QLVc8lcVrvFq33FZsIH9sfuIp_j71_cZsR6jhLqA7rkPOiBvxfSr3BhdjI_VofJD95csvpT0fgr99UV0kjJletvY8BT7KhI4BbZ32eDVzY_6KLS6seaGnYCpqHfXYI2qVvfpy3h7Khu5i5u1VddRjzOzwrjsb7ONmRzhXrbZtInmZnQU0eMgJBfYIreyuJDFAF0MRPSVccrOeKfVeXNjP5Lh0Vh-WRH4j&sig=AOD64_29NBB5DOBWlazr7i-IGJqlnk7MvQ&adurl",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi1neDAqJ2YAxWAnYMHHbUoK5gYACICCAEQHxoCZWY&co=1&gclid=EAIaIQobChMItZ3gwKidmAMVgJ2DBx21KCuYEAoYASAFEgI3QPD_BwE&cid=CAASlwHkaCkD18iAlMhREU0Ab6lnoqNuCKSOZzsizECK1DbD0WMifgMpliRZyVS8ehIdGGCqTTkZ1B3sz4jRIXv3fJcY7tFrKMhMv7NGpDUAw5RYPMDeA_o3oa2xg2r0M6nFzcw2hDJKnVFFYN0QuhxEhLFe4JmwhAqvTeE5lj51vsT3YBL5QH1mNOC0lvV3lFoAgniCNhLlVkp8&sig=AOD64_3y-TG2CuWwmYLR2mv3yhWQIBlClw&adurl",
     "pageLink": "https://www.google.com/travel/hotels/entity/ChkIh8yIm_3fyPGqARoML2cvMWhoeHJ3MnN6EAE?hl=en&gl=kr",
     "breakfast": "unknown",
     "cancellation": "free",
@@ -339,7 +367,7 @@
      "창문 유무 확인 필요",
      "객실 면적 확인 필요"
     ],
-    "observedAt": "2026-11-18T02:06:38.782Z"
+    "observedAt": "2026-11-23T05:04:41.700Z"
    },
    "errors": []
   },
@@ -351,11 +379,11 @@
    "departureDate": "2027-01-05",
    "returnDate": "2027-01-08",
    "flight": {
-    "amount": 733200,
+    "amount": 732400,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:06:41.000Z",
+    "observedAt": "2026-11-23T05:04:44.000Z",
     "legs": [
      [
       {
@@ -373,33 +401,38 @@
        "airline": "Jin Air",
        "from": "FUK",
        "to": "ICN",
-       "departure": "2027-01-08 09:30",
-       "arrival": "2027-01-08 11:00"
+       "departure": "2027-01-08 09:15",
+       "arrival": "2027-01-08 10:45"
       }
      ]
     ],
     "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTA1Ih8KA0lDThIKMjAyNy0wMS0wNRoDRlVLKgJMSjIDNDYxKABqBwgBEgNJQ05yBwgBEgNGVUsaIBIKMjAyNy0wMS0wOCgAagcIARIDRlVLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
    "hotel": {
-    "name": "KOKO HOTEL Hakata Shinkansenguchi",
-    "room": "Economy Double Room, 1 Double Bed, Non Smoking, Light Breakfast Included",
-    "supplier": "Hotels.com",
-    "amount": 234824,
+    "stars": null,
+    "rating": null,
+    "reviews": null,
+    "name": "HOTEL MYSTAYS Fukuoka Tenjin Minami",
+    "room": "Standard Double (with Microwave) (Non-smoking)",
+    "supplier": "Trip.com",
+    "amount": 231738,
     "feeReserveKRW": 30000,
     "taxStatus": "unknown",
     "quoteLevel": "room",
-    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjO5M2zt5CYAxVbqoMHHeuXMX8YACICCAEQAhoCZWY&co=1&gclid=EAIaIQobChMIzuTNs7eQmAMVW6qDBx3rlzF_EAoYAyACEgJ36vD_BwE&cid=CAASsAHkaN3qu8MBf3NZSrzDqD8_qyybl-MIJHW5VGXIvWAA1RqXZgJqdpjUCsOYLLf7oBZe51eWrXC1T_DbtWvBpdtJbh9L5iYAJ2D9aSlw4my5V4kZrM2skkoZGzZQrK_oxTMIQeYfu7UWm_qHTBh0dOpYXDbMSpXV1L-RuXDhPz6Aq_R6SrsO5NE-bYa33FcMOZ7A9klfbyA9GFXjBz32Lx9SR1XKMVdMbCzQ9WyrA3nZPA&sig=AOD64_1L9krdv15vWWJ-0es30LD73FBv1g&adurl",
-    "pageLink": "https://www.google.com/travel/hotels/entity/ChoI_ebV7MGG7OKjARoNL2cvMTFnZDIwcTMzXxAB?hl=en&gl=kr",
-    "breakfast": "complimentary_light",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwiZgbDEqJ2YAxWhimYCHaHgGhAYACICCAEQBBoCc20&co=1&ase=2&gclid=EAIaIQobChMImYGwxKidmAMVoYpmAh2h4BoQEAoYAyAEEgJ_xfD_BwE&cid=CAASugHkaApwd18XsaYI0pfiDFGHgo1TgbJfLA-f_-vZIo2oeaN06LZH_a1OLyDtmchinfcUyGhJSp07cdAI6ytqNXAepxirx4717nIWQyA0WdGdrUZ4nH_uy31hHYIYsdDMP8ERlC9FmK54K8JSD_wLJ3UFX47L55LqNa1pg3lkA2uXc757__TcXNBMmucdpsQYu-NIiNnEIfqFBUztj8OuDv7wNsvyRXtP0byQmue2mG5CV9g5fUsXmBIkCrs&category=acrcp_v1_48&sig=AOD64_20mc7ZHu6HNNJQ7ferhpAlk364YQ&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkIh8yIm_3fyPGqARoML2cvMWhoeHJ3MnN6EAE?hl=en&gl=kr",
+    "breakfast": "unknown",
     "cancellation": "free",
-    "zone": "하카타역 동쪽",
-    "station": "JR 하카타역 치쿠시 출구",
-    "walk": 4,
+    "zone": "텐진 남쪽",
+    "station": "텐진미나미역",
+    "walk": 5,
     "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
      "창문 유무 확인 필요",
      "객실 면적 확인 필요"
     ],
-    "observedAt": "2026-11-18T02:06:44.217Z"
+    "observedAt": "2026-11-23T05:04:48.627Z"
    },
    "errors": []
   },
@@ -408,23 +441,23 @@
    "patternId": "w4-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2026-12-18",
-   "returnDate": "2026-12-21",
+   "departureDate": "2026-12-25",
+   "returnDate": "2026-12-28",
    "flight": {
-    "amount": 711502,
+    "amount": 908902,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:06:48.000Z",
+    "observedAt": "2026-11-23T05:05:01.000Z",
     "legs": [
      [
       {
-       "number": "MM 706",
-       "airline": "Peach Aviation",
+       "number": "RS 379",
+       "airline": "Air Seoul",
        "from": "ICN",
        "to": "KIX",
-       "departure": "2026-12-18 15:05",
-       "arrival": "2026-12-18 16:50"
+       "departure": "2026-12-25 18:50",
+       "arrival": "2026-12-25 20:40"
       }
      ],
      [
@@ -433,22 +466,25 @@
        "airline": "Air Seoul",
        "from": "KIX",
        "to": "ICN",
-       "departure": "2026-12-21 10:00",
-       "arrival": "2026-12-21 11:55"
+       "departure": "2026-12-28 10:00",
+       "arrival": "2026-12-28 11:55"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDS0lYKgJNTTIDNzA2KABqBwgBEgNJQ05yBwgBEgNLSVgaIBIKMjAyNi0xMi0yMSgAagcIARIDS0lYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTI1Ih8KA0lDThIKMjAyNi0xMi0yNRoDS0lYKgJSUzIDMzc5KABqBwgBEgNJQ05yBwgBEgNLSVgaIBIKMjAyNi0xMi0yOCgAagcIARIDS0lYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
    "hotel": {
+    "stars": null,
+    "rating": null,
+    "reviews": null,
     "name": "KOKO HOTEL Osaka Namba",
     "room": "Moderate Twin-Non-Smoking",
     "supplier": "Trip.com",
-    "amount": 236737,
+    "amount": 312215,
     "feeReserveKRW": 30000,
     "taxStatus": "unknown",
     "quoteLevel": "room",
-    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjv4-q2t5CYAxUSjIMHHc3rHw4YACICCAEQDxoCZWY&co=1&gclid=EAIaIQobChMI7-PqtreQmAMVEoyDBx3N6x8OEAoYAyACEgIzzPD_BwE&cid=CAASmAHkaPFKd3IvGFsQQCCA_aVRD2jIv3iVXLkW8dggRpO5GLsQaO0xMzl1VcRElQvN-ynZb4osSuPwAWN5MxqkW-ER8I-wUv22WUTTVJpgQf55yrvyda6lH05Jl3gxCdRTPfM7c4vj2wLX0nK6tDqvr8DcbGjXlZiaK6o3-yV9XmPkJnUVDFrRWPMN8eKpBYsU3jrpxOZrIDwhmw&sig=AOD64_1Tnp35DzpeLmOV_2XEYG5ditVcqA&adurl",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjhndfPqJ2YAxVbgIMHHYtPEeMYACICCAEQDhoCZWY&co=1&gclid=EAIaIQobChMI4Z3Xz6idmAMVW4CDBx2LTxHjEAoYAyACEgLMpPD_BwE&cid=CAASlwHkaPBj5JQxqzpR3zVIgkSBLcovTub9ktWQFR1VgXhruZuhzp8GX87BUH_5Tv-S27ZWDaEKa5kdjPh8-h1mJcFhr-ijnJRAgQxGYS3p1EAxgLjV5vREAmjHXansP6-RPIRLLRHyQIpryLXo69XpZaD8g00BDi-XQufBNe29gEq9mr5Hzfd1tYWzIYCtQ2AVWh5qN15W3LhN&sig=AOD64_3WeRns9hllEe64TtEjJEERxerreQ&adurl",
     "pageLink": "https://www.google.com/travel/hotels/entity/ChoIx4K-w-7khIuvARoNL2cvMTFwNXhoeHNrMhAB?hl=en&gl=kr",
     "breakfast": "unknown",
     "cancellation": "free",
@@ -461,7 +497,7 @@
      "창문 유무 확인 필요",
      "객실 면적 확인 필요"
     ],
-    "observedAt": "2026-11-18T02:06:50.838Z"
+    "observedAt": "2026-11-23T05:05:12.453Z"
    },
    "errors": []
   },
@@ -470,23 +506,23 @@
    "patternId": "w8-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2027-01-15",
-   "returnDate": "2027-01-18",
+   "departureDate": "2027-01-22",
+   "returnDate": "2027-01-25",
    "flight": {
-    "amount": 705524,
+    "amount": 653280,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:07:00.000Z",
+    "observedAt": "2026-11-23T05:05:15.000Z",
     "legs": [
      [
       {
-       "number": "MM 706",
+       "number": "MM 710",
        "airline": "Peach Aviation",
        "from": "ICN",
        "to": "KIX",
-       "departure": "2027-01-15 15:05",
-       "arrival": "2027-01-15 16:50"
+       "departure": "2027-01-22 21:00",
+       "arrival": "2027-01-22 22:45"
       }
      ],
      [
@@ -495,22 +531,25 @@
        "airline": "Jeju Air",
        "from": "KIX",
        "to": "ICN",
-       "departure": "2027-01-18 08:50",
-       "arrival": "2027-01-18 11:00"
+       "departure": "2027-01-25 08:50",
+       "arrival": "2027-01-25 11:00"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDS0lYKgJNTTIDNzA2KABqBwgBEgNJQ05yBwgBEgNLSVgaIBIKMjAyNy0wMS0xOCgAagcIARIDS0lYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA0lDThIKMjAyNy0wMS0yMhoDS0lYKgJNTTIDNzEwKABqBwgBEgNJQ05yBwgBEgNLSVgaIBIKMjAyNy0wMS0yNSgAagcIARIDS0lYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
    "hotel": {
+    "stars": null,
+    "rating": null,
+    "reviews": null,
     "name": "KOKO HOTEL Osaka Namba",
-    "room": "Moderate Twin-Non-Smoking",
-    "supplier": "Trip.com",
-    "amount": 214916,
+    "room": "Moderate Twin Non-Smoking",
+    "supplier": "Agoda",
+    "amount": 219826,
     "feeReserveKRW": 30000,
     "taxStatus": "unknown",
     "quoteLevel": "room",
-    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjCqa-8t5CYAxWzooMHHYW3NuoYACICCAEQFhoCZWY&co=1&gclid=EAIaIQobChMIwqmvvLeQmAMVs6KDBx2FtzbqEAoYAyACEgIr5fD_BwE&cid=CAASmAHkaHWxVTbUgC9Er4yUddG3uV28rT83dH7sydjIcBs9fIL0urfde78sT5wCGS_vS4cnt3g-iJz1E--GaYuHAPezzGhkaPun_KE-vyUlMK7jgXlZFZNDi3ic30AImMAYrpIC8DWOvg9ltiSBWbvhNkB1PnSKFCDD3k5pTkSfmsr_NA2MP9-gyhxZs-AOnfeuRubE9oLAP9nwRA&sig=AOD64_1oRfIS_aJQdjtn6ZetvAGt66o1fg&adurl",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjR-eLTqJ2YAxWwNoMDHagaNTYYACICCAEQGRoCc2Y&co=1&gclid=EAIaIQobChMI0fni06idmAMVsDaDAx2oGjU2EAoYBSACEgJGHvD_BwE&cid=CAASugHkaA3V4Zxqjh6_5tbLQcqQ6vtuFwKPp0ZpQ0zRm8sgNySmXgkawzrEqA1zNeGSnTutsLceqBP9fhLug8PaCngxAVy-CzxrnhKcJau8lbmaFsWvQc8bdKIOmEQUznYphzQWaRucxyb83v8SIFeJtnbSACAmNLxaKBWuvKdpCYx2K9jKsJAILrscAUU67-OkU2t9ounvmQ4QnypaU0FSPmk7Cx8HVzCLfp7p0ihbDdgAxgqOHT6uYAybW5s&sig=AOD64_3f_4LLFHubFPf7OfPLyfQcMKf8Og&adurl",
     "pageLink": "https://www.google.com/travel/hotels/entity/ChoIx4K-w-7khIuvARoNL2cvMTFwNXhoeHNrMhAB?hl=en&gl=kr",
     "breakfast": "unknown",
     "cancellation": "free",
@@ -523,7 +562,7 @@
      "창문 유무 확인 필요",
      "객실 면적 확인 필요"
     ],
-    "observedAt": "2026-11-18T02:07:02.349Z"
+    "observedAt": "2026-11-23T05:05:20.611Z"
    },
    "errors": []
   },
@@ -532,23 +571,23 @@
    "patternId": "w12-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2027-02-12",
-   "returnDate": "2027-02-15",
+   "departureDate": "2027-02-19",
+   "returnDate": "2027-02-22",
    "flight": {
-    "amount": 653168,
+    "amount": 740362,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:07:06.000Z",
+    "observedAt": "2026-11-23T05:05:28.000Z",
     "legs": [
      [
       {
-       "number": "MM 706",
-       "airline": "Peach Aviation",
+       "number": "RS 379",
+       "airline": "Air Seoul",
        "from": "ICN",
        "to": "KIX",
-       "departure": "2027-02-12 15:05",
-       "arrival": "2027-02-12 16:50"
+       "departure": "2027-02-19 18:50",
+       "arrival": "2027-02-19 20:40"
       }
      ],
      [
@@ -557,22 +596,25 @@
        "airline": "Air Busan",
        "from": "KIX",
        "to": "ICN",
-       "departure": "2027-02-15 15:40",
-       "arrival": "2027-02-15 18:05"
+       "departure": "2027-02-22 15:40",
+       "arrival": "2027-02-22 18:05"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTEyIh8KA0lDThIKMjAyNy0wMi0xMhoDS0lYKgJNTTIDNzA2KABqBwgBEgNJQ05yBwgBEgNLSVgaIBIKMjAyNy0wMi0xNSgAagcIARIDS0lYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTE5Ih8KA0lDThIKMjAyNy0wMi0xORoDS0lYKgJSUzIDMzc5KABqBwgBEgNJQ05yBwgBEgNLSVgaIBIKMjAyNy0wMi0yMigAagcIARIDS0lYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
    "hotel": {
+    "stars": null,
+    "rating": null,
+    "reviews": null,
     "name": "KOKO HOTEL Osaka Namba",
-    "room": "Moderate Double Non-Smoking",
-    "supplier": "Agoda",
-    "amount": 368116,
+    "room": "Moderate Twin-Non-Smoking",
+    "supplier": "Trip.com",
+    "amount": 255370,
     "feeReserveKRW": 30000,
-    "taxStatus": "included",
+    "taxStatus": "unknown",
     "quoteLevel": "room",
-    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi34JW_t5CYAxWeJ9QBHYDIOIQYACICCAEQIxoCb2E&co=1&ase=2&gclid=EAIaIQobChMIt-CVv7eQmAMVnifUAR2AyDiEEAoYBSAEEgI1DPD_BwE&cid=CAASuwHkaOc4-__CEwUqg8FZ57Mx_dWWeqBgSDi2Pg9dApFdPeRj_KRQSN1ep3YIIM73j48RYR7VMPKdRqGPzBSQENrc4Yn424fYTvQtD840DHGTmfhzWEywIDa-4NX1eleoJgFhsIJ06I-vREDgk7eauWAR4-ce-JkJ2GlPAAd8xtDYO7uxsPIFvjhp4Q3PhOQDRWFkydd9ZvrAG6C7p7LA23s0XeFFxWF0J8Snk8Jkdgwi-cucAoRsPuCzvfEg&category=acrcp_v1_48&sig=AOD64_1_vN_wqJkIhm6HiIq1Lwka3bVK-g&adurl",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi6-sTYqJ2YAxUIpgMAHUKTCpIYACICCAEQHRoCb2E&co=1&gclid=EAIaIQobChMIuvrE2KidmAMVCKYDAB1CkwqSEAoYBSACEgI5D_D_BwE&cid=CAASugHkaOZuOYOgek7Mt8bFfnt04URYkC8r0Qre7-ocUy3VuP6sVc5IpDYRYmoaVHwmqevCYbi0gSTzvPubOfsJfW6WbcwpkDNcj8J8454isH1-slk64n1pmxVLTwQl-PUbc1p_OwL0DeSyJXYDlL2KlpM-cGS_sPJNLa2p8GSD5oVfaw9ilKXbtXHAzddy6nGHqsIP6Jh_QBiuCStYq52t8_ygWrtpBsWbz_gOSsTUFRn9WFJcYvXoc3rmwMg&sig=AOD64_0W0n8eeZ0V_EjHUxwhvvOvqS5rDg&adurl",
     "pageLink": "https://www.google.com/travel/hotels/entity/ChoIx4K-w-7khIuvARoNL2cvMTFwNXhoeHNrMhAB?hl=en&gl=kr",
     "breakfast": "unknown",
     "cancellation": "free",
@@ -585,7 +627,7 @@
      "창문 유무 확인 필요",
      "객실 면적 확인 필요"
     ],
-    "observedAt": "2026-11-18T02:07:08.140Z"
+    "observedAt": "2026-11-23T05:05:31.500Z"
    },
    "errors": []
   },
@@ -597,20 +639,20 @@
    "departureDate": "2027-01-05",
    "returnDate": "2027-01-08",
    "flight": {
-    "amount": 665400,
+    "amount": 656296,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:07:16.000Z",
+    "observedAt": "2026-11-23T05:05:38.000Z",
     "legs": [
      [
       {
-       "number": "RS 381",
-       "airline": "Air Seoul",
+       "number": "7C 1395",
+       "airline": "Jeju Air",
        "from": "ICN",
        "to": "KIX",
-       "departure": "2027-01-05 15:20",
-       "arrival": "2027-01-05 17:00"
+       "departure": "2027-01-05 19:10",
+       "arrival": "2027-01-05 21:00"
       }
      ],
      [
@@ -624,17 +666,20 @@
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTA1Ih8KA0lDThIKMjAyNy0wMS0wNRoDS0lYKgJSUzIDMzgxKABqBwgBEgNJQ05yBwgBEgNLSVgaIBIKMjAyNy0wMS0wOCgAagcIARIDS0lYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI3LTAxLTA1IiAKA0lDThIKMjAyNy0wMS0wNRoDS0lYKgI3QzIEMTM5NSgAagcIARIDSUNOcgcIARIDS0lYGiASCjIwMjctMDEtMDgoAGoHCAESA0tJWHIHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
    },
    "hotel": {
+    "stars": null,
+    "rating": null,
+    "reviews": null,
     "name": "KOKO HOTEL Osaka Namba",
-    "room": "Moderate Double Room - Non-Smoking ",
-    "supplier": "Booking.com",
-    "amount": 192180,
+    "room": "Deluxe Twin Non Smoking",
+    "supplier": "Agoda",
+    "amount": 235961,
     "feeReserveKRW": 30000,
-    "taxStatus": "unknown",
+    "taxStatus": "included",
     "quoteLevel": "room",
-    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwirxuPDt5CYAxVLgIMHHXefNHUYACICCAEQFRoCZWY&co=1&gclid=EAIaIQobChMIq8bjw7eQmAMVS4CDBx13nzR1EAoYAiACEgKotPD_BwE&cid=CAASmAHkaAbk5Mt4afEZsSobV6APl23ra73e4Td0-mdZcdknGFteAXBaJQquIuxjTfiN5GI-VtNFRy1cvudKj_x320ELibRTQNzcjOkkrZH86TVBCcMkLilBEnnzVrgYqqHUj6kBhoB59fj1jx9u_bZq4JtAgkBsW28a6K7fbqmONytJJGCWNEBaNRCCJ9tXOJDpNoq72fBaTs5iFg&sig=AOD64_1lsfyVzwpeyhjzpFngSRFIAYH9cA&adurl",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwiE_aXeqJ2YAxXXSUgAHTB8H2gYACICCAEQHBoCY2U&co=1&ase=2&gclid=EAIaIQobChMIhP2l3qidmAMV10lIAB0wfB9oEAoYBCAGEgI1b_D_BwE&cid=CAASugHkaG2BdW-0d1LeoqqKwG_SfTUqasL5AM9hEqpcmXrVNwqH8HW7QUWJNXXW36x6UyBHRcEje-W_xWXY8lTUC32yeAriN9Vqc5eaCavalPAQGR0F-uocyuYdeJ18_4KhJ7IGBfxIR0-Y8h3J5pufM_R9Ap1Q0oUNDHcVad26JteNioAHT2lB52m6pOEXrizMMW5Qr5czFe0-Dh4r4adfV8wRVq9y0rHFPRsUEFPy8vslHsEAYUJrWmmdz1Q&category=acrcp_v1_48&sig=AOD64_28e0gn6nZh1RVSMnE4KAMRRluAmA&adurl",
     "pageLink": "https://www.google.com/travel/hotels/entity/ChoIx4K-w-7khIuvARoNL2cvMTFwNXhoeHNrMhAB?hl=en&gl=kr",
     "breakfast": "unknown",
     "cancellation": "free",
@@ -647,7 +692,7 @@
      "창문 유무 확인 필요",
      "객실 면적 확인 필요"
     ],
-    "observedAt": "2026-11-18T02:07:18.021Z"
+    "observedAt": "2026-11-23T05:05:43.341Z"
    },
    "errors": []
   },
@@ -656,14 +701,14 @@
    "patternId": "w4-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2026-12-18",
-   "returnDate": "2026-12-21",
+   "departureDate": "2026-12-25",
+   "returnDate": "2026-12-28",
    "flight": {
-    "amount": 886334,
+    "amount": 996384,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:07:25.000Z",
+    "observedAt": "2026-11-23T05:05:56.000Z",
     "legs": [
      [
       {
@@ -671,8 +716,8 @@
        "airline": "Tigerair Taiwan",
        "from": "ICN",
        "to": "TPE",
-       "departure": "2026-12-18 00:30",
-       "arrival": "2026-12-18 02:15"
+       "departure": "2026-12-25 00:30",
+       "arrival": "2026-12-25 02:15"
       }
      ],
      [
@@ -681,34 +726,40 @@
        "airline": "Tigerair Taiwan",
        "from": "TPE",
        "to": "ICN",
-       "departure": "2026-12-21 20:00",
-       "arrival": "2026-12-21 23:30"
+       "departure": "2026-12-28 20:00",
+       "arrival": "2026-12-28 23:30"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDVFBFKgJJVDIDNjAzKABqBwgBEgNJQ05yBwgBEgNUUEUaIBIKMjAyNi0xMi0yMSgAagcIARIDVFBFcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTI1Ih8KA0lDThIKMjAyNi0xMi0yNRoDVFBFKgJJVDIDNjAzKABqBwgBEgNJQ05yBwgBEgNUUEUaIBIKMjAyNi0xMi0yOCgAagcIARIDVFBFcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
    "hotel": {
-    "name": "Cityinn Hotel Plus",
-    "room": "Elite double",
-    "supplier": "Hotels.com",
-    "amount": 888005,
+    "stars": null,
+    "rating": null,
+    "reviews": null,
+    "name": "WESTGATE Hotel",
+    "room": "객실명은 예약처에서 확인",
+    "supplier": "Agoda",
+    "amount": 3207068,
     "feeReserveKRW": 0,
-    "taxStatus": "included",
-    "quoteLevel": "room",
-    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwiMm_bHt5CYAxVkcX8AHbgEALMYACICCAEQDhoCb2E&co=1&gclid=EAIaIQobChMIjJv2x7eQmAMVZHF_AB24BACzEAoYAyADEgKE9fD_BwE&cid=CAAS0wHkaPUQD5dJ6LSANt0NdgfUcsxT14MKmgFdq6mj-97vl2NyXwmvRUnPPpLZAh3IVE_SqPmq3t-wdHZbU5racC-PyYqgwiYPVOn7pazWLbq0fLKIN0fP-mYmY3HHJupyfAAd3hwxAORp9rAlUQCppdgXjJOBAo-Up2OZHdOYeLQc8Qv29URuaWhMcCjTCA6rSJzk9v2sXthV497dTUturDBxfJhlDXLBJEvjaNwyQ4AuQAl0mfbHcXGdgwKGnE_q9NIrQ8wN_WvTsTSOFUmHfr4jr9jL&sig=AOD64_0Vhoaz_jXrPJCqViQYO0xOAnwtSw&adurl",
-    "pageLink": "https://www.google.com/travel/hotels/entity/ChgIle_Lm_iX5aucARoLL2cvMXRyYzJuNmMQAQ?hl=en&gl=kr",
-    "breakfast": "excluded",
-    "cancellation": "free",
+    "taxStatus": "unknown",
+    "quoteLevel": "property",
+    "link": "https://www.google.com/travel/lodging/clk?pc=AJ0xEygtTwqyMioGoYh0Rmf9A7jCidYopMkSZNgGW3dgd47el4I_suQnm_gh-wCDTSC9Wxkx7s6tWDCA92ufwzozi0gTLdTehlgL5NumnFQQ0iHajpGAVgEU3JdlHGt8vbchfD1av_69Dfz0t1v05az5FniaIsNaJH0yB9rp2vgnh01fYE9PfR8-08lazGaP3Q&pcurl=https://www.agoda.com/partners/partnersearch.aspx?site_id%3D1917614%26CkInDay%3D25%26CkInMonth%3D12%26CkInYear%3D2026%26CkOutDay%3D28%26campaignid%3D%26CkOutMonth%3D12%26CkOutYear%3D2026%26SearchDateType%3Dselected%26NumberOfAdults%3D2%26LT%3D32%26NumberOfChildren%3D0%26childages%3D%26NumberOfRooms%3D1%26gsite%3Dlocaluniversal%26los%3D3%26PartnerCurrency%3DTWD%26hid%3D432966%26RoomID%3D2990600%26masterRoomId%3D2990600%26PriceTotal%3D3207068.25%26PriceTax%3D430308.41%26PriceFee%3D300642.16%26RatePlan%3De62bf563-4e22-81bd-9cf1-ac412136aae4%26UserCountry%3DGB%26Currency%3DKRW%26UserDevice%3Ddesktop%26Verif%3Dfalse%26rr%3Drow_desktop%26audience_list%3D%26mcid%3D332%26booking_source%3Dcpc%26adType%3D0%26mpt%3DeDhweHpGV29tZDhPaUhveFFIOXJITkVDNm94a2JSTmg1dlJHNGVwTnJ0djNhNFNCOXl1N0hsU0FlM0ZYOVRlRUwyeEdtdGQzM0FWbTg5RT0%26original_rr%3DGB%26gaClickSrc%3D%26clickType%3Dhotel%26lang%3Den%26pkgId%3DBreakfast_NoDinner_true&s=ALZo0YIkGHa6PxNqxha7FXXJC-bq&ap=1",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkInq_q6I7Pqe25ARoML2cvMTF5bDZqMWh5EAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "unknown",
     "zone": "시먼",
-    "station": "시먼역 3번 출구",
+    "station": "시먼역 6번 출구",
     "walk": 1,
     "warnings": [
+     "선택한 날짜·인원의 판매처 숙박 총액이에요. 객실명·침대 구성·재고는 예약처에서 확인해 주세요.",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
      "금연 여부 확인 필요",
+     "침대 구성 확인 필요",
      "창문 유무 확인 필요",
      "객실 면적 확인 필요"
     ],
-    "observedAt": "2026-11-18T02:07:26.760Z"
+    "observedAt": "2026-11-23T05:06:01.395Z"
    },
    "errors": []
   },
@@ -717,14 +768,14 @@
    "patternId": "w8-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2027-01-15",
-   "returnDate": "2027-01-18",
+   "departureDate": "2027-01-22",
+   "returnDate": "2027-01-25",
    "flight": {
-    "amount": 866334,
+    "amount": 1031334,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:07:28.000Z",
+    "observedAt": "2026-11-23T05:06:03.000Z",
     "legs": [
      [
       {
@@ -732,8 +783,8 @@
        "airline": "Tigerair Taiwan",
        "from": "ICN",
        "to": "TPE",
-       "departure": "2027-01-15 00:30",
-       "arrival": "2027-01-15 02:15"
+       "departure": "2027-01-22 00:30",
+       "arrival": "2027-01-22 02:15"
       }
      ],
      [
@@ -742,22 +793,25 @@
        "airline": "Tigerair Taiwan",
        "from": "TPE",
        "to": "ICN",
-       "departure": "2027-01-18 20:00",
-       "arrival": "2027-01-18 23:30"
+       "departure": "2027-01-25 20:00",
+       "arrival": "2027-01-25 23:30"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDVFBFKgJJVDIDNjAzKABqBwgBEgNJQ05yBwgBEgNUUEUaIBIKMjAyNy0wMS0xOCgAagcIARIDVFBFcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA0lDThIKMjAyNy0wMS0yMhoDVFBFKgJJVDIDNjAzKABqBwgBEgNJQ05yBwgBEgNUUEUaIBIKMjAyNy0wMS0yNSgAagcIARIDVFBFcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
    "hotel": {
+    "stars": null,
+    "rating": null,
+    "reviews": null,
     "name": "Cityinn Hotel Plus",
-    "room": "Standard Room, 1 Double Bed, No Windows",
-    "supplier": "Hotels.com",
-    "amount": 643079,
+    "room": "Standard Double Room (No Windows)",
+    "supplier": "Booking.com",
+    "amount": 670789,
     "feeReserveKRW": 0,
-    "taxStatus": "included",
+    "taxStatus": "unknown",
     "quoteLevel": "room",
-    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjK_oXKt5CYAxVZmIMHHUHwKQ0YACICCAEQBRoCZWY&co=1&gclid=EAIaIQobChMIyv6FyreQmAMVWZiDBx1B8CkNEAoYAiADEgJ-mPD_BwE&cid=CAASmAHkaNeesckBKl7vbjiNkLvOGhjk70ZSEqWgHodgwaJWn40xr6WG1WcnXDNnyJqhhsKitNG6V04Pq_xJzS4GeY9mk8IsKKoOPlIS-ch7CvNajXOU61m6YLUdmYSZmoOLro8-2uLdvmipLkT2xpcqT_iRubs_aboyNGU17lZl9qdTKnLYUyu9gD_MGN-kwEkipSkYmKdftWt1Qw&sig=AOD64_2rDj6L5qW675cFv_a8PIVkoFrKrQ&adurl",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjuhfHoqJ2YAxUDCWgBHSIkBXAYACICCAEQKxoCb2E&co=1&gclid=EAIaIQobChMI7oXx6KidmAMVAwloAR0iJAVwEAoYAiADEgKbMfD_BwE&cid=CAASugHkaABAFlKPQIDpTrUK68TvSwG3iuUOjKLY7A2KLu2oIxYJKBi3ureTqH6FdKULhXhqUXAENhgSRYQVnVA8oNh6P7BkTu7Tk43xu8S0Xb3voJ0B36e598U6wUVQ5LhGbFyD4no0GWJSQWw0_LnxMp4gCzanDWMrVB_96Z6X67b_RhKhYCOS9SVdsNj0Sr6_XqBprnVg6e2f58qvefPtKUoFAvPUnpXVx08V4JkvPoegkmnuHzlcPTWEqbQ&sig=AOD64_1cvs46gAbUrgydvnADWlkFlCHO4Q&adurl",
     "pageLink": "https://www.google.com/travel/hotels/entity/ChgIle_Lm_iX5aucARoLL2cvMXRyYzJuNmMQAQ?hl=en&gl=kr",
     "breakfast": "excluded",
     "cancellation": "free",
@@ -768,7 +822,7 @@
      "금연 여부 확인 필요",
      "객실 면적 확인 필요"
     ],
-    "observedAt": "2026-11-18T02:07:30.973Z"
+    "observedAt": "2026-11-23T05:06:05.468Z"
    },
    "errors": []
   },
@@ -777,14 +831,14 @@
    "patternId": "w12-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2027-02-12",
-   "returnDate": "2027-02-15",
+   "departureDate": "2027-02-19",
+   "returnDate": "2027-02-22",
    "flight": {
-    "amount": 944534,
+    "amount": 827534,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:07:35.000Z",
+    "observedAt": "2026-11-23T05:06:12.000Z",
     "legs": [
      [
       {
@@ -792,8 +846,8 @@
        "airline": "Tigerair Taiwan",
        "from": "ICN",
        "to": "TPE",
-       "departure": "2027-02-12 00:30",
-       "arrival": "2027-02-12 02:15"
+       "departure": "2027-02-19 00:30",
+       "arrival": "2027-02-19 02:15"
       }
      ],
      [
@@ -802,34 +856,36 @@
        "airline": "Tigerair Taiwan",
        "from": "TPE",
        "to": "ICN",
-       "departure": "2027-02-15 20:00",
-       "arrival": "2027-02-15 23:30"
+       "departure": "2027-02-22 20:00",
+       "arrival": "2027-02-22 23:30"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTEyIh8KA0lDThIKMjAyNy0wMi0xMhoDVFBFKgJJVDIDNjAzKABqBwgBEgNJQ05yBwgBEgNUUEUaIBIKMjAyNy0wMi0xNSgAagcIARIDVFBFcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTE5Ih8KA0lDThIKMjAyNy0wMi0xORoDVFBFKgJJVDIDNjAzKABqBwgBEgNJQ05yBwgBEgNUUEUaIBIKMjAyNy0wMi0yMigAagcIARIDVFBFcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
    "hotel": {
+    "stars": null,
+    "rating": null,
+    "reviews": null,
     "name": "Cityinn Hotel Plus",
-    "room": "Standard - Non-Smoking",
-    "supplier": "Agoda",
-    "amount": 471854,
+    "room": "Standard Room, 1 Double Bed, No Windows",
+    "supplier": "Hotels.com",
+    "amount": 575074,
     "feeReserveKRW": 0,
     "taxStatus": "included",
     "quoteLevel": "room",
-    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjOrd3Mt5CYAxUkswMAHbPiGJYYACICCAEQHRoCb2E&co=1&gclid=EAIaIQobChMIzq3dzLeQmAMVJLMDAB2z4hiWEAoYBCACEgLJW_D_BwE&cid=CAASuwHkaESLOsI8sgFKSl0yJsGFp_kc_eP_0RspUcXapoM5M6xvblRalOEBo_McUnzdMpHyPCZl8oTLwIaXebRT2N7BKjgunW3-WRQbqJFsPHPYAgPGQnjulgiDdfksFoXJuhk3Ty2mg5D7a1vK6Aia-T5md1PGBSTGmXxoMVIwcO-b4mWEohFqjPG8RtMEncV2aeu6-aLwVjoFU7s5tlAVejmAP-wKwyjYg0YA8pYr3YJD3wDDoSxwEpg6Jgb8&sig=AOD64_2qQdIAXMKPz0F_doB6QoupMvRzig&adurl",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjFnprtqJ2YAxWqpQMAHYydJiIYACICCAEQChoCb2E&co=1&gclid=EAIaIQobChMIxZ6a7aidmAMVqqUDAB2MnSYiEAoYASAEEgKAmvD_BwE&cid=CAAS0gHkaAktE67b46ecgoZfw37f7_RTvIEheS-nnNfoZ_3oq4_UqTSAS4S4b7UtWcA2zF1-WigPD61hF-uJSCqCINxQZULmRCN7JhmAyP6nAYX6hRZ4jOluq1TGDmlfU8UHvWNUg91A-dwqC4-Vc7y_4xIVvSWjBNkC0hs_89rPDMEj3YYlzGstGEOWzTfL0bAG5W5LkLDOBPKqPIrEQ2WDQAkqhCuTehQ7FcXzRjySA2qHBS_lrSVg8H8uH7ORSVRt2MH6YID4QwVao2vnHYOOu2sLRgc&sig=AOD64_3IRKdhzJgXvcX75eJFx7CKM9rzeA&adurl",
     "pageLink": "https://www.google.com/travel/hotels/entity/ChgIle_Lm_iX5aucARoLL2cvMXRyYzJuNmMQAQ?hl=en&gl=kr",
     "breakfast": "excluded",
-    "cancellation": "unknown",
+    "cancellation": "free",
     "zone": "시먼",
     "station": "시먼역 3번 출구",
     "walk": 1,
     "warnings": [
-     "창문 유무 확인 필요",
-     "객실 면적 확인 필요",
-     "취소 조건 확인 필요"
+     "금연 여부 확인 필요",
+     "객실 면적 확인 필요"
     ],
-    "observedAt": "2026-11-18T02:07:36.923Z"
+    "observedAt": "2026-11-23T05:06:14.916Z"
    },
    "errors": []
   },
@@ -841,11 +897,11 @@
    "departureDate": "2027-01-05",
    "returnDate": "2027-01-08",
    "flight": {
-    "amount": 839086,
+    "amount": 1021534,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:07:41.000Z",
+    "observedAt": "2026-11-23T05:06:20.000Z",
     "legs": [
      [
       {
@@ -859,86 +915,65 @@
      ],
      [
       {
-       "number": "TR 872",
-       "airline": "Scoot",
+       "number": "IT 602",
+       "airline": "Tigerair Taiwan",
        "from": "TPE",
        "to": "ICN",
-       "departure": "2027-01-08 18:10",
-       "arrival": "2027-01-08 21:40"
+       "departure": "2027-01-08 20:00",
+       "arrival": "2027-01-08 23:30"
       }
      ]
     ],
     "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTA1Ih8KA0lDThIKMjAyNy0wMS0wNRoDVFBFKgJJVDIDNjAzKABqBwgBEgNJQ05yBwgBEgNUUEUaIBIKMjAyNy0wMS0wOCgAagcIARIDVFBFcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Cityinn Hotel Plus 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Hoteis.com)"
-   ]
+   "hotel": {
+    "stars": null,
+    "rating": null,
+    "reviews": null,
+    "name": "Cityinn Hotel Plus",
+    "room": "Twin Room, No Windows",
+    "supplier": "Expedia.mx",
+    "amount": 580875,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjU2uXxqJ2YAxUgBWgBHbyBIIoYACICCAEQChoCb2E&co=1&gclid=EAIaIQobChMI1Nrl8aidmAMVIAVoAR28gSCKEAoYASAKEgLrZvD_BwE&cid=CAASugHkaB7GtHTkqedGqpZJYqScLoSovBEIDF-0tgzyooRycze0e1xzW9VT4uolhH0Okgi4k1BwZfy6anFNqmlRCqste8F7drj5iW2wpvpk8ejrw4EUSu2NqiwGsnYRIHZ33evCbNX4H91az_VcYnYbVN5McSL1uM8S9yTVDOi2O00TpTtuvrn1X4BM2Iu1WvtEbxzp-p89iahVQWl2YfTVancdAZy_JfEbrMd_YTJ27IniTTQWtf6A9kV-894&sig=AOD64_17EoReUi6Id7h6pk_xNUqYFt2bPw&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChgIle_Lm_iX5aucARoLL2cvMXRyYzJuNmMQAQ?hl=en&gl=kr",
+    "breakfast": "excluded",
+    "cancellation": "free",
+    "zone": "시먼",
+    "station": "시먼역 3번 출구",
+    "walk": 1,
+    "warnings": [
+     "금연 여부 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:06:24.310Z"
+   },
+   "errors": []
   },
   {
    "city": "tokyo",
    "patternId": "w4-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2026-12-18",
-   "returnDate": "2026-12-21",
+   "departureDate": "2026-12-25",
+   "returnDate": "2026-12-28",
    "flight": {
-    "amount": 730816,
+    "amount": 991038,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:07:51.000Z",
+    "observedAt": "2026-11-23T05:06:27.000Z",
     "legs": [
      [
       {
-       "number": "ZG 686",
+       "number": "ZG 44",
        "airline": "ZIPAIR Tokyo",
        "from": "ICN",
        "to": "NRT",
-       "departure": "2026-12-18 15:00",
-       "arrival": "2026-12-18 17:25"
-      }
-     ],
-     [
-      {
-       "number": "MM 641",
-       "airline": "Peach Aviation",
-       "from": "NRT",
-       "to": "ICN",
-       "departure": "2026-12-21 08:30",
-       "arrival": "2026-12-21 11:50"
-      }
-     ]
-    ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDTlJUKgJaRzIDNjg2KABqBwgBEgNJQ05yBwgBEgNOUlQaIBIKMjAyNi0xMi0yMSgAagcIARIDTlJUcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
-   },
-   "hotel": null,
-   "errors": [
-    "숙박: APA Hotel Nishi Shinjuku Gochome Eki Tower 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
-  },
-  {
-   "city": "tokyo",
-   "patternId": "w8-fri-3n",
-   "nights": 3,
-   "adults": 2,
-   "departureDate": "2027-01-15",
-   "returnDate": "2027-01-18",
-   "flight": {
-    "amount": 744474,
-    "stage": "roundtrip_search",
-    "outboundEcho": "absent",
-    "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:08:00.000Z",
-    "legs": [
-     [
-      {
-       "number": "ZG 46",
-       "airline": "ZIPAIR Tokyo",
-       "from": "ICN",
-       "to": "NRT",
-       "departure": "2027-01-15 13:05",
-       "arrival": "2027-01-15 15:30"
+       "departure": "2026-12-25 17:15",
+       "arrival": "2026-12-25 19:40"
       }
      ],
      [
@@ -947,31 +982,243 @@
        "airline": "ZIPAIR Tokyo",
        "from": "NRT",
        "to": "ICN",
-       "departure": "2027-01-18 08:55",
-       "arrival": "2027-01-18 11:35"
+       "departure": "2026-12-28 08:55",
+       "arrival": "2026-12-28 11:35"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAxLTE1Ih4KA0lDThIKMjAyNy0wMS0xNRoDTlJUKgJaRzICNDYoAGoHCAESA0lDTnIHCAESA05SVBogEgoyMDI3LTAxLTE4KABqBwgBEgNOUlRyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI2LTEyLTI1Ih4KA0lDThIKMjAyNi0xMi0yNRoDTlJUKgJaRzICNDQoAGoHCAESA0lDTnIHCAESA05SVBogEgoyMDI2LTEyLTI4KABqBwgBEgNOUlRyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Anshin Oyado Tokyo Man Shinjuku 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Ikyu.com)"
-   ]
+   "hotel": {
+    "stars": 3,
+    "rating": 4.1,
+    "reviews": 3488,
+    "name": "APA Hotel Nishi Shinjuku Gochome Eki Tower",
+    "room": "Double Room - Non-Smoking",
+    "supplier": "Agoda",
+    "amount": 493646,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjk89_2qJ2YAxVTN9QBHSlqNhkYACICCAEQFxoCb2E&co=1&gclid=EAIaIQobChMI5PPf9qidmAMVUzfUAR0pajYZEAoYBSAFEgLs-vD_BwE&cid=CAASugHkaPp297pIMiS4gNbQ-4XOIxIa9t1RWIiWo5t2OxE0bf89gc3agOH45QbI56MobvrymE9gzTH-d0bD-waxZtZU9l2iOYWbvjT98KjuKjiSc4TJduNjIpY2zU1OtLegV-EL9F2eRGqVdC95W2NeR-KhIG82c72A4yo78wJIDB_Vd8jce5kQ0Ah_WN2OVvkgPqB57MPLrodleheXRwfjf6yimeCjNMbID1NWBboTLkXjeZuGAVrSHKwg0gU&sig=AOD64_2150pOHzpPx40Y2tAKhQIlrVW10A&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkIvKvJp4OBypk9Gg0vZy8xMWZ5bGoxc3RsEAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "신주쿠 주변",
+    "station": "도심 기준점에서 직선 1.9km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:06:34.784Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 4,
+    "candidates": [
+     {
+      "name": "UNPLAN Shinjuku",
+      "cls": 2,
+      "rating": 4.2,
+      "reviews": 725,
+      "ok": false
+     },
+     {
+      "name": "APA Hotel Nishi Shinjuku Gochome Eki Tower",
+      "cls": 3,
+      "rating": 4.1,
+      "reviews": 3488,
+      "ok": true
+     },
+     {
+      "name": "APA Hotel Higashi-Shinjuku Kabukicho Tower",
+      "cls": 3,
+      "rating": 4.1,
+      "reviews": 1851,
+      "ok": true
+     },
+     {
+      "name": "Pearl Hotel Shinjuku Akebono-bashi",
+      "cls": 3,
+      "rating": 4.2,
+      "reviews": 649,
+      "ok": true
+     },
+     {
+      "name": "Stay SAKURA Tokyo 新宿 百蔵",
+      "cls": 3,
+      "rating": 4.3,
+      "reviews": 93,
+      "ok": false
+     },
+     {
+      "name": "Premier Hotel Cabin Shinjuku",
+      "cls": 3,
+      "rating": 3.9,
+      "reviews": 1642,
+      "ok": false
+     },
+     {
+      "name": "E Hotel Higashi Shinjuku",
+      "cls": 3,
+      "rating": 3.7,
+      "reviews": 541,
+      "ok": false
+     },
+     {
+      "name": "APA Hotel Shinjuku Kabukicho Chuo",
+      "cls": 3,
+      "rating": 4,
+      "reviews": 945,
+      "ok": true
+     }
+    ]
+   }
+  },
+  {
+   "city": "tokyo",
+   "patternId": "w8-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-22",
+   "returnDate": "2027-01-25",
+   "flight": {
+    "amount": 674894,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-23T05:06:37.000Z",
+    "legs": [
+     [
+      {
+       "number": "ZG 44",
+       "airline": "ZIPAIR Tokyo",
+       "from": "ICN",
+       "to": "NRT",
+       "departure": "2027-01-22 17:15",
+       "arrival": "2027-01-22 19:40"
+      }
+     ],
+     [
+      {
+       "number": "ZG 43",
+       "airline": "ZIPAIR Tokyo",
+       "from": "NRT",
+       "to": "ICN",
+       "departure": "2027-01-25 10:55",
+       "arrival": "2027-01-25 13:35"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAxLTIyIh4KA0lDThIKMjAyNy0wMS0yMhoDTlJUKgJaRzICNDQoAGoHCAESA0lDTnIHCAESA05SVBogEgoyMDI3LTAxLTI1KABqBwgBEgNOUlRyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "stars": 3,
+    "rating": 4.1,
+    "reviews": 3488,
+    "name": "APA Hotel Nishi Shinjuku Gochome Eki Tower",
+    "room": "Double Room with Small Double Bed - Non-Smoking",
+    "supplier": "Booking.com",
+    "amount": 362245,
+    "feeReserveKRW": 0,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwj-uOv9qJ2YAxVMWUECHSzkDpQYACICCAEQHRoCd3M&co=1&gclid=EAIaIQobChMI_rjr_aidmAMVTFlBAh0s5A6UEAoYAyACEgJ7J_D_BwE&cid=CAASlwHkaBaDoQdFE75g3zx0oiH-2c1ErzZscap7s5UWSZPi5QdioQeaodvGeXrLNJSBEvkPMyxIvfgWgfGXMJYBvyJn-N01QLDuTALg1TcrBAfVOCVIgZcSyGkjnEqizKJxOoIMiJM7N0OWoOWBG6mmc3HDwOAyZsO9JMXKL8q-Psuy0IwBgOWChzCDgA3j2kXTaHD7LcibhkBt&sig=AOD64_3sCsMPrnCFPpe84a2LhTsq3FviIw&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkIvKvJp4OBypk9Gg0vZy8xMWZ5bGoxc3RsEAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "신주쿠 주변",
+    "station": "도심 기준점에서 직선 1.9km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:06:49.863Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 1,
+    "candidates": [
+     {
+      "name": "Hotel Listel Shinjuku",
+      "cls": 3,
+      "rating": 3.5,
+      "reviews": 1062,
+      "ok": false
+     },
+     {
+      "name": "APA Hotel Nishi Shinjuku Gochome Eki Tower",
+      "cls": 3,
+      "rating": 4.1,
+      "reviews": 3488,
+      "ok": true
+     },
+     {
+      "name": "APA Hotel Higashi Shinjuku Kabukicho",
+      "cls": 3,
+      "rating": 3.8,
+      "reviews": 1462,
+      "ok": false
+     },
+     {
+      "name": "Hotel Sunlite Shinjuku",
+      "cls": 3,
+      "rating": 3.7,
+      "reviews": 1373,
+      "ok": false
+     },
+     {
+      "name": "E Hotel Higashi Shinjuku",
+      "cls": 3,
+      "rating": 3.7,
+      "reviews": 541,
+      "ok": false
+     },
+     {
+      "name": "Stay SAKURA Tokyo 新宿 百蔵",
+      "cls": 3,
+      "rating": 4.3,
+      "reviews": 93,
+      "ok": false
+     },
+     {
+      "name": "Premier Hotel Cabin Shinjuku",
+      "cls": 3,
+      "rating": 3.9,
+      "reviews": 1642,
+      "ok": false
+     },
+     {
+      "name": "APA Hotel Shinjuku Gyoemmae",
+      "cls": 3,
+      "rating": 3.9,
+      "reviews": 3290,
+      "ok": false
+     }
+    ]
+   }
   },
   {
    "city": "tokyo",
    "patternId": "w12-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2027-02-12",
-   "returnDate": "2027-02-15",
+   "departureDate": "2027-02-19",
+   "returnDate": "2027-02-22",
    "flight": {
-    "amount": 837010,
+    "amount": 848722,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:08:11.000Z",
+    "observedAt": "2026-11-23T05:06:56.000Z",
     "legs": [
      [
       {
@@ -979,27 +1226,112 @@
        "airline": "ZIPAIR Tokyo",
        "from": "ICN",
        "to": "NRT",
-       "departure": "2027-02-12 13:05",
-       "arrival": "2027-02-12 15:30"
+       "departure": "2027-02-19 13:05",
+       "arrival": "2027-02-19 15:30"
       }
      ],
      [
       {
-       "number": "YP 732",
-       "airline": "Air Premia",
+       "number": "MM 641",
+       "airline": "Peach Aviation",
        "from": "NRT",
        "to": "ICN",
-       "departure": "2027-02-15 12:30",
-       "arrival": "2027-02-15 15:20"
+       "departure": "2027-02-22 08:30",
+       "arrival": "2027-02-22 11:50"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAyLTEyIh4KA0lDThIKMjAyNy0wMi0xMhoDTlJUKgJaRzICNDYoAGoHCAESA0lDTnIHCAESA05SVBogEgoyMDI3LTAyLTE1KABqBwgBEgNOUlRyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAyLTE5Ih4KA0lDThIKMjAyNy0wMi0xORoDTlJUKgJaRzICNDYoAGoHCAESA0lDTnIHCAESA05SVBogEgoyMDI3LTAyLTIyKABqBwgBEgNOUlRyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Apartment Hotel Shinjuku 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
+   "hotel": {
+    "stars": 3,
+    "rating": 4.1,
+    "reviews": 2063,
+    "name": "Sotetsu Fresa Inn Higashi Shinjuku",
+    "room": "Double Room, Non Smoking",
+    "supplier": "Expedia.co.uk",
+    "amount": 492213,
+    "feeReserveKRW": 0,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwik15WDqZ2YAxX_rf0FHV9GAj8YACICCAEQDRoCd2Y&co=1&ase=2&gclid=EAIaIQobChMIpNeVg6mdmAMV_639BR1fRgI_EAoYASADEgKLXPD_BwE&cid=CAASlwHkaEGPssfrJhgUc4iGQNsbnkMw0MlMc2aBqb313-M45Vy7Jmh2WKSxXUtjodhEeI94oIcxOdOAc-kaHOXwPot3XE84GReHgVU3xvEU0Qk0BfAsmy_K6g59PCS3mdcriNez0g1juAkakL4GjA5LbkAFPELzvSGbU1_Fx1-k8UvKE19Tc0mOLai0dQrF9OhcdgJLBWzE2LcN&category=acrcp_v1_48&sig=AOD64_3XkqibC0c5ul4T6sn6HIcyx5NUMQ&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChgIt_7QopSEtoPHARoLL2cvMXRjdnR2bjAQAQ?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "신주쿠 주변",
+    "station": "도심 기준점에서 직선 0.7km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:07:01.142Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 4,
+    "candidates": [
+     {
+      "name": "Blue Empire Hotel In Shinjuku",
+      "cls": 2,
+      "rating": 3.5,
+      "reviews": 68,
+      "ok": false
+     },
+     {
+      "name": "GLOU Higashi Shinjuku, Tokyo",
+      "cls": 2,
+      "rating": 4.4,
+      "reviews": 197,
+      "ok": false
+     },
+     {
+      "name": "Premier Hotel Cabin Shinjuku",
+      "cls": 3,
+      "rating": 3.9,
+      "reviews": 1642,
+      "ok": false
+     },
+     {
+      "name": "APA Hotel Higashi-Shinjuku Kabukicho East",
+      "cls": 3,
+      "rating": 3.9,
+      "reviews": 967,
+      "ok": false
+     },
+     {
+      "name": "Sotetsu Fresa Inn Higashi Shinjuku",
+      "cls": 3,
+      "rating": 4.1,
+      "reviews": 2063,
+      "ok": true
+     },
+     {
+      "name": "APA Hotel Nishi Shinjuku Gochome Eki Tower",
+      "cls": 3,
+      "rating": 4.1,
+      "reviews": 3488,
+      "ok": true
+     },
+     {
+      "name": "The Knot Tokyo Shinjuku",
+      "cls": 3,
+      "rating": 4.2,
+      "reviews": 2692,
+      "ok": true
+     },
+     {
+      "name": "Tokyu Stay Nishi-Shinjuku",
+      "cls": 3,
+      "rating": 4,
+      "reviews": 839,
+      "ok": true
+     }
+    ]
+   }
   },
   {
    "city": "tokyo",
@@ -1009,11 +1341,11 @@
    "departureDate": "2027-01-05",
    "returnDate": "2027-01-08",
    "flight": {
-    "amount": 909858,
+    "amount": 918250,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:08:20.000Z",
+    "observedAt": "2026-11-23T05:07:06.000Z",
     "legs": [
      [
       {
@@ -1027,128 +1359,129 @@
      ],
      [
       {
-       "number": "7C 1130",
-       "airline": "Jeju Air",
+       "number": "RS 260",
+       "airline": "Air Seoul",
        "from": "NRT",
        "to": "ICN",
-       "departure": "2027-01-08 15:10",
-       "arrival": "2027-01-08 18:15"
+       "departure": "2027-01-08 12:50",
+       "arrival": "2027-01-08 15:35"
       }
      ]
     ],
     "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI3LTAxLTA1IiAKA0lDThIKMjAyNy0wMS0wNRoDTlJUKgI3QzIEMTE4MSgAagcIARIDSUNOcgcIARIDTlJUGiASCjIwMjctMDEtMDgoAGoHCAESA05SVHIHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Shinjuku East Hotel 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
+   "hotel": {
+    "stars": 3,
+    "rating": 4.1,
+    "reviews": 1851,
+    "name": "APA Hotel Higashi-Shinjuku Kabukicho Tower",
+    "room": "Standard Room for Two People, Non Smoking (Bldg/view not specified)",
+    "supplier": "Expedia.mx",
+    "amount": 304537,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwidnLWKqZ2YAxXRSn8AHYpuGAEYACICCAEQAxoCb2E&co=1&gclid=EAIaIQobChMInZy1iqmdmAMV0Up_AB2KbhgBEAoYASADEgKg2_D_BwE&cid=CAAS0gHkaGGoiS4mH-wM0DL2t8OBdqLcCxqPhw21quQNmXEhj8RcPadSEHW8BF3IUjPeg0EBJlrYWxc-eiXpLe46vOliutf74ZFOex7peDuZL9z4J6GdRBDLkiiQXx8zYu7D9BbGD6b2rK88VGs2QBprkujGK6nqn6SQph343GMgAZoohu-EnsMa1lfnq2q49nmlHhwe-HqVq76-FMX5rhUm4eIkCBizQqhe9QwBRjKPBux9HwRxRG5hNROcm9bFk68oBcyxiWcsjiIDk6JbnUf7_76s5fw&sig=AOD64_1cHps49vuCH-9nD5zP_-S9whA6hQ&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChoIyvDxmcWQgueiARoNL2cvMTFnYjNuMjdxeBAB?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "신주쿠 주변",
+    "station": "도심 기준점에서 직선 0.5km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:07:16.069Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 2,
+    "candidates": [
+     {
+      "name": "Shin-Okubo International Hotel",
+      "cls": 2,
+      "rating": 3.8,
+      "reviews": 80,
+      "ok": false
+     },
+     {
+      "name": "Tokyo Business Hotel",
+      "cls": 3,
+      "rating": 3.7,
+      "reviews": 875,
+      "ok": false
+     },
+     {
+      "name": "E Hotel Higashi Shinjuku",
+      "cls": 3,
+      "rating": 3.7,
+      "reviews": 541,
+      "ok": false
+     },
+     {
+      "name": "Apartment Hotel Shinjuku",
+      "cls": 1,
+      "rating": 3.9,
+      "reviews": 408,
+      "ok": false
+     },
+     {
+      "name": "Royal Hotel Shinokubo",
+      "cls": 2,
+      "rating": 3.9,
+      "reviews": 202,
+      "ok": false
+     },
+     {
+      "name": "APA Hotel Higashi-Shinjuku Kabukicho Tower",
+      "cls": 3,
+      "rating": 4.1,
+      "reviews": 1851,
+      "ok": true
+     },
+     {
+      "name": "APA Hotel Higashi-Shinjuku Kabukicho East",
+      "cls": 3,
+      "rating": 3.9,
+      "reviews": 967,
+      "ok": false
+     },
+     {
+      "name": "Pearl Hotel Shinjuku Akebono-bashi",
+      "cls": 3,
+      "rating": 4.2,
+      "reviews": 649,
+      "ok": true
+     }
+    ]
+   }
   },
   {
    "city": "danang",
    "patternId": "w4-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2026-12-18",
-   "returnDate": "2026-12-21",
+   "departureDate": "2026-12-25",
+   "returnDate": "2026-12-28",
    "flight": {
-    "amount": 787550,
+    "amount": 1051163,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:08:39.000Z",
+    "observedAt": "2026-11-23T05:07:23.000Z",
     "legs": [
      [
       {
-       "number": "VJ 879",
-       "airline": "Vietjet",
+       "number": "LJ 81",
+       "airline": "Jin Air",
        "from": "ICN",
        "to": "DAD",
-       "departure": "2026-12-18 07:00",
-       "arrival": "2026-12-18 10:05"
-      }
-     ],
-     [
-      {
-       "number": "VJ 878",
-       "airline": "Vietjet",
-       "from": "DAD",
-       "to": "ICN",
-       "departure": "2026-12-21 23:40",
-       "arrival": "2026-12-22 06:00"
-      }
-     ]
-    ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDREFEKgJWSjIDODc5KABqBwgBEgNJQ05yBwgBEgNEQUQaIBIKMjAyNi0xMi0yMSgAagcIARIDREFEcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
-   },
-   "hotel": null,
-   "errors": [
-    "숙박: Crystal Hotel 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
-  },
-  {
-   "city": "danang",
-   "patternId": "w8-fri-3n",
-   "nights": 3,
-   "adults": 2,
-   "departureDate": "2027-01-15",
-   "returnDate": "2027-01-18",
-   "flight": {
-    "amount": 1165086,
-    "stage": "roundtrip_search",
-    "outboundEcho": "absent",
-    "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:08:50.000Z",
-    "legs": [
-     [
-      {
-       "number": "VJ 879",
-       "airline": "Vietjet",
-       "from": "ICN",
-       "to": "DAD",
-       "departure": "2027-01-15 07:00",
-       "arrival": "2027-01-15 10:05"
-      }
-     ],
-     [
-      {
-       "number": "VJ 874",
-       "airline": "Vietjet",
-       "from": "DAD",
-       "to": "ICN",
-       "departure": "2027-01-18 16:20",
-       "arrival": "2027-01-18 22:40"
-      }
-     ]
-    ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDREFEKgJWSjIDODc5KABqBwgBEgNJQ05yBwgBEgNEQUQaIBIKMjAyNy0wMS0xOCgAagcIARIDREFEcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
-   },
-   "hotel": null,
-   "errors": [
-    "숙박: Maris Beachside Hotel Da Nang 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
-  },
-  {
-   "city": "danang",
-   "patternId": "w12-fri-3n",
-   "nights": 3,
-   "adults": 2,
-   "departureDate": "2027-02-12",
-   "returnDate": "2027-02-15",
-   "flight": {
-    "amount": 1061136,
-    "stage": "roundtrip_search",
-    "outboundEcho": "absent",
-    "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:08:58.000Z",
-    "legs": [
-     [
-      {
-       "number": "RS 95",
-       "airline": "Air Seoul",
-       "from": "ICN",
-       "to": "DAD",
-       "departure": "2027-02-12 20:55",
-       "arrival": "2027-02-12 23:40"
+       "departure": "2026-12-25 17:30",
+       "arrival": "2026-12-25 20:45"
       }
      ],
      [
@@ -1157,17 +1490,313 @@
        "airline": "Jeju Air",
        "from": "DAD",
        "to": "ICN",
-       "departure": "2027-02-15 01:30",
-       "arrival": "2027-02-15 07:55"
+       "departure": "2026-12-28 01:30",
+       "arrival": "2026-12-28 07:55"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAyLTEyIh4KA0lDThIKMjAyNy0wMi0xMhoDREFEKgJSUzICOTUoAGoHCAESA0lDTnIHCAESA0RBRBogEgoyMDI3LTAyLTE1KABqBwgBEgNEQURyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI2LTEyLTI1Ih4KA0lDThIKMjAyNi0xMi0yNRoDREFEKgJMSjICODEoAGoHCAESA0lDTnIHCAESA0RBRBogEgoyMDI2LTEyLTI4KABqBwgBEgNEQURyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
    },
    "hotel": null,
    "errors": [
-    "숙박: DTC HOTEL 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(HomeToGo)"
-   ]
+    "숙박: Elites Hotel: 인정하는 예약처의 객실 요금이 없어요."
+   ],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 1,
+    "candidates": [
+     {
+      "name": "Maris Beachside Hotel Da Nang",
+      "cls": 0,
+      "rating": 5,
+      "reviews": 40,
+      "ok": false
+     },
+     {
+      "name": "Le House Boutique Hotel",
+      "cls": 3,
+      "rating": 3.7,
+      "reviews": 513,
+      "ok": false
+     },
+     {
+      "name": "DC Residence Hotel & Apartments Da Nang",
+      "cls": 0,
+      "rating": 4.7,
+      "reviews": 47,
+      "ok": false
+     },
+     {
+      "name": "Elites Hotel",
+      "cls": 4,
+      "rating": 4.4,
+      "reviews": 320,
+      "ok": true
+     },
+     {
+      "name": "Ocean Haven Hotel",
+      "cls": 0,
+      "rating": 4.2,
+      "reviews": 437,
+      "ok": false
+     },
+     {
+      "name": "Cocorico Danang Beach Hotel",
+      "cls": 0,
+      "rating": 4.3,
+      "reviews": 204,
+      "ok": false
+     },
+     {
+      "name": "LAVISH OCEAN INN Đà Nẵng",
+      "cls": 0,
+      "rating": 4.5,
+      "reviews": 223,
+      "ok": false
+     },
+     {
+      "name": "Ocean Glow Boutique Da Nang by Haviland",
+      "cls": 0,
+      "rating": 4.6,
+      "reviews": 562,
+      "ok": false
+     }
+    ]
+   }
+  },
+  {
+   "city": "danang",
+   "patternId": "w8-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-01-22",
+   "returnDate": "2027-01-25",
+   "flight": {
+    "amount": 866000,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-23T05:07:38.000Z",
+    "legs": [
+     [
+      {
+       "number": "9G 421",
+       "airline": "Sun PhuQuoc Airways",
+       "from": "ICN",
+       "to": "DAD",
+       "departure": "2027-01-22 07:00",
+       "arrival": "2027-01-22 10:10"
+      }
+     ],
+     [
+      {
+       "number": "9G 420",
+       "airline": "Sun PhuQuoc Airways",
+       "from": "DAD",
+       "to": "ICN",
+       "departure": "2027-01-25 23:15",
+       "arrival": "2027-01-26 05:30"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA0lDThIKMjAyNy0wMS0yMhoDREFEKgI5RzIDNDIxKABqBwgBEgNJQ05yBwgBEgNEQUQaIBIKMjAyNy0wMS0yNSgAagcIARIDREFEcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "stars": 4,
+    "rating": 4.7,
+    "reviews": 1309,
+    "name": "Sea Near Me Hotel",
+    "room": "Deluxe Double Room",
+    "supplier": "Hotels.com",
+    "amount": 400352,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjH8OqWqZ2YAxVYEK0GHXUiPA8YACICCAEQGRoCcHY&co=1&ase=2&gclid=EAIaIQobChMIx_DqlqmdmAMVWBCtBh11IjwPEAoYASAKEgJph_D_BwE&cid=CAAS0gHkaJVLbhp970WZAH3CzmJD8ddjL5nwYZ57I4UMHPJSFHbHC5mD9XYj7Qh1XmIk_hASU0aJvDt3QAfbaBe2VelGKpWz2B8zNKK88MvsB4HRI5YbD9ZtXvmSrDToX5egEmuUTpaH2evz9sES6vzekzPwn8ZiglEit-5OSK2Ij3Rwuxo08QRtBXCYo-M759gEG6nWRjh9gehhzJvTe09d_mue6H-T5G7hWp7s38wBptf4YXNENRK-eJakyRNNS4wHqbNUvFxFvRJ1TQCG3AbT0g45tok&category=acrcp_v1_48&sig=AOD64_1ompzzE3aI81_ZfVJssSEL3LyuRQ&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkIhfP-ja-3lbFjGg0vZy8xMXZxNnpzdmg4EAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "미케 해변·도심",
+    "station": "도심 기준점에서 직선 0.1km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "금연 여부 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:07:42.209Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 3,
+    "candidates": [
+     {
+      "name": "Maris Beachside Hotel Da Nang",
+      "cls": 0,
+      "rating": 5,
+      "reviews": 40,
+      "ok": false
+     },
+     {
+      "name": "Sea Near Me Hotel",
+      "cls": 4,
+      "rating": 4.7,
+      "reviews": 1309,
+      "ok": true
+     },
+     {
+      "name": "Sea Front Hotel",
+      "cls": 4,
+      "rating": 3.7,
+      "reviews": 461,
+      "ok": false
+     },
+     {
+      "name": "Ocean Glow Boutique Da Nang by Haviland",
+      "cls": 0,
+      "rating": 4.6,
+      "reviews": 563,
+      "ok": false
+     },
+     {
+      "name": "LAVISH OCEAN INN Đà Nẵng",
+      "cls": 0,
+      "rating": 4.5,
+      "reviews": 223,
+      "ok": false
+     },
+     {
+      "name": "MERCY EMERALD HOTEL",
+      "cls": 4,
+      "rating": 4.7,
+      "reviews": 1601,
+      "ok": true
+     },
+     {
+      "name": "Mai's Boutique",
+      "cls": 0,
+      "rating": 4.7,
+      "reviews": 222,
+      "ok": false
+     },
+     {
+      "name": "PHUC LONG LUXURY DANANG",
+      "cls": 4,
+      "rating": 4.6,
+      "reviews": 862,
+      "ok": true
+     }
+    ]
+   }
+  },
+  {
+   "city": "danang",
+   "patternId": "w12-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-02-19",
+   "returnDate": "2027-02-22",
+   "flight": {
+    "amount": 1128200,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-23T05:07:49.000Z",
+    "legs": [
+     [
+      {
+       "number": "RS 95",
+       "airline": "Air Seoul",
+       "from": "ICN",
+       "to": "DAD",
+       "departure": "2027-02-19 20:55",
+       "arrival": "2027-02-19 23:40"
+      }
+     ],
+     [
+      {
+       "number": "RS 96",
+       "airline": "Air Seoul",
+       "from": "DAD",
+       "to": "ICN",
+       "departure": "2027-02-22 00:40",
+       "arrival": "2027-02-22 07:15"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAyLTE5Ih4KA0lDThIKMjAyNy0wMi0xORoDREFEKgJSUzICOTUoAGoHCAESA0lDTnIHCAESA0RBRBogEgoyMDI3LTAyLTIyKABqBwgBEgNEQURyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
+   },
+   "hotel": null,
+   "errors": [
+    "숙박: Sunny Ocean Hotel & Spa: 인정하는 예약처의 객실 요금이 없어요.",
+    "숙박: Pavilion Da Nang Hotel: 인정하는 예약처의 객실 요금이 없어요.",
+    "숙박: Parosand Danang Hotel: 인정하는 예약처의 객실 요금이 없어요."
+   ],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 4,
+    "candidates": [
+     {
+      "name": "Maris Beachside Hotel Da Nang",
+      "cls": 0,
+      "rating": 5,
+      "reviews": 40,
+      "ok": false
+     },
+     {
+      "name": "Sea Front Hotel",
+      "cls": 4,
+      "rating": 3.7,
+      "reviews": 461,
+      "ok": false
+     },
+     {
+      "name": "Ocean Glow Boutique Da Nang by Haviland",
+      "cls": 0,
+      "rating": 4.6,
+      "reviews": 563,
+      "ok": false
+     },
+     {
+      "name": "LAVISH OCEAN INN Đà Nẵng",
+      "cls": 0,
+      "rating": 4.5,
+      "reviews": 223,
+      "ok": false
+     },
+     {
+      "name": "Sunny Ocean Hotel & Spa",
+      "cls": 4,
+      "rating": 4.3,
+      "reviews": 646,
+      "ok": true
+     },
+     {
+      "name": "Pavilion Da Nang Hotel",
+      "cls": 4,
+      "rating": 4.4,
+      "reviews": 1960,
+      "ok": true
+     },
+     {
+      "name": "Parosand Danang Hotel",
+      "cls": 4,
+      "rating": 4.8,
+      "reviews": 5414,
+      "ok": true
+     },
+     {
+      "name": "Mandila Beach Hotel",
+      "cls": 4,
+      "rating": 4.6,
+      "reviews": 2974,
+      "ok": true
+     }
+    ]
+   }
   },
   {
    "city": "danang",
@@ -1177,104 +1806,126 @@
    "departureDate": "2027-01-05",
    "returnDate": "2027-01-08",
    "flight": {
-    "amount": 842278,
+    "amount": 888388,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:09:06.000Z",
+    "observedAt": "2026-11-23T05:08:02.000Z",
     "legs": [
      [
       {
-       "number": "TW 11",
-       "airline": "Trinity Airways",
+       "number": "RS 95",
+       "airline": "Air Seoul",
        "from": "ICN",
        "to": "DAD",
-       "departure": "2027-01-05 19:00",
-       "arrival": "2027-01-05 22:20"
+       "departure": "2027-01-05 20:55",
+       "arrival": "2027-01-05 23:40"
       }
      ],
      [
       {
-       "number": "RS 96",
-       "airline": "Air Seoul",
+       "number": "LJ 82",
+       "airline": "Jin Air",
        "from": "DAD",
        "to": "ICN",
-       "departure": "2027-01-08 00:40",
-       "arrival": "2027-01-08 07:15"
+       "departure": "2027-01-08 21:45",
+       "arrival": "2027-01-09 04:25"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAxLTA1Ih4KA0lDThIKMjAyNy0wMS0wNRoDREFEKgJUVzICMTEoAGoHCAESA0lDTnIHCAESA0RBRBogEgoyMDI3LTAxLTA4KABqBwgBEgNEQURyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpAEgoyMDI3LTAxLTA1Ih4KA0lDThIKMjAyNy0wMS0wNRoDREFEKgJSUzICOTUoAGoHCAESA0lDTnIHCAESA0RBRBogEgoyMDI3LTAxLTA4KABqBwgBEgNEQURyBwgBEgNJQ05AAUABSAFwAZgBAQ&tfu=EgIIAQ"
    },
    "hotel": null,
    "errors": [
-    "숙박: Elites Hotel 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
+    "숙박: MERCY EMERALD HOTEL: 인정하는 예약처의 객실 요금이 없어요.",
+    "숙박: Sunny Ocean Hotel & Spa: 인정하는 예약처의 객실 요금이 없어요.",
+    "숙박: Pavilion Da Nang Hotel: 인정하는 예약처의 객실 요금이 없어요."
+   ],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 6,
+    "candidates": [
+     {
+      "name": "LAVISH OCEAN INN Đà Nẵng",
+      "cls": 0,
+      "rating": 4.5,
+      "reviews": 223,
+      "ok": false
+     },
+     {
+      "name": "MERCY EMERALD HOTEL",
+      "cls": 4,
+      "rating": 4.7,
+      "reviews": 1601,
+      "ok": true
+     },
+     {
+      "name": "Sunny Ocean Hotel & Spa",
+      "cls": 4,
+      "rating": 4.3,
+      "reviews": 646,
+      "ok": true
+     },
+     {
+      "name": "Mai's Boutique",
+      "cls": 0,
+      "rating": 4.7,
+      "reviews": 222,
+      "ok": false
+     },
+     {
+      "name": "Pavilion Da Nang Hotel",
+      "cls": 4,
+      "rating": 4.4,
+      "reviews": 1960,
+      "ok": true
+     },
+     {
+      "name": "PHUC LONG LUXURY DANANG",
+      "cls": 4,
+      "rating": 4.6,
+      "reviews": 862,
+      "ok": true
+     },
+     {
+      "name": "Maximilan Hotel",
+      "cls": 4,
+      "rating": 4.5,
+      "reviews": 1626,
+      "ok": true
+     },
+     {
+      "name": "Parosand Danang Hotel",
+      "cls": 4,
+      "rating": 4.8,
+      "reviews": 5414,
+      "ok": true
+     }
+    ]
+   }
   },
   {
    "city": "nhatrang",
    "patternId": "w4-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2026-12-18",
-   "returnDate": "2026-12-21",
+   "departureDate": "2026-12-25",
+   "returnDate": "2026-12-28",
    "flight": {
-    "amount": 728974,
+    "amount": 1255900,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:09:23.000Z",
+    "observedAt": "2026-11-23T05:08:17.000Z",
     "legs": [
      [
       {
-       "number": "VJ 835",
-       "airline": "Vietjet",
-       "from": "ICN",
-       "to": "CXR",
-       "departure": "2026-12-18 06:45",
-       "arrival": "2026-12-18 09:55"
-      }
-     ],
-     [
-      {
-       "number": "RS 116",
+       "number": "RS 115",
        "airline": "Air Seoul",
-       "from": "CXR",
-       "to": "ICN",
-       "departure": "2026-12-21 00:30",
-       "arrival": "2026-12-21 07:25"
-      }
-     ]
-    ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDQ1hSKgJWSjIDODM1KABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNi0xMi0yMSgAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
-   },
-   "hotel": null,
-   "errors": [
-    "숙박: Xavia 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(momondo.co.uk)"
-   ]
-  },
-  {
-   "city": "nhatrang",
-   "patternId": "w8-fri-3n",
-   "nights": 3,
-   "adults": 2,
-   "departureDate": "2027-01-15",
-   "returnDate": "2027-01-18",
-   "flight": {
-    "amount": 1099564,
-    "stage": "roundtrip_search",
-    "outboundEcho": "absent",
-    "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:09:30.000Z",
-    "legs": [
-     [
-      {
-       "number": "VJ 837",
-       "airline": "Vietjet",
        "from": "ICN",
        "to": "CXR",
-       "departure": "2027-01-15 07:00",
-       "arrival": "2027-01-15 10:10"
+       "departure": "2026-12-25 20:00",
+       "arrival": "2026-12-25 23:30"
       }
      ],
      [
@@ -1283,31 +1934,117 @@
        "airline": "Vietjet",
        "from": "CXR",
        "to": "ICN",
-       "departure": "2027-01-18 22:30",
-       "arrival": "2027-01-19 05:25"
+       "departure": "2026-12-28 22:30",
+       "arrival": "2026-12-29 05:25"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDQ1hSKgJWSjIDODM3KABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNy0wMS0xOCgAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTI1Ih8KA0lDThIKMjAyNi0xMi0yNRoDQ1hSKgJSUzIDMTE1KABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNi0xMi0yOCgAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Alana Beach Hotel 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
+   "hotel": {
+    "stars": 4,
+    "rating": 4.2,
+    "reviews": 1223,
+    "name": "Alana Beach Hotel",
+    "room": "Standard Twin City View",
+    "supplier": "Agoda",
+    "amount": 171287,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi0oYiqqZ2YAxUgUn8AHTGMJowYACICCAEQMRoCb2E&co=1&gclid=EAIaIQobChMItKGIqqmdmAMVIFJ_AB0xjCaMEAoYBCAKEgIEoPD_BwE&cid=CAASugHkaLQCeZFIiig6LsDi5F5ysuBUntPl79oCMeC3sz0VtrbvLwQTDWY1bFiDR8gzJngAw4Y7_-MpHYNCtyT4vizWHbkTjMukAnRL9ar-1xLUkoiBM0e3S_tQzQarUPwWRaeXIBMFEO1wEL6IMPgosoxf5sJPdGWtMFKIcw0PDnXWAk60uZzmNhgknp9qwdLV98zF4vce8DV-ZB3hHuImudCAagaGBg5uRkWbB6PD7nz-GGyBQfbPc_jeJjc&sig=AOD64_0LkMGuuDZ_oUlMz8K1R8coIl8_DQ&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkI5peeta3-1vU1Gg0vZy8xMWI4OHFreWR3EAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "나트랑 시내 해변",
+    "station": "도심 기준점에서 직선 0.9km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "금연 여부 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:08:22.605Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 8,
+    "candidates": [
+     {
+      "name": "Seana Hotel Nha Trang",
+      "cls": 4,
+      "rating": 4.7,
+      "reviews": 1065,
+      "ok": true
+     },
+     {
+      "name": "Liberty Central Nha Trang Hotel",
+      "cls": 4,
+      "rating": 4.4,
+      "reviews": 2540,
+      "ok": true
+     },
+     {
+      "name": "Alana Beach Hotel",
+      "cls": 4,
+      "rating": 4.2,
+      "reviews": 1223,
+      "ok": true
+     },
+     {
+      "name": "TTC Hotel Michelia, Nha Trang",
+      "cls": 5,
+      "rating": 4.5,
+      "reviews": 2221,
+      "ok": true
+     },
+     {
+      "name": "Diamond Bay Hotel",
+      "cls": 5,
+      "rating": 4.3,
+      "reviews": 1457,
+      "ok": true
+     },
+     {
+      "name": "Queen Ann Hotel",
+      "cls": 5,
+      "rating": 4.7,
+      "reviews": 1945,
+      "ok": true
+     },
+     {
+      "name": "Starcity Bayfront Nha Trang",
+      "cls": 5,
+      "rating": 4.6,
+      "reviews": 3030,
+      "ok": true
+     },
+     {
+      "name": "Mercure Nha Trang Beach",
+      "cls": 4,
+      "rating": 4.8,
+      "reviews": 1523,
+      "ok": true
+     }
+    ]
+   }
   },
   {
    "city": "nhatrang",
-   "patternId": "w12-fri-3n",
+   "patternId": "w8-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2027-02-12",
-   "returnDate": "2027-02-15",
+   "departureDate": "2027-01-22",
+   "returnDate": "2027-01-25",
    "flight": {
-    "amount": 1088088,
+    "amount": 1201240,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:09:38.000Z",
+    "observedAt": "2026-11-23T05:08:24.000Z",
     "legs": [
      [
       {
@@ -1315,27 +2052,241 @@
        "airline": "Air Busan",
        "from": "ICN",
        "to": "CXR",
-       "departure": "2027-02-12 16:50",
-       "arrival": "2027-02-12 20:20"
+       "departure": "2027-01-22 16:50",
+       "arrival": "2027-01-22 20:20"
       }
      ],
      [
       {
-       "number": "VJ 834",
-       "airline": "Vietjet",
+       "number": "7C 2304",
+       "airline": "Jeju Air",
        "from": "CXR",
        "to": "ICN",
-       "departure": "2027-02-15 22:45",
-       "arrival": "2027-02-16 05:35"
+       "departure": "2027-01-25 02:10",
+       "arrival": "2027-01-25 09:05"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTEyIh8KA0lDThIKMjAyNy0wMi0xMhoDQ1hSKgJCWDIDMTAzKABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNy0wMi0xNSgAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA0lDThIKMjAyNy0wMS0yMhoDQ1hSKgJCWDIDMTAzKABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNy0wMS0yNSgAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Yasaka Saigon Nha Trang 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Bluepillow.co.uk)"
-   ]
+   "hotel": {
+    "stars": 4,
+    "rating": 4.2,
+    "reviews": 1223,
+    "name": "Alana Beach Hotel",
+    "room": "Standard Double Room, City View",
+    "supplier": "Expedia.co.uk",
+    "amount": 137826,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwju7-2vqZ2YAxWqolAGHcaBGW0YACICCAEQAxoCZGc&co=1&ase=2&gclid=EAIaIQobChMI7u_tr6mdmAMVqqJQBh3GgRltEAoYASADEgJgcvD_BwE&cid=CAASlwHkaBNjWkzril7_mKvHf4HvlNh2Jrn0T3_bGL4mhFkEuZYLnBJSWFIzj8q0DPi_5ZJuTO0CDffEsRiWCF0yDd9TWZuVCPYzdY2nv_6gOAfwS-oXXjx39kgN7rcsVC-QBDC1pz5wFj3NG1s2bJY117ikBiThi__3BqJ0R-IytOtTjMqGRqf41PS_YtIYoaCBsHuMaUQV7fwj&category=acrcp_v1_48&sig=AOD64_04qim8ADu2v_T4c0kaoMG9dYlwVg&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkI5peeta3-1vU1Gg0vZy8xMWI4OHFreWR3EAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "나트랑 시내 해변",
+    "station": "도심 기준점에서 직선 0.9km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "금연 여부 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:08:34.685Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 8,
+    "candidates": [
+     {
+      "name": "Seana Hotel Nha Trang",
+      "cls": 4,
+      "rating": 4.7,
+      "reviews": 1065,
+      "ok": true
+     },
+     {
+      "name": "Alana Beach Hotel",
+      "cls": 4,
+      "rating": 4.2,
+      "reviews": 1223,
+      "ok": true
+     },
+     {
+      "name": "Liberty Central Nha Trang Hotel",
+      "cls": 4,
+      "rating": 4.4,
+      "reviews": 2540,
+      "ok": true
+     },
+     {
+      "name": "TTC Hotel Michelia, Nha Trang",
+      "cls": 5,
+      "rating": 4.5,
+      "reviews": 2221,
+      "ok": true
+     },
+     {
+      "name": "Diamond Bay Hotel",
+      "cls": 5,
+      "rating": 4.3,
+      "reviews": 1457,
+      "ok": true
+     },
+     {
+      "name": "Queen Ann Hotel",
+      "cls": 5,
+      "rating": 4.7,
+      "reviews": 1945,
+      "ok": true
+     },
+     {
+      "name": "Vinpearl Beachfront Nha Trang",
+      "cls": 5,
+      "rating": 4.9,
+      "reviews": 30845,
+      "ok": true
+     },
+     {
+      "name": "Citadines Bayfront Nha Trang",
+      "cls": 5,
+      "rating": 4.7,
+      "reviews": 3228,
+      "ok": true
+     }
+    ]
+   }
+  },
+  {
+   "city": "nhatrang",
+   "patternId": "w12-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-02-19",
+   "returnDate": "2027-02-22",
+   "flight": {
+    "amount": 1172366,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-23T05:08:36.000Z",
+    "legs": [
+     [
+      {
+       "number": "VJ 835",
+       "airline": "Vietjet",
+       "from": "ICN",
+       "to": "CXR",
+       "departure": "2027-02-19 06:45",
+       "arrival": "2027-02-19 09:55"
+      }
+     ],
+     [
+      {
+       "number": "VJ 836",
+       "airline": "Vietjet",
+       "from": "CXR",
+       "to": "ICN",
+       "departure": "2027-02-22 22:30",
+       "arrival": "2027-02-23 05:25"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTE5Ih8KA0lDThIKMjAyNy0wMi0xORoDQ1hSKgJWSjIDODM1KABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNy0wMi0yMigAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "stars": 4,
+    "rating": 4.2,
+    "reviews": 1223,
+    "name": "Alana Beach Hotel",
+    "room": "Superior Double Room, City View",
+    "supplier": "Hotels.com",
+    "amount": 155157,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjmivOyqZ2YAxXqvQMAHTKZBAgYACICCAEQCRoCb2E&co=1&ase=2&gclid=EAIaIQobChMI5orzsqmdmAMV6r0DAB0ymQQIEAoYASAHEgLIzfD_BwE&cid=CAASugHkaHgpqfAR9w0uOyNE0r8pnTbSvKk_QYyiNY0SKqzO6jqUFWuI-K_fikI_bSNXH4jTtpVANge7oPuD5T9PWvkHhVyIMvKjNqeBTRquCkOQsrzg6M0XJ6iNTwg3zz_M-ERDVpBtDc6dcsl-thys6fl9LAgquLa0-XZDdhm3nTZhN9XD7DzXxlAAx8PlYBnibucqAnJ_CWLxJP72-Ry84UJyJxms2-qBzk42kKbDd2HRP0DC6AKvELFcg_w&category=acrcp_v1_48&sig=AOD64_30ybr_aaq9OooZwTSemqzxsvUklw&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkI5peeta3-1vU1Gg0vZy8xMWI4OHFreWR3EAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "나트랑 시내 해변",
+    "station": "도심 기준점에서 직선 0.9km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "금연 여부 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:08:41.050Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 8,
+    "candidates": [
+     {
+      "name": "Alana Beach Hotel",
+      "cls": 4,
+      "rating": 4.2,
+      "reviews": 1223,
+      "ok": true
+     },
+     {
+      "name": "Seana Hotel Nha Trang",
+      "cls": 4,
+      "rating": 4.7,
+      "reviews": 1065,
+      "ok": true
+     },
+     {
+      "name": "TTC Hotel Michelia, Nha Trang",
+      "cls": 5,
+      "rating": 4.5,
+      "reviews": 2221,
+      "ok": true
+     },
+     {
+      "name": "Mercure Nha Trang Beach",
+      "cls": 4,
+      "rating": 4.8,
+      "reviews": 1523,
+      "ok": true
+     },
+     {
+      "name": "Starcity Bayfront Nha Trang",
+      "cls": 5,
+      "rating": 4.6,
+      "reviews": 3030,
+      "ok": true
+     },
+     {
+      "name": "Diamond Bay Hotel",
+      "cls": 5,
+      "rating": 4.3,
+      "reviews": 1457,
+      "ok": true
+     },
+     {
+      "name": "Queen Ann Hotel",
+      "cls": 5,
+      "rating": 4.7,
+      "reviews": 1945,
+      "ok": true
+     },
+     {
+      "name": "Havana Nha Trang Hotel",
+      "cls": 5,
+      "rating": 4.5,
+      "reviews": 5340,
+      "ok": true
+     }
+    ]
+   }
   },
   {
    "city": "nhatrang",
@@ -1345,20 +2296,20 @@
    "departureDate": "2027-01-05",
    "returnDate": "2027-01-08",
    "flight": {
-    "amount": 935014,
+    "amount": 909504,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:09:44.000Z",
+    "observedAt": "2026-11-23T05:08:43.000Z",
     "legs": [
      [
       {
-       "number": "VJ 835",
-       "airline": "Vietjet",
+       "number": "RS 115",
+       "airline": "Air Seoul",
        "from": "ICN",
        "to": "CXR",
-       "departure": "2027-01-05 06:45",
-       "arrival": "2027-01-05 09:55"
+       "departure": "2027-01-05 20:00",
+       "arrival": "2027-01-05 23:30"
       }
      ],
      [
@@ -1372,65 +2323,129 @@
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTA1Ih8KA0lDThIKMjAyNy0wMS0wNRoDQ1hSKgJWSjIDODM1KABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNy0wMS0wOCgAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTA1Ih8KA0lDThIKMjAyNy0wMS0wNRoDQ1hSKgJSUzIDMTE1KABqBwgBEgNJQ05yBwgBEgNDWFIaIBIKMjAyNy0wMS0wOCgAagcIARIDQ1hScgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
    "hotel": null,
    "errors": [
-    "숙박: Alana Beach Hotel 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
+    "숙박: Rosaka: 인정하는 예약처의 객실 요금이 없어요.",
+    "숙박: Alana Beach Hotel: 인정하는 예약처의 객실 요금이 없어요.",
+    "숙박: Liberty Central Nha Trang Hotel: 인정하는 예약처의 객실 요금이 없어요."
+   ],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 8,
+    "candidates": [
+     {
+      "name": "Rosaka",
+      "cls": 4,
+      "rating": 4.5,
+      "reviews": 736,
+      "ok": true
+     },
+     {
+      "name": "Alana Beach Hotel",
+      "cls": 4,
+      "rating": 4.2,
+      "reviews": 1223,
+      "ok": true
+     },
+     {
+      "name": "Liberty Central Nha Trang Hotel",
+      "cls": 4,
+      "rating": 4.4,
+      "reviews": 2540,
+      "ok": true
+     },
+     {
+      "name": "TTC Hotel Michelia, Nha Trang",
+      "cls": 5,
+      "rating": 4.5,
+      "reviews": 2221,
+      "ok": true
+     },
+     {
+      "name": "Seana Hotel Nha Trang",
+      "cls": 4,
+      "rating": 4.7,
+      "reviews": 1065,
+      "ok": true
+     },
+     {
+      "name": "Mercure Nha Trang Beach",
+      "cls": 4,
+      "rating": 4.8,
+      "reviews": 1523,
+      "ok": true
+     },
+     {
+      "name": "Diamond Bay Hotel",
+      "cls": 5,
+      "rating": 4.3,
+      "reviews": 1457,
+      "ok": true
+     },
+     {
+      "name": "Queen Ann Hotel",
+      "cls": 5,
+      "rating": 4.7,
+      "reviews": 1945,
+      "ok": true
+     }
+    ]
+   }
   },
   {
    "city": "bangkok",
    "patternId": "w4-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2026-12-18",
-   "returnDate": "2026-12-21",
+   "departureDate": "2026-12-25",
+   "returnDate": "2026-12-28",
    "flight": {
-    "amount": 1293688,
+    "amount": 1445000,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:17:05.000Z",
+    "observedAt": "2026-11-23T05:08:54.000Z",
     "legs": [
      [
       {
-       "number": "VZ 851",
-       "airline": "Thai Vietjet Air",
+       "number": "7C 2503",
+       "airline": "Jeju Air",
        "from": "ICN",
        "to": "BKK",
-       "departure": "2026-12-18 12:10",
-       "arrival": "2026-12-18 16:20"
+       "departure": "2026-12-25 19:30",
+       "arrival": "2026-12-25 23:50"
       }
      ],
      [
       {
-       "number": "VZ 850",
-       "airline": "Thai Vietjet Air",
+       "number": "7C 2504",
+       "airline": "Jeju Air",
        "from": "BKK",
        "to": "ICN",
-       "departure": "2026-12-21 02:40",
-       "arrival": "2026-12-21 10:00"
+       "departure": "2026-12-28 01:00",
+       "arrival": "2026-12-28 08:25"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI2LTEyLTE4Ih8KA0lDThIKMjAyNi0xMi0xOBoDQktLKgJWWjIDODUxKABqBwgBEgNJQ05yBwgBEgNCS0saIBIKMjAyNi0xMi0yMSgAagcIARIDQktLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI2LTEyLTI1IiAKA0lDThIKMjAyNi0xMi0yNRoDQktLKgI3QzIEMjUwMygAagcIARIDSUNOcgcIARIDQktLGiASCjIwMjYtMTItMjgoAGoHCAESA0JLS3IHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
    },
    "hotel": {
-    "stars": 3,
-    "rating": 4.2,
-    "reviews": 273,
-    "name": "Narawad Boutique Hotel",
-    "room": "Standard Double Room with Balcony",
-    "supplier": "Agoda",
-    "amount": 173163,
+    "stars": 4,
+    "rating": 4,
+    "reviews": 12468,
+    "name": "Ambassador Hotel Bangkok",
+    "room": "Privilege Double Bed Sky Wing",
+    "supplier": "Hotels.com",
+    "amount": 435729,
     "feeReserveKRW": 0,
     "taxStatus": "included",
     "quoteLevel": "room",
-    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwij5PzeuZCYAxWrGGgBHaPlGAAYACICCAEQBhoCb2E&co=1&gclid=EAIaIQobChMIo-T83rmQmAMVqxhoAR2j5RgAEAoYASAEEgLqm_D_BwE&cid=CAASuwHkaMin48QVAAOSEcHRJzscVWfDYRbTs5Th4NheE7Q9Sp937TtArpG0UEFeTRStGUFW39LrMV94APURQA7y1qx9sWb6x6PK3jOZovgp4JYK9jatR0HFLVGQraCPl1PaVBPKK-dDl7tixAeKMHfs3taM8uyQyaHad1TORcx8ZwWe4hSNpRdH0hFMzrGTQ3cYBpwy5bkfC2SqsxHYP8bvPz93w5FSj5t1XQjNrj5HdB_BuSrCvbr8Jzjzb2aX&sig=AOD64_37Qo69SVRwIhM1n2hFZCWQeQBg4Q&adurl",
-    "pageLink": "https://www.google.com/travel/hotels/entity/ChoIvcnEyOqphdHGARoNL2cvMTFjMnI5ejMzMBAB?hl=en&gl=kr",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjy6c-7qZ2YAxW6mWYCHYPKM8gYACICCAEQPBoCc20&co=1&gclid=EAIaIQobChMI8unPu6mdmAMVuplmAh2DyjPIEAoYASAMEgK5w_D_BwE&cid=CAASugHkaBN4DDsy6SngxTVB4C0dgG7nNAs3MIvxJJW0aPCCvXdYAM-JIbHMFve6baf2CgWG_JsW8IUnvMWfpnxpd9dY2kaInjfy66oDcKYjjEYeYppalaTpEaqf2-Z1D4EKlJ_JluZDd3TIY5RKejkFFKze--zNy8JDp6ym3vJRZeS7W-weAyQaQfa255sEoUl7w5zEniwxHungJ-KddF48QA7RawDux8u4KeX9K9lPqVAAWk14wcyI354sVNw&sig=AOD64_31SHSwp0dUbYLXe7ZpEX55HS92Kg&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChgIqpSUrvX_0KYWGgwvZy8xeWdscGYwcWwQAQ?hl=en&gl=kr",
     "breakfast": "unknown",
-    "cancellation": "unknown",
+    "cancellation": "free",
     "zone": "아속·수쿰윗 주변",
     "station": "도심 기준점에서 직선 0.6km",
     "walk": null,
@@ -1439,16 +2454,22 @@
      "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
      "금연 여부 확인 필요",
      "창문 유무 확인 필요",
-     "객실 면적 확인 필요",
-     "취소 조건 확인 필요"
+     "객실 면적 확인 필요"
     ],
-    "observedAt": "2026-11-18T02:17:10.458Z"
+    "observedAt": "2026-11-23T05:08:58.671Z"
    },
    "errors": [],
    "hotelSearch": {
     "found": 8,
     "passed": 6,
     "candidates": [
+     {
+      "name": "Ralph Poshtel Sukhumvit",
+      "cls": 0,
+      "rating": 4.7,
+      "reviews": 141,
+      "ok": false
+     },
      {
       "name": "Ostay Asoke Bangkok",
       "cls": 4,
@@ -1457,24 +2478,10 @@
       "ok": false
      },
      {
-      "name": "Narawad Boutique Hotel",
-      "cls": 3,
-      "rating": 4.2,
-      "reviews": 273,
-      "ok": true
-     },
-     {
-      "name": "iCheck inn Sukhumvit 19",
-      "cls": 3,
-      "rating": 3.9,
-      "reviews": 286,
-      "ok": false
-     },
-     {
-      "name": "Fx Hotel Metrolink Makkasan",
-      "cls": 3,
+      "name": "Ambassador Hotel Bangkok",
+      "cls": 4,
       "rating": 4,
-      "reviews": 1296,
+      "reviews": 12468,
       "ok": true
      },
      {
@@ -1485,24 +2492,31 @@
       "ok": true
      },
      {
-      "name": "The Quarter Phrom Phong by UHG",
-      "cls": 4,
-      "rating": 4.1,
-      "reviews": 728,
+      "name": "Citadines Sukhumvit 11 Bangkok",
+      "cls": 3,
+      "rating": 4.2,
+      "reviews": 1044,
       "ok": true
      },
      {
-      "name": "Galleria 10 Hotel Bangkok",
+      "name": "Solitaire Bangkok Sukhumvit 11 by Kingston Hotels",
       "cls": 4,
-      "rating": 4,
-      "reviews": 2298,
+      "rating": 4.2,
+      "reviews": 3133,
       "ok": true
      },
      {
       "name": "Ramada by Wyndham Bangkok Sukhumvit 11",
       "cls": 4,
       "rating": 4,
-      "reviews": 2272,
+      "reviews": 2280,
+      "ok": true
+     },
+     {
+      "name": "Pipa Bangkok Sukhumvit 11 by Kingston Hotels",
+      "cls": 4,
+      "rating": 4.4,
+      "reviews": 426,
       "ok": true
      }
     ]
@@ -1513,14 +2527,143 @@
    "patternId": "w8-fri-3n",
    "nights": 3,
    "adults": 2,
-   "departureDate": "2027-01-15",
-   "returnDate": "2027-01-18",
+   "departureDate": "2027-01-22",
+   "returnDate": "2027-01-25",
    "flight": {
-    "amount": 1270200,
+    "amount": 1307220,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:10:04.000Z",
+    "observedAt": "2026-11-23T05:09:08.000Z",
+    "legs": [
+     [
+      {
+       "number": "VZ 851",
+       "airline": "Thai Vietjet Air",
+       "from": "ICN",
+       "to": "BKK",
+       "departure": "2027-01-22 12:10",
+       "arrival": "2027-01-22 16:20"
+      }
+     ],
+     [
+      {
+       "number": "VZ 850",
+       "airline": "Thai Vietjet Air",
+       "from": "BKK",
+       "to": "ICN",
+       "departure": "2027-01-25 02:40",
+       "arrival": "2027-01-25 10:00"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA0lDThIKMjAyNy0wMS0yMhoDQktLKgJWWjIDODUxKABqBwgBEgNJQ05yBwgBEgNCS0saIBIKMjAyNy0wMS0yNSgAagcIARIDQktLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "stars": 3,
+    "rating": 4,
+    "reviews": 435,
+    "name": "The Key Bangkok",
+    "room": "Deluxe Room",
+    "supplier": "Agoda",
+    "amount": 327878,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwiYqdrEqZ2YAxVKAK0GHf_vN0IYACICCAEQFRoCcHY&co=1&gclid=EAIaIQobChMImKnaxKmdmAMVSgCtBh3_7zdCEAoYAyADEgLievD_BwE&cid=CAAS0gHkaA_A71inmhCYi8TsoAcKALK_Ndkb5hWyZVO3-0F3AESeSL3oRd2bFmuVG8fr3NVCK5HGaOV_Nxmni9uwGTbedtg5iqmfNYKwUUPHFHVTdf3eJh-DZdH6moY063Y5ZDwPakKfHRLFfYiLN0hCTR0n_WkJqpmZnozuxqH7jOfrqjjPHzNsM5Jq13JAPTaNe3T6oPvfEf3ZhFU4hGV4HPUlHZX4eE6ptFG4OYLQVJPFmq0tSB78GBY5YmiLo4EXYhr6jF_6wHS8lmHvnbprzymaI-w&sig=AOD64_3hRZEKRXaZmDgp-92LJ8rCc9Nwhg&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChcIioTd8uPpsaBBGgsvZy8xdG5xZGZ6MBAB?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "아속·수쿰윗 주변",
+    "station": "도심 기준점에서 직선 0.1km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "금연 여부 확인 필요",
+     "침대 구성 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:09:18.379Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 4,
+    "candidates": [
+     {
+      "name": "Ostay Asoke Bangkok",
+      "cls": 4,
+      "rating": 3.9,
+      "reviews": 123,
+      "ok": false
+     },
+     {
+      "name": "iCheck inn Sukhumvit 19",
+      "cls": 3,
+      "rating": 3.9,
+      "reviews": 286,
+      "ok": false
+     },
+     {
+      "name": "The Key Bangkok",
+      "cls": 3,
+      "rating": 4,
+      "reviews": 435,
+      "ok": true
+     },
+     {
+      "name": "Uno Express Asoke Sukhumvit Bangkok",
+      "cls": 3,
+      "rating": 4.5,
+      "reviews": 44,
+      "ok": false
+     },
+     {
+      "name": "Kingston Suites Bangkok Sukhumvit 15 by Kingston Hotels",
+      "cls": 4,
+      "rating": 3.9,
+      "reviews": 941,
+      "ok": false
+     },
+     {
+      "name": "Galleria 10 Hotel Bangkok",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 2303,
+      "ok": true
+     },
+     {
+      "name": "FuramaXclusive Asoke",
+      "cls": 4,
+      "rating": 4.3,
+      "reviews": 2231,
+      "ok": true
+     },
+     {
+      "name": "Ambassador Hotel Bangkok",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 12468,
+      "ok": true
+     }
+    ]
+   }
+  },
+  {
+   "city": "bangkok",
+   "patternId": "w12-fri-3n",
+   "nights": 3,
+   "adults": 2,
+   "departureDate": "2027-02-19",
+   "returnDate": "2027-02-22",
+   "flight": {
+    "amount": 1250200,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-23T05:09:20.000Z",
     "legs": [
      [
       {
@@ -1528,8 +2671,8 @@
        "airline": "Air Premia",
        "from": "ICN",
        "to": "BKK",
-       "departure": "2027-01-15 17:15",
-       "arrival": "2027-01-15 21:25"
+       "departure": "2027-02-19 17:15",
+       "arrival": "2027-02-19 21:25"
       }
      ],
      [
@@ -1538,59 +2681,104 @@
        "airline": "Air Premia",
        "from": "BKK",
        "to": "ICN",
-       "departure": "2027-01-18 22:55",
-       "arrival": "2027-01-19 06:15"
+       "departure": "2027-02-22 22:55",
+       "arrival": "2027-02-23 06:15"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDQktLKgJZUDIDNjAxKABqBwgBEgNJQ05yBwgBEgNCS0saIBIKMjAyNy0wMS0xOCgAagcIARIDQktLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTE5Ih8KA0lDThIKMjAyNy0wMi0xORoDQktLKgJZUDIDNjAxKABqBwgBEgNJQ05yBwgBEgNCS0saIBIKMjAyNy0wMi0yMigAagcIARIDQktLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Ostay Asoke Bangkok 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
-  },
-  {
-   "city": "bangkok",
-   "patternId": "w12-fri-3n",
-   "nights": 3,
-   "adults": 2,
-   "departureDate": "2027-02-12",
-   "returnDate": "2027-02-15",
-   "flight": {
-    "amount": 1108600,
-    "stage": "roundtrip_search",
-    "outboundEcho": "absent",
-    "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:10:20.000Z",
-    "legs": [
-     [
-      {
-       "number": "TG 653",
-       "airline": "THAI",
-       "from": "ICN",
-       "to": "BKK",
-       "departure": "2027-02-12 17:00",
-       "arrival": "2027-02-12 20:55"
-      }
-     ],
-     [
-      {
-       "number": "TG 652",
-       "airline": "THAI",
-       "from": "BKK",
-       "to": "ICN",
-       "departure": "2027-02-15 08:00",
-       "arrival": "2027-02-15 15:25"
-      }
-     ]
+   "hotel": {
+    "stars": 4,
+    "rating": 4.3,
+    "reviews": 2231,
+    "name": "FuramaXclusive Asoke",
+    "room": "Deluxe Room",
+    "supplier": "Trip.com",
+    "amount": 220133,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwiFybDHqZ2YAxUXH2gBHUpQNGsYACICCAEQHhoCb2E&co=1&gclid=EAIaIQobChMIhcmwx6mdmAMVFx9oAR1KUDRrEAoYBSACEgKzJPD_BwE&cid=CAASugHkaDzJuJED28OD9QdE4Q0AcdSWpVCz8vPIF_blOXU2ukFuVzs_03FjYY9vGspE42W3BE3XtneaHFaK1f-RYZouur4MHoZj2IK15NhrAy8wRDYwXwZNsr1y46a6l1BoiMd2wdNPVzd9Vau0F6ET1RTeVYLfhHEg9q72HKbDB_VvkTJhb09gkqFAYFMXv6fvLLJ1GsvHwfYYZu5b4zzXPbg0ROTlvi0EjLJfv2wGBOQAyWVR-Qw-BY45n8U&sig=AOD64_3toVmtNLVAWBEyastcoiPOiUUn0w&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChgItq3zpPqn2sCmARoLL2cvMXZ6cXBxZjEQAQ?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "아속·수쿰윗 주변",
+    "station": "도심 기준점에서 직선 0.3km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "금연 여부 확인 필요",
+     "침대 구성 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAyLTEyIh8KA0lDThIKMjAyNy0wMi0xMhoDQktLKgJURzIDNjUzKABqBwgBEgNJQ05yBwgBEgNCS0saIBIKMjAyNy0wMi0xNSgAagcIARIDQktLcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "observedAt": "2026-11-23T05:09:23.894Z"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Ostay Asoke Bangkok 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Bluepillow.co.uk)"
-   ]
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 4,
+    "candidates": [
+     {
+      "name": "Ostay Asoke Bangkok",
+      "cls": 4,
+      "rating": 3.9,
+      "reviews": 123,
+      "ok": false
+     },
+     {
+      "name": "EM HOME Sukhumvit Bangkok",
+      "cls": 0,
+      "rating": 4.7,
+      "reviews": 36,
+      "ok": false
+     },
+     {
+      "name": "Uno Express Asoke Sukhumvit Bangkok",
+      "cls": 3,
+      "rating": 4.5,
+      "reviews": 44,
+      "ok": false
+     },
+     {
+      "name": "FuramaXclusive Asoke",
+      "cls": 4,
+      "rating": 4.3,
+      "reviews": 2231,
+      "ok": true
+     },
+     {
+      "name": "Kingston Suites Bangkok Sukhumvit 15 by Kingston Hotels",
+      "cls": 4,
+      "rating": 3.9,
+      "reviews": 941,
+      "ok": false
+     },
+     {
+      "name": "Asoke Residence Sukhumvit by UHG",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 1379,
+      "ok": true
+     },
+     {
+      "name": "Ambassador Hotel Bangkok",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 12468,
+      "ok": true
+     },
+     {
+      "name": "Ramada by Wyndham Bangkok Sukhumvit 11",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 2280,
+      "ok": true
+     }
+    ]
+   }
   },
   {
    "city": "bangkok",
@@ -1600,11 +2788,11 @@
    "departureDate": "2027-01-05",
    "returnDate": "2027-01-08",
    "flight": {
-    "amount": 1317000,
+    "amount": 1345000,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:10:39.000Z",
+    "observedAt": "2026-11-23T05:09:33.000Z",
     "legs": [
      [
       {
@@ -1629,66 +2817,110 @@
     ],
     "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpCEgoyMDI3LTAxLTA1IiAKA0lDThIKMjAyNy0wMS0wNRoDQktLKgI3QzIEMjUwMygAagcIARIDSUNOcgcIARIDQktLGiASCjIwMjctMDEtMDgoAGoHCAESA0JLS3IHCAESA0lDTkABQAFIAXABmAEB&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Ostay Asoke Bangkok 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Bluepillow.co.uk)"
-   ]
+   "hotel": {
+    "stars": 4,
+    "rating": 4,
+    "reviews": 1379,
+    "name": "Asoke Residence Sukhumvit by UHG",
+    "room": "Economy Room, 1 Queen Bed",
+    "supplier": "Expedia.mx",
+    "amount": 241397,
+    "feeReserveKRW": 0,
+    "taxStatus": "included",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjcv_vOqZ2YAxV6vQMAHaqyE5MYACICCAEQBhoCb2E&co=1&ase=2&gclid=EAIaIQobChMI3L_7zqmdmAMVer0DAB2qshOTEAoYASAGEgKXHvD_BwE&cid=CAAS0gHkaES67ZZcd6skWTeHMLtqk6VsEl3Uo1rBvO2coUlu4u-ktA8B_VXqejE9i4VopYQtFOZsw54b7Kx60jeO2uZb7eSfJ4z8OuAmhgs9GKhab6Bn4C1wsBH31oLoUd-v1dSndgemrCkgxZrCn_uR1J98YLX4bKTHOgOiBDXiIOo0FcwTgeGpztJyC_kYs6LTfjaFQXxzqpf1KDrTSUOt83sJSRSTq6nciO5edJveANYQed3JPWU6-TLVTFRxaGVcERIAUIpLcqN2SA7H1sDUXnRUQQk&category=acrcp_v1_48&sig=AOD64_0W1MmZFAGDBaLMz8UuJBOILsXbYg&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkI3becvMGQtK3WARoML2cvMXB0eTczanpsEAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "아속·수쿰윗 주변",
+    "station": "도심 기준점에서 직선 1.0km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "금연 여부 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:09:39.703Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 4,
+    "candidates": [
+     {
+      "name": "Ostay Asoke Bangkok",
+      "cls": 4,
+      "rating": 3.9,
+      "reviews": 123,
+      "ok": false
+     },
+     {
+      "name": "EM HOME Sukhumvit Bangkok",
+      "cls": 0,
+      "rating": 4.7,
+      "reviews": 36,
+      "ok": false
+     },
+     {
+      "name": "Uno Express Asoke Sukhumvit Bangkok",
+      "cls": 3,
+      "rating": 4.5,
+      "reviews": 44,
+      "ok": false
+     },
+     {
+      "name": "Asoke Residence Sukhumvit by UHG",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 1379,
+      "ok": true
+     },
+     {
+      "name": "FuramaXclusive Asoke",
+      "cls": 4,
+      "rating": 4.3,
+      "reviews": 2231,
+      "ok": true
+     },
+     {
+      "name": "Kingston Suites Bangkok Sukhumvit 15 by Kingston Hotels",
+      "cls": 4,
+      "rating": 3.9,
+      "reviews": 941,
+      "ok": false
+     },
+     {
+      "name": "Ambassador Hotel Bangkok",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 12468,
+      "ok": true
+     },
+     {
+      "name": "Galleria 10 Hotel Bangkok",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 2303,
+      "ok": true
+     }
+    ]
+   }
   },
   {
    "city": "paris",
    "patternId": "w8-fri-7n",
    "nights": 7,
    "adults": 2,
-   "departureDate": "2027-01-15",
-   "returnDate": "2027-01-22",
+   "departureDate": "2027-01-22",
+   "returnDate": "2027-01-29",
    "flight": {
-    "amount": 2452400,
+    "amount": 2740000,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:11:04.000Z",
-    "legs": [
-     [
-      {
-       "number": "AF 267",
-       "airline": "Air France",
-       "from": "ICN",
-       "to": "CDG",
-       "departure": "2027-01-15 13:20",
-       "arrival": "2027-01-15 19:45"
-      }
-     ],
-     [
-      {
-       "number": "AF 264",
-       "airline": "Air France",
-       "from": "CDG",
-       "to": "ICN",
-       "departure": "2027-01-22 15:05",
-       "arrival": "2027-01-23 11:15"
-      }
-     ]
-    ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDQ0RHKgJBRjIDMjY3KABqBwgBEgNJQ05yBwgBEgNDREcaIBIKMjAyNy0wMS0yMigAagcIARIDQ0RHcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
-   },
-   "hotel": null,
-   "errors": [
-    "숙박: New Hôtel Gare Du Nord 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
-  },
-  {
-   "city": "paris",
-   "patternId": "w16-fri-7n",
-   "nights": 7,
-   "adults": 2,
-   "departureDate": "2027-03-12",
-   "returnDate": "2027-03-19",
-   "flight": {
-    "amount": 2901600,
-    "stage": "roundtrip_search",
-    "outboundEcho": "absent",
-    "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:11:26.000Z",
+    "observedAt": "2026-11-23T05:09:49.000Z",
     "legs": [
      [
       {
@@ -1696,8 +2928,8 @@
        "airline": "Trinity Airways",
        "from": "ICN",
        "to": "CDG",
-       "departure": "2027-03-12 09:50",
-       "arrival": "2027-03-12 16:50"
+       "departure": "2027-01-22 09:50",
+       "arrival": "2027-01-22 16:50"
       }
      ],
      [
@@ -1706,31 +2938,247 @@
        "airline": "Trinity Airways",
        "from": "CDG",
        "to": "ICN",
-       "departure": "2027-03-19 19:30",
-       "arrival": "2027-03-20 16:05"
+       "departure": "2027-01-29 19:30",
+       "arrival": "2027-01-30 16:05"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAzLTEyIh8KA0lDThIKMjAyNy0wMy0xMhoDQ0RHKgJUVzIDNDAxKABqBwgBEgNJQ05yBwgBEgNDREcaIBIKMjAyNy0wMy0xOSgAagcIARIDQ0RHcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA0lDThIKMjAyNy0wMS0yMhoDQ0RHKgJUVzIDNDAxKABqBwgBEgNJQ05yBwgBEgNDREcaIBIKMjAyNy0wMS0yOSgAagcIARIDQ0RHcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Generator Paris 요금은 등급·평점 기준 도입 전에 수집되어 다음 수집 때까지 제외했어요."
-   ]
+   "hotel": {
+    "stars": 4,
+    "rating": 4.3,
+    "reviews": 1162,
+    "name": "MOB HOUSE",
+    "room": "Standard Double Room",
+    "supplier": "Expedia.co.uk",
+    "amount": 1253282,
+    "feeReserveKRW": 0,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwi30sLVqZ2YAxWjf0ECHQNxASQYACICCAEQExoCd3M&co=1&ase=2&gclid=EAIaIQobChMIt9LC1amdmAMVo39BAh0DcQEkEAoYASAFEgJKi_D_BwE&cid=CAASlwHkaDVfuOQAqf057jsfm9NdjTJdjNwqEMQeMtF_QiFgMPSRw1vJCY99VaInMFlAyu6KR0VzKuH3bYXBk1H-QJkU-QD4a6yNgY1-J2RbmeyQ7dH5lMk4dyqsxYGNOJ1zCZe7GvCDWYKvTW_eP1CIy4dG4EXtGTs9rEm25INmmHg3RaSZn0wUMQ4qeou_3c-cAxj5gVEBr-Wn&category=acrcp_v1_48&sig=AOD64_1BBD6HAGJyWAL3XzQbvKLe3ZOh3w&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChkIwbex3tvknL0EGg0vZy8xMWhfY2NkMGZqEAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "unknown",
+    "zone": "파리 중심부",
+    "station": "도심 기준점에서 직선 5.5km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "금연 여부 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요",
+     "취소 조건 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:09:53.734Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 6,
+    "candidates": [
+     {
+      "name": "Glint Paris",
+      "cls": 0,
+      "rating": 4.5,
+      "reviews": 3348,
+      "ok": false
+     },
+     {
+      "name": "Novotel Paris Est",
+      "cls": 4,
+      "rating": 3.6,
+      "reviews": 6745,
+      "ok": false
+     },
+     {
+      "name": "MOB HOUSE",
+      "cls": 4,
+      "rating": 4.3,
+      "reviews": 1162,
+      "ok": true
+     },
+     {
+      "name": "Hôtel Aida Opéra",
+      "cls": 3,
+      "rating": 4,
+      "reviews": 906,
+      "ok": true
+     },
+     {
+      "name": "Best Western Premier Faubourg 88",
+      "cls": 4,
+      "rating": 4.3,
+      "reviews": 773,
+      "ok": true
+     },
+     {
+      "name": "Novotel Paris Centre Gare Montparnasse",
+      "cls": 4,
+      "rating": 4.3,
+      "reviews": 3459,
+      "ok": true
+     },
+     {
+      "name": "Novotel Paris Centre Bercy",
+      "cls": 4,
+      "rating": 4.5,
+      "reviews": 3490,
+      "ok": true
+     },
+     {
+      "name": "Hotel Peyris Opera",
+      "cls": 4,
+      "rating": 4,
+      "reviews": 892,
+      "ok": true
+     }
+    ]
+   }
+  },
+  {
+   "city": "paris",
+   "patternId": "w16-fri-7n",
+   "nights": 7,
+   "adults": 2,
+   "departureDate": "2027-03-19",
+   "returnDate": "2027-03-26",
+   "flight": {
+    "amount": 2980000,
+    "stage": "roundtrip_search",
+    "outboundEcho": "absent",
+    "supplier": "Google Flights",
+    "observedAt": "2026-11-23T05:10:03.000Z",
+    "legs": [
+     [
+      {
+       "number": "TW 401",
+       "airline": "Trinity Airways",
+       "from": "ICN",
+       "to": "CDG",
+       "departure": "2027-03-19 09:50",
+       "arrival": "2027-03-19 16:50"
+      }
+     ],
+     [
+      {
+       "number": "TW 402",
+       "airline": "Trinity Airways",
+       "from": "CDG",
+       "to": "ICN",
+       "departure": "2027-03-26 19:30",
+       "arrival": "2027-03-27 16:05"
+      }
+     ]
+    ],
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAzLTE5Ih8KA0lDThIKMjAyNy0wMy0xORoDQ0RHKgJUVzIDNDAxKABqBwgBEgNJQ05yBwgBEgNDREcaIBIKMjAyNy0wMy0yNigAagcIARIDQ0RHcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+   },
+   "hotel": {
+    "stars": 3,
+    "rating": 4.3,
+    "reviews": 845,
+    "name": "Hotel Madrigal",
+    "room": "Classic Room",
+    "supplier": "Expedia.mx",
+    "amount": 1865087,
+    "feeReserveKRW": 0,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwiz7LjdqZ2YAxUUOdQBHSxrFn0YACICCAEQAxoCb2E&co=1&ase=2&gclid=EAIaIQobChMIs-y43amdmAMVFDnUAR0saxZ9EAoYAyADEgKhSvD_BwE&cid=CAASugHkaGsu7Zk08TRx6F49Gfbir_o0E5gbx7nD4ZdLQehGDqlahmvGk8YqiAIr_NAoNrRwZd_BBKEYMWrGBFMAzwM9WUpHbtsb8ZwPHYrJEk2BINIX8KXG5sMqAHsjPwOYmiBzQ6AndyVRunqq3Kw_Znhvf7LVQGZLbBwQY_BxkurjCne4Z0Ho5ouPD1eVjM64KHYAnAguuaBD9t3-tEbHTe39vBpVHkkzquZfeR4I9IqyKtViZ7gKHgyNbkk&category=acrcp_v1_48&sig=AOD64_39Q5ikzSUe9uBb16RyvHnHfpwl4Q&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChcI4qndtciF2tNmGgsvZy8xdG5qaHdfMxAB?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "파리 중심부",
+    "station": "도심 기준점에서 직선 3.3km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "금연 여부 확인 필요",
+     "침대 구성 확인 필요",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:10:10.172Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 2,
+    "candidates": [
+     {
+      "name": "Generator Paris",
+      "cls": 0,
+      "rating": 4.1,
+      "reviews": 9527,
+      "ok": false
+     },
+     {
+      "name": "Le Regent Montmartre",
+      "cls": 0,
+      "rating": 3.9,
+      "reviews": 1488,
+      "ok": false
+     },
+     {
+      "name": "Hôtel de Paris Opéra",
+      "cls": 2,
+      "rating": 3.9,
+      "reviews": 1191,
+      "ok": false
+     },
+     {
+      "name": "Glint Paris",
+      "cls": 0,
+      "rating": 4.5,
+      "reviews": 3348,
+      "ok": false
+     },
+     {
+      "name": "Hôtel du Parc Montsouris",
+      "cls": 3,
+      "rating": 3.8,
+      "reviews": 438,
+      "ok": false
+     },
+     {
+      "name": "Hôtel Acropole",
+      "cls": 3,
+      "rating": 4.4,
+      "reviews": 683,
+      "ok": true
+     },
+     {
+      "name": "Hotel Madrigal",
+      "cls": 3,
+      "rating": 4.3,
+      "reviews": 845,
+      "ok": true
+     },
+     {
+      "name": "Avalon Hotel Paris Gare du Nord",
+      "cls": 3,
+      "rating": 3.7,
+      "reviews": 1674,
+      "ok": false
+     }
+    ]
+   }
   },
   {
    "city": "losangeles",
    "patternId": "w8-fri-7n",
    "nights": 7,
    "adults": 2,
-   "departureDate": "2027-01-15",
-   "returnDate": "2027-01-22",
+   "departureDate": "2027-01-22",
+   "returnDate": "2027-01-29",
    "flight": {
-    "amount": 2674200,
+    "amount": 2494200,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:11:41.000Z",
+    "observedAt": "2026-11-23T05:10:13.000Z",
     "legs": [
      [
       {
@@ -1738,8 +3186,8 @@
        "airline": "Air Premia",
        "from": "ICN",
        "to": "LAX",
-       "departure": "2027-01-15 13:20",
-       "arrival": "2027-01-15 07:20"
+       "departure": "2027-01-22 13:20",
+       "arrival": "2027-01-22 07:20"
       }
      ],
      [
@@ -1748,31 +3196,116 @@
        "airline": "Air Premia",
        "from": "LAX",
        "to": "ICN",
-       "departure": "2027-01-22 09:50",
-       "arrival": "2027-01-23 16:20"
+       "departure": "2027-01-29 09:50",
+       "arrival": "2027-01-30 16:20"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTE1Ih8KA0lDThIKMjAyNy0wMS0xNRoDTEFYKgJZUDIDMTAxKABqBwgBEgNJQ05yBwgBEgNMQVgaIBIKMjAyNy0wMS0yMigAagcIARIDTEFYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAxLTIyIh8KA0lDThIKMjAyNy0wMS0yMhoDTEFYKgJZUDIDMTAxKABqBwgBEgNJQ05yBwgBEgNMQVgaIBIKMjAyNy0wMS0yOSgAagcIARIDTEFYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Samesun Hollywood 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Hotels In America)"
-   ]
+   "hotel": {
+    "stars": 3,
+    "rating": 4.1,
+    "reviews": 1360,
+    "name": "Hollywood Historic Hotel",
+    "room": "Deluxe Room, 1 King Bed, Non Smoking",
+    "supplier": "Agoda",
+    "amount": 1311944,
+    "feeReserveKRW": 0,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjVhZLiqZ2YAxUVpmgJHQkmBD0YACICCAEQAhoCd2Y&co=1&ase=2&gclid=EAIaIQobChMI1YWS4qmdmAMVFaZoCR0JJgQ9EAoYBCACEgIe8fD_BwE&cid=CAASrwHkaIQc1tT9v2nrYy6p-bUv9B4e4SsgvaFZyYtNPy5lx67J38LH6NgItKo49JP7holTqp2Z2T_jWWhta0y12NdHLzSU3PfQbjcyhnZU2QYQccQvjGO0wtDhV0caOlCRVT00INN9krLnORaWoHgtsxiaoYihcs5P9KdN6idM-9uCs255_o0ax-7sqR1l8RFhVvB40tFD-bqXWPtAf_M7KvhQAtXXyFsRpXxlqGhukviP&category=acrcp_v1_48&sig=AOD64_3mBcL4HJQC3hypx4NubOsBR5jF2g&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChYItaH8ke3IpJIHGgovbS8wNGdra3F2EAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "할리우드 주변",
+    "station": "도심 기준점에서 직선 1.8km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:10:20.115Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 3,
+    "candidates": [
+     {
+      "name": "Samesun Hollywood",
+      "cls": 3,
+      "rating": 4.1,
+      "reviews": 1461,
+      "ok": true
+     },
+     {
+      "name": "La Mirage Inn Hollywood",
+      "cls": 0,
+      "rating": 4.2,
+      "reviews": 249,
+      "ok": false
+     },
+     {
+      "name": "The Hotel Hollywood",
+      "cls": 2,
+      "rating": 3.9,
+      "reviews": 580,
+      "ok": false
+     },
+     {
+      "name": "Hollywood Historic Hotel",
+      "cls": 3,
+      "rating": 4.1,
+      "reviews": 1360,
+      "ok": true
+     },
+     {
+      "name": "The Moment Hotel",
+      "cls": 3,
+      "rating": 3.9,
+      "reviews": 680,
+      "ok": false
+     },
+     {
+      "name": "The Dixie Hollywood Hotel",
+      "cls": 3,
+      "rating": 3.7,
+      "reviews": 1483,
+      "ok": false
+     },
+     {
+      "name": "Hilton Garden Inn Los Angeles/Hollywood",
+      "cls": 3,
+      "rating": 3.8,
+      "reviews": 1698,
+      "ok": false
+     },
+     {
+      "name": "Holiday Inn Express & Suites Hollywood Walk of Fame by IHG",
+      "cls": 3,
+      "rating": 4.2,
+      "reviews": 1247,
+      "ok": true
+     }
+    ]
+   }
   },
   {
    "city": "losangeles",
    "patternId": "w16-fri-7n",
    "nights": 7,
    "adults": 2,
-   "departureDate": "2027-03-12",
-   "returnDate": "2027-03-19",
+   "departureDate": "2027-03-19",
+   "returnDate": "2027-03-26",
    "flight": {
-    "amount": 2914200,
+    "amount": 2574200,
     "stage": "roundtrip_search",
     "outboundEcho": "absent",
     "supplier": "Google Flights",
-    "observedAt": "2026-11-18T02:11:48.000Z",
+    "observedAt": "2026-11-23T05:10:23.000Z",
     "legs": [
      [
       {
@@ -1780,8 +3313,8 @@
        "airline": "Air Premia",
        "from": "ICN",
        "to": "LAX",
-       "departure": "2027-03-12 13:20",
-       "arrival": "2027-03-12 07:20"
+       "departure": "2027-03-19 13:20",
+       "arrival": "2027-03-19 08:20"
       }
      ],
      [
@@ -1790,17 +3323,102 @@
        "airline": "Air Premia",
        "from": "LAX",
        "to": "ICN",
-       "departure": "2027-03-19 10:50",
-       "arrival": "2027-03-20 16:20"
+       "departure": "2027-03-26 10:50",
+       "arrival": "2027-03-27 16:20"
       }
      ]
     ],
-    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAzLTEyIh8KA0lDThIKMjAyNy0wMy0xMhoDTEFYKgJZUDIDMTAxKABqBwgBEgNJQ05yBwgBEgNMQVgaIBIKMjAyNy0wMy0xOSgAagcIARIDTEFYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
+    "link": "https://www.google.com/travel/flights?hl=en&gl=kr&curr=KRW&tfs=CBwQAhpBEgoyMDI3LTAzLTE5Ih8KA0lDThIKMjAyNy0wMy0xORoDTEFYKgJZUDIDMTAxKABqBwgBEgNJQ05yBwgBEgNMQVgaIBIKMjAyNy0wMy0yNigAagcIARIDTEFYcgcIARIDSUNOQAFAAUgBcAGYAQE&tfu=EgIIAQ"
    },
-   "hotel": null,
-   "errors": [
-    "숙박: Samesun Hollywood 요금은 새 선택 기준으로 제외했어요. 인정하지 않는 예약처(Hotels In America)"
-   ]
+   "hotel": {
+    "stars": 3,
+    "rating": 4.1,
+    "reviews": 1360,
+    "name": "Hollywood Historic Hotel",
+    "room": "Deluxe Room, 1 King Bed, Non Smoking",
+    "supplier": "Expedia.co.in",
+    "amount": 1457516,
+    "feeReserveKRW": 0,
+    "taxStatus": "unknown",
+    "quoteLevel": "room",
+    "link": "https://www.google.com/aclk?sa=l&ai=DChsSEwjh3K7mqZ2YAxVKrGYCHVSsKo0YACICCAEQBBoCc20&co=1&ase=2&gclid=EAIaIQobChMI4dyu5qmdmAMVSqxmAh1UrCqNEAoYASACEgL8jPD_BwE&cid=CAASugHkaBgmIdSufvLIS-lAUK1nTbYmg-5xAGVJQWPmY5cvBA3VE0Eax7tn5AsfWit-ArC77rCPuHCdcc8XRfB7uEUolVT4K3gwdYvZ4_3Atja7GV7vGyLcOYw9bCmzvz8Qf_PX8TQIHnRpiHx_Xt0YLD7Ul_ta9mNEH7HhwteKupY8Ir9O9P-F9RDxRQApgIsI8veaNiJBqd24icOzdNQAfRqIL5qsqVtSRtZSPJCL9Ywv_ipKyNv4WWTcshw&category=acrcp_v1_48&sig=AOD64_25vciOTc0pLwofYGdCBrlq9gcv2A&adurl",
+    "pageLink": "https://www.google.com/travel/hotels/entity/ChYItaH8ke3IpJIHGgovbS8wNGdra3F2EAE?hl=en&gl=kr",
+    "breakfast": "unknown",
+    "cancellation": "free",
+    "zone": "할리우드 주변",
+    "station": "도심 기준점에서 직선 1.8km",
+    "walk": null,
+    "warnings": [
+     "전용 욕실은 판매처 확인 필요",
+     "식사 조건 확인 필요 · 외부 아침 식사 예산 유지",
+     "창문 유무 확인 필요",
+     "객실 면적 확인 필요"
+    ],
+    "observedAt": "2026-11-23T05:10:28.020Z"
+   },
+   "errors": [],
+   "hotelSearch": {
+    "found": 8,
+    "passed": 4,
+    "candidates": [
+     {
+      "name": "Samesun Hollywood",
+      "cls": 3,
+      "rating": 4.1,
+      "reviews": 1461,
+      "ok": true
+     },
+     {
+      "name": "The Hotel Hollywood",
+      "cls": 2,
+      "rating": 3.9,
+      "reviews": 580,
+      "ok": false
+     },
+     {
+      "name": "La Mirage Inn Hollywood",
+      "cls": 0,
+      "rating": 4.2,
+      "reviews": 249,
+      "ok": false
+     },
+     {
+      "name": "Hollywood Historic Hotel",
+      "cls": 3,
+      "rating": 4.1,
+      "reviews": 1360,
+      "ok": true
+     },
+     {
+      "name": "The Dixie Hollywood Hotel",
+      "cls": 3,
+      "rating": 3.7,
+      "reviews": 1483,
+      "ok": false
+     },
+     {
+      "name": "The Moment Hotel",
+      "cls": 3,
+      "rating": 3.9,
+      "reviews": 680,
+      "ok": false
+     },
+     {
+      "name": "The Hollywood Franklin Hotel",
+      "cls": 3,
+      "rating": 4.1,
+      "reviews": 1655,
+      "ok": true
+     },
+     {
+      "name": "Kasa Sunset Los Angeles",
+      "cls": 4,
+      "rating": 4.6,
+      "reviews": 535,
+      "ok": true
+     }
+    ]
+   }
   }
  ]
 }
